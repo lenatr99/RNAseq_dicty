@@ -162,5 +162,4 @@ cython_debug/
 #.idea/
 
 differential_expression/temporary
-
-mds_like_analysis
+**/individual/
