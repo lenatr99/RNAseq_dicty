@@ -1,6 +1,6 @@
-# Analysis of Dictyostelium discoideum RNA-seq data
+# Analysis of *Dictyostelium discoideum* RNA-seq data
 
-This repository contains the code and data for the analysis of RNA-seq data from Dictyostelium discoideum.
+This repository contains the code and data for the analysis of RNA-seq data from *Dictyostelium discoideum*.
 
 ## Differential expression analysis
 To run the code, first navigate to the directory and make a conda environment with the required packages:
