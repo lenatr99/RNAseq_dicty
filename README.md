@@ -2,45 +2,31 @@
 
 This repository contains the code and data for the analysis of RNA-seq data from *Dictyostelium discoideum* mutants.
 
+First, create a conda environment with the required packages:
+
+```bash
+conda create --name dicty_analysis python=3.11
+conda activate dicty_analysis
+pip install -r requirements.txt
+```
+
 ## MDS-like Analysis
 
-To run the MDS-like analysis code, follow these steps:
+To run the MDS-like analysis code and generate the plots, navigate to the `mds_like_analysis/code` directory and run the following commands:
 
-1. Navigate to the directory and create a conda environment with the required packages:
-
-    ```bash
-    cd mds_like_analysis
-    conda create --name mds_like_analysis python=3.11
-    conda activate mds_like_analysis
-    pip install -r requirements.txt
-    ```
-
-2. To generate the plots, navigate to the `mds_like_analysis/code` directory and run the following commands:
-
-    ```bash
-    cd code
-    python all_genes.py # MDS-like analysis for all genes
-    python milestones.py # MDS-like analysis across different milestone gene sets
-    python milestones_updown.py # MDS-like analysis across different upregulated and downregulated milestone gene sets
-    python groups.py # MDS-like analysis across different special groups of genes
-    ```
+```bash
+cd mds_like_analysis/code
+python all_genes.py # MDS-like analysis for all genes
+python milestones.py # MDS-like analysis across different milestone gene sets
+python milestones_updown.py # MDS-like analysis across different upregulated and downregulated milestone gene sets
+python groups.py # MDS-like analysis across different special groups of genes
+```
 
 The results will be saved in the `mds_like_analysis/results` directory.
 
 ## Differential Expression Analysis
 
-To run the differential expression analysis code, follow these steps:
-
-1. Navigate to the directory and create a conda environment with the required packages:
-
-    ```bash
-    cd differential_expression
-    conda create --name differential_expression python=3.11
-    conda activate differential_expression
-    pip install -r requirements.txt
-    ```
-
-2. Reproduce the results by running the scripts in the `differential_expression/code` directory. The analysis is divided into pairwise and time series comparisons.
+Reproduce the results by running the scripts in the `differential_expression/code` directory. The analysis is divided into pairwise and time series comparisons.
 
 ### Pairwise Analysis
 
@@ -49,7 +35,7 @@ Pairwise comparisons involve comparing the expression of each gene between wild 
 Run the following commands to reproduce the results:
 
 ```bash
-cd code
+cd differential_expression/code
 python pw_01_DE_genes.py # Identify differentially expressed genes
 python pw_02_DE_genesets.py # Identify differentially expressed gene sets
 python pw_03_DE_network.py # Generate infomap/louvain communities
@@ -64,7 +50,7 @@ Time series comparisons involve comparing the time series expression of each gen
 To reproduce the results, first run the R script `ts_01_DE_spline_r_script.R` in R Studio (or another R environment) to identify the differentially expressed genes. Then run the following Python scripts to get the differentially expressed gene sets and visualize the network:
 
 ```bash
-cd code
+cd differential_expression/code
 python ts_02_DE_genes.py # Identify differentially expressed gene sets
 python ts_03_DE_network.py # Generate infomap/louvain communities
 python ts_04_DE_network_analysis.py # Visualize the network

@@ -7,7 +7,7 @@ import re
 import msgpack
 import gzip
 import os
-from differential_expression.code._constants import *
+from _constants import *
 
 GENESETS = input("Do you want to preprocess genes [0] or gene sets [1]? ")
 if GENESETS not in ["0", "1"]:
@@ -32,7 +32,7 @@ def round_to_n_significant_digits(x, n):
 
 
 def get_top_genes(p, strain):
-    de_results_path = f"../data/time_series/genes/DE_{strain}.csv"
+    de_results_path = f"../results/time_series/genes/DE_{strain}.csv"
     strain_data = pd.read_csv(de_results_path)
     filtered_data = strain_data[strain_data["adj.P.Val"] < p].sort_values(
         by="adj.P.Val"
@@ -53,7 +53,7 @@ def get_top_genes(p, strain):
 
 
 def get_top_gene_sets(p, strain):
-    de_results_path = f"../data/time_series/gsea/DE_{strain}_{TERM}_gsea.csv"
+    de_results_path = f"../results/time_series/gsea/DE_{strain}_{TERM}_gsea.csv"
     strain_data = pd.read_csv(de_results_path).set_index("pathway")
     filtered_data = strain_data[strain_data["adj.pValue"] < p].sort_values(
         by="adj.pValue"
@@ -65,10 +65,10 @@ def get_top_gene_sets(p, strain):
     filtered_data = filtered_data.drop(columns=["Unnamed: 0", "overlap"])
     # save only the top 100 gene sets
     filtered_data = filtered_data.iloc[:100]
-    if not os.path.exists("../data/time_series/gsea/json"):
-        os.makedirs("../data/time_series/gsea/json")
+    if not os.path.exists("../results/time_series/gsea/json"):
+        os.makedirs("../results/time_series/gsea/json")
     filtered_data.to_json(
-        f"../data/time_series/gsea/json/{TERM}_{strain}.json", orient="records", indent=4
+        f"../results/time_series/gsea/json/{TERM}_{strain}.json", orient="records", indent=4
     )
     return filtered_data
 
@@ -92,11 +92,11 @@ def preprocess_data(p_threshold, genesets=False, term=""):
     if save_data not in ["y", "n"]:
         raise ValueError("Invalid input")
     if save_data == "y" and genesets == False:
-        with gzip.open("../data/time_series/preprocessed_data.msgpack.gz", "wb") as f:
+        with gzip.open("../results/time_series/preprocessed_data.msgpack.gz", "wb") as f:
             msgpack.dump(results, f, use_bin_type=True)
     elif save_data == "y" and genesets == True:
         with gzip.open(
-            f"../data/time_series/preprocessed_data_genesets_{TERM}.msgpack.gz", "wb"
+            f"../results/time_series/preprocessed_data_genesets_{TERM}.msgpack.gz", "wb"
         ) as f:
             msgpack.dump(results, f, use_bin_type=True)
 

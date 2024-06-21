@@ -17,13 +17,13 @@ import matplotlib.patheffects as patheffects
 import networkx as nx
 import numpy as np
 import os
-from differential_expression.code._constants import *
+from _constants import *
 
 COMMUNITY_MODES = ["infomap", "louvain"]
 community_mode = COMMUNITY_MODES[
     int(input(f"Enter community mode infomap - 0, louvain - 1: "))
 ]
-DATA_PATH = f"../data/pairwise/communities/{community_mode}/"
+DATA_PATH = f"../results/pairwise/communities/{community_mode}/"
 
 # Check if json/communities_desc.json exists
 if not os.path.exists(DATA_PATH + "json/communities_desc.json"):

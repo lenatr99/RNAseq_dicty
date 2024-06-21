@@ -58,16 +58,16 @@ def filter_by_p_value2(data, p_threshold2):
     return filtered_data
 
 
-with open("data/pairwise/communities/infomap/json/communities.json", "r") as file:
+with open("results/pairwise/communities/infomap/json/communities.json", "r") as file:
     gene_sets_to_color_infomap = json.load(file)
 
-with open("data/pairwise/communities/louvain/json/communities.json", "r") as file:
+with open("results/pairwise/communities/louvain/json/communities.json", "r") as file:
     gene_sets_to_color_louvain = json.load(file)
 
-with open("data/time_series/communities/infomap/json/communities.json", "r") as file:
+with open("results/time_series/communities/infomap/json/communities.json", "r") as file:
     gene_sets_to_color_infomap_gs = json.load(file)
 
-with open("data/pairwise/communities/louvain/json/communities.json", "r") as file:
+with open("results/pairwise/communities/louvain/json/communities.json", "r") as file:
     gene_sets_to_color_louvain_gs = json.load(file)
 
 strain_names = {
@@ -87,7 +87,7 @@ def index():
 
     if request.method == "POST":
         p_threshold = float(request.form["p_value"])
-    with gzip.open("data/pairwise/preprocessed_data.msgpack.gz", "rb") as f:
+    with gzip.open("results/pairwise/preprocessed_data.msgpack.gz", "rb") as f:
         complete_data = msgpack.load(f, raw=False)
     filtered_data = filter_by_p_value(complete_data, p_threshold)
     gene_set_data_bp = {}
@@ -99,15 +99,15 @@ def index():
         gene_set_data_db[strain] = {}
         for hour in filtered_data[strain]:
             with open(
-                f"data/pairwise/gsea/BP/DE_{hour}_{strain}.json", "r"
+                f"results/pairwise/gsea/BP/DE_{hour}_{strain}.json", "r"
             ) as f:
                 gene_set_data_bp[strain][hour] = json.load(f)
             with open(
-                f"data/pairwise/gsea/MF/DE_{hour}_{strain}.json", "r"
+                f"results/pairwise/gsea/MF/DE_{hour}_{strain}.json", "r"
             ) as f:
                 gene_set_data_mf[strain][hour] = json.load(f)
             with open(
-                f"data/pairwise/gsea/DB/DE_{hour}_{strain}.json", "r"
+                f"results/pairwise/gsea/DB/DE_{hour}_{strain}.json", "r"
             ) as f:
                 gene_set_data_db[strain][hour] = json.load(f)
     strains = list(filtered_data.keys())
@@ -133,7 +133,7 @@ def time_series():
 
     if request.method == "POST":
         p_threshold2 = float(request.form["p_value"])
-    with gzip.open("data/time_series/preprocessed_data.msgpack.gz", "rb") as f:
+    with gzip.open("results/time_series/preprocessed_data.msgpack.gz", "rb") as f:
         complete_data = msgpack.load(f, raw=False)
     for strain, genes in complete_data.items():
         for gene in genes:
@@ -143,19 +143,19 @@ def time_series():
     gene_set_data_mf = {}
     gene_set_data_db = {}
     for strain in filtered_data:
-        with open(f"data/time_series/gsea/json/BP_{strain}.json", "r") as f:
+        with open(f"results/time_series/gsea/json/BP_{strain}.json", "r") as f:
             gene_set_data_bp[strain] = json.load(f)
             for gene_set in gene_set_data_bp[strain]:
                 gene_set["adj.pValue"] = round_to_n_significant_digits(
                     gene_set["adj.pValue"], 3
                 )
-        with open(f"data/time_series/gsea/json/MF_{strain}.json", "r") as f:
+        with open(f"results/time_series/gsea/json/MF_{strain}.json", "r") as f:
             gene_set_data_mf[strain] = json.load(f)
             for gene_set in gene_set_data_mf[strain]:
                 gene_set["adj.pValue"] = round_to_n_significant_digits(
                     gene_set["adj.pValue"], 3
                 )
-        with open(f"data/time_series/gsea/json/DB_{strain}.json", "r") as f:
+        with open(f"results/time_series/gsea/json/DB_{strain}.json", "r") as f:
             gene_set_data_db[strain] = json.load(f)
             for gene_set in gene_set_data_db[strain]:
                 gene_set["adj.pValue"] = round_to_n_significant_digits(
@@ -179,7 +179,7 @@ def time_series():
 @app.route("/download-excel/<strain>/<p_threshold2>")
 def download_excel(strain, p_threshold2=0.0001):
     p_threshold2 = float(p_threshold2)
-    with gzip.open("data/time_series/preprocessed_data.msgpack.gz", "rb") as f:
+    with gzip.open("results/time_series/preprocessed_data.msgpack.gz", "rb") as f:
         complete_data = msgpack.load(f, raw=False)
     filtered_data = filter_by_p_value2(complete_data, p_threshold2)
     data = filtered_data[strain]
@@ -195,7 +195,7 @@ def download_excel(strain, p_threshold2=0.0001):
 @app.route("/download-all-excel")
 def download_all_excel():
     p_threshold2 = 0.0001
-    with gzip.open("data/time_series/preprocessed_data.msgpack.gz", "rb") as f:
+    with gzip.open("results/time_series/preprocessed_data.msgpack.gz", "rb") as f:
         complete_data = msgpack.load(f, raw=False)
     filtered_data = filter_by_p_value2(complete_data, p_threshold2)
     writer = pd.ExcelWriter("all_data.xlsx", engine="openpyxl")
@@ -216,11 +216,11 @@ def download_gene_sets(strain, set_type, clustering_method):
     gene_set_data_bp = {}
     gene_set_data_mf = {}
     gene_set_data_db = {}
-    with open(f"data/time_series/gsea/json/BP_{strain}.json", "r") as f:
+    with open(f"results/time_series/gsea/json/BP_{strain}.json", "r") as f:
         gene_set_data_bp[strain] = json.load(f)
-    with open(f"data/time_series/gsea/json/MF_{strain}.json", "r") as f:
+    with open(f"results/time_series/gsea/json/MF_{strain}.json", "r") as f:
         gene_set_data_mf[strain] = json.load(f)
-    with open(f"data/time_series/gsea/json/DB_{strain}.json", "r") as f:
+    with open(f"results/time_series/gsea/json/DB_{strain}.json", "r") as f:
         gene_set_data_db[strain] = json.load(f)
     if set_type == "bp":
         gene_set_data = gene_set_data_bp

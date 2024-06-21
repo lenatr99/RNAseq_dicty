@@ -3,7 +3,7 @@ import gseapy as gp
 import numpy as np
 import os
 import json
-from differential_expression.code._constants import *
+from _constants import *
 
 METRIC = "NOM p-val"
 
@@ -57,7 +57,7 @@ for TERM in TERMS:
             top_gene_sets = top_gene_sets.to_dict(orient='records')
             for entry in top_gene_sets:
                 entry['adj.pValue'] = entry.pop('NOM p-val')
-            out_file = f'../data/pairwise/gsea/{TERM}/DE_{hour}_{strain}.json'
+            out_file = f'../results/pairwise/gsea/{TERM}/DE_{hour}_{strain}.json'
             os.makedirs(os.path.dirname(out_file), exist_ok=True)
             with open(out_file, 'w') as outfile:
                 json.dump(top_gene_sets, outfile, indent=4)

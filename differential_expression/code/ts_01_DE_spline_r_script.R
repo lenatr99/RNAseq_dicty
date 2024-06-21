@@ -52,7 +52,7 @@ calculate_regulation <- function(eset, treatment1, treatment2, file_name) {
 
 
 # Set working directory and read data
-setwd("/Users/lenatrnovec/FAKS/BIOLAB/RNAseq_dicty/differential_expression/data/time_series") # Change to your working directory
+setwd("/Users/lenatrnovec/FAKS/BIOLAB/RNAseq_dicty/differential_expression/results/time_series") # Change to your working directory
 exprsData <- preprocess_data("../combined_df.csv")
 
 # Load gene sets

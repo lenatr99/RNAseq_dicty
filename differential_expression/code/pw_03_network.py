@@ -9,7 +9,7 @@ from cdlib.algorithms import infomap, louvain
 import json
 import pickle
 import os
-from differential_expression.code._constants import *
+from _constants import *
 
 
 COMMUNITY_MODES = ["infomap", "louvain"]
@@ -18,7 +18,7 @@ community_mode = COMMUNITY_MODES[
 ]
 if community_mode not in COMMUNITY_MODES:
     raise ValueError("Invalid community mode")
-DATA_PATH = f"../data/pairwise/communities/{community_mode}/"
+DATA_PATH = f"../results/pairwise/communities/{community_mode}/"
 os.makedirs(DATA_PATH, exist_ok=True)
 
 
@@ -33,7 +33,7 @@ def calculate_jaccard(set1, set2):
 
 def generate_graph_data(strain, hour, GENE_SET, TERM):
     # Load GO terms data
-    PATH = f"../data/pairwise/gsea/{TERM}/DE_{hour}_{strain}.json"
+    PATH = f"../results/pairwise/gsea/{TERM}/DE_{hour}_{strain}.json"
     with open(PATH, "r") as f:
         go_terms_data = json.load(f)
 

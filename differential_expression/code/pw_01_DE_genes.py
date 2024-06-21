@@ -8,7 +8,7 @@ import gzip
 from scipy.stats import ttest_ind
 import msgpack
 import numpy as np
-from differential_expression.code._constants import *
+from _constants import *
 
 
 annotations_df = pd.read_csv(annotations_path)
@@ -110,7 +110,7 @@ def preprocess_data(p_threshold):
     }
     save_data = input("Save data? (y/n) ")
     if save_data == "y":
-        with gzip.open("../data/pairwise/preprocessed_data.msgpack.gz", "wb") as f:
+        with gzip.open("../results/pairwise/preprocessed_data.msgpack.gz", "wb") as f:
             msgpack.dump(results, f, use_bin_type=True)
 
 
