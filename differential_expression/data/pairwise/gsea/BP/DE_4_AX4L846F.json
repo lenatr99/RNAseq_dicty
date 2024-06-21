@@ -1,0 +1,602 @@
+[
+    {
+        "Rank": 1,
+        "Term": "GO:0009416",
+        "Description": "response to light stimulus",
+        "adj.pValue": 0.09049773755656108
+    },
+    {
+        "Rank": 2,
+        "Term": "GO:0031327",
+        "Description": "negative regulation of cellular biosynthetic process",
+        "adj.pValue": 0.09049773755656108
+    },
+    {
+        "Rank": 3,
+        "Term": "GO:0009890",
+        "Description": "negative regulation of biosynthetic process",
+        "adj.pValue": 0.09049773755656108
+    },
+    {
+        "Rank": 4,
+        "Term": "GO:0009314",
+        "Description": "response to radiation",
+        "adj.pValue": 0.09049773755656108
+    },
+    {
+        "Rank": 5,
+        "Term": "GO:0031324",
+        "Description": "negative regulation of cellular metabolic process",
+        "adj.pValue": 0.09049773755656108
+    },
+    {
+        "Rank": 6,
+        "Term": "GO:0009607",
+        "Description": "response to biotic stimulus",
+        "adj.pValue": 0.09049773755656108
+    },
+    {
+        "Rank": 7,
+        "Term": "GO:0010558",
+        "Description": "negative regulation of macromolecule biosynthetic process",
+        "adj.pValue": 0.09049773755656108
+    },
+    {
+        "Rank": 8,
+        "Term": "GO:0010608",
+        "Description": "post-transcriptional regulation of gene expression",
+        "adj.pValue": 0.09090909090909091
+    },
+    {
+        "Rank": 9,
+        "Term": "GO:0045595",
+        "Description": "regulation of cell differentiation",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 10,
+        "Term": "GO:0006357",
+        "Description": "regulation of transcription by RNA polymerase II",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 11,
+        "Term": "GO:0007264",
+        "Description": "small GTPase mediated signal transduction",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 12,
+        "Term": "GO:0106070",
+        "Description": "regulation of adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 13,
+        "Term": "GO:0051252",
+        "Description": "regulation of RNA metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 14,
+        "Term": "GO:0019219",
+        "Description": "regulation of nucleobase-containing compound metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 15,
+        "Term": "GO:0009889",
+        "Description": "regulation of biosynthetic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 16,
+        "Term": "GO:0008277",
+        "Description": "regulation of G protein-coupled receptor signaling pathway",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 17,
+        "Term": "GO:0007165",
+        "Description": "signal transduction",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 18,
+        "Term": "GO:0031326",
+        "Description": "regulation of cellular biosynthetic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 19,
+        "Term": "GO:0090630",
+        "Description": "activation of GTPase activity",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 20,
+        "Term": "GO:0010556",
+        "Description": "regulation of macromolecule biosynthetic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 21,
+        "Term": "GO:0045935",
+        "Description": "positive regulation of nucleobase-containing compound metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 22,
+        "Term": "GO:0010468",
+        "Description": "regulation of gene expression",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 23,
+        "Term": "GO:0007154",
+        "Description": "cell communication",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 24,
+        "Term": "GO:0060255",
+        "Description": "regulation of macromolecule metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 25,
+        "Term": "GO:0023052",
+        "Description": "signaling",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 26,
+        "Term": "GO:0022402",
+        "Description": "cell cycle process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 27,
+        "Term": "GO:0044419",
+        "Description": "biological process involved in interspecies interaction between organisms",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 28,
+        "Term": "GO:0009653",
+        "Description": "anatomical structure morphogenesis",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 29,
+        "Term": "GO:0007186",
+        "Description": "G protein-coupled receptor signaling pathway",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 30,
+        "Term": "GO:0006468",
+        "Description": "protein phosphorylation",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 31,
+        "Term": "GO:0048583",
+        "Description": "regulation of response to stimulus",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 32,
+        "Term": "GO:0035556",
+        "Description": "intracellular signal transduction",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 33,
+        "Term": "GO:0006996",
+        "Description": "organelle organization",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 34,
+        "Term": "GO:0016043",
+        "Description": "cellular component organization",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 35,
+        "Term": "GO:0051301",
+        "Description": "cell division",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 36,
+        "Term": "GO:0009628",
+        "Description": "response to abiotic stimulus",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 37,
+        "Term": "GO:0030154",
+        "Description": "cell differentiation",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 38,
+        "Term": "GO:0048869",
+        "Description": "cellular developmental process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 39,
+        "Term": "GO:0018212",
+        "Description": "peptidyl-tyrosine modification",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 40,
+        "Term": "GO:0018108",
+        "Description": "peptidyl-tyrosine phosphorylation",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 41,
+        "Term": "GO:0032101",
+        "Description": "regulation of response to external stimulus",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 42,
+        "Term": "GO:0080090",
+        "Description": "regulation of primary metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 43,
+        "Term": "GO:0034654",
+        "Description": "nucleobase-containing compound biosynthetic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 44,
+        "Term": "GO:0050793",
+        "Description": "regulation of developmental process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 45,
+        "Term": "GO:0051171",
+        "Description": "regulation of nitrogen compound metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 46,
+        "Term": "GO:0006397",
+        "Description": "mRNA processing",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 47,
+        "Term": "GO:0031323",
+        "Description": "regulation of cellular metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 48,
+        "Term": "GO:0032502",
+        "Description": "developmental process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 49,
+        "Term": "GO:0010646",
+        "Description": "regulation of cell communication",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 50,
+        "Term": "GO:0051049",
+        "Description": "regulation of transport",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 51,
+        "Term": "GO:0006970",
+        "Description": "response to osmotic stress",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 52,
+        "Term": "GO:1903506",
+        "Description": "regulation of nucleic acid-templated transcription",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 53,
+        "Term": "GO:0006355",
+        "Description": "regulation of DNA-templated transcription",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 54,
+        "Term": "GO:2001141",
+        "Description": "regulation of RNA biosynthetic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 55,
+        "Term": "GO:0099120",
+        "Description": "socially cooperative development",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 56,
+        "Term": "GO:0032774",
+        "Description": "RNA biosynthetic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 57,
+        "Term": "GO:0030001",
+        "Description": "metal ion transport",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 58,
+        "Term": "GO:0048519",
+        "Description": "negative regulation of biological process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 59,
+        "Term": "GO:0051345",
+        "Description": "positive regulation of hydrolase activity",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 60,
+        "Term": "GO:0048523",
+        "Description": "negative regulation of cellular process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 61,
+        "Term": "GO:0097659",
+        "Description": "nucleic acid-templated transcription",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 62,
+        "Term": "GO:0031325",
+        "Description": "positive regulation of cellular metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 63,
+        "Term": "GO:0030587",
+        "Description": "sorocarp development",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 64,
+        "Term": "GO:0043547",
+        "Description": "positive regulation of GTPase activity",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 65,
+        "Term": "GO:0051703",
+        "Description": "biological process involved in intraspecies interaction between organisms",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 66,
+        "Term": "GO:0019222",
+        "Description": "regulation of metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 67,
+        "Term": "GO:0051173",
+        "Description": "positive regulation of nitrogen compound metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 68,
+        "Term": "GO:0031156",
+        "Description": "regulation of sorocarp development",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 69,
+        "Term": "GO:0016071",
+        "Description": "mRNA metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 70,
+        "Term": "GO:0006351",
+        "Description": "DNA-templated transcription",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 71,
+        "Term": "GO:0048856",
+        "Description": "anatomical structure development",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 72,
+        "Term": "GO:0008219",
+        "Description": "cell death",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 73,
+        "Term": "GO:0051347",
+        "Description": "positive regulation of transferase activity",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 74,
+        "Term": "GO:0043086",
+        "Description": "negative regulation of catalytic activity",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 75,
+        "Term": "GO:0006417",
+        "Description": "regulation of translation",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 76,
+        "Term": "GO:0046578",
+        "Description": "regulation of Ras protein signal transduction",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 77,
+        "Term": "GO:0007267",
+        "Description": "cell-cell signaling",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 78,
+        "Term": "GO:0034248",
+        "Description": "regulation of amide metabolic process",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 79,
+        "Term": "GO:0010629",
+        "Description": "negative regulation of gene expression",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 80,
+        "Term": "GO:2000112",
+        "Description": "regulation of cellular macromolecule biosynthetic process",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 81,
+        "Term": "GO:0009605",
+        "Description": "response to external stimulus",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 82,
+        "Term": "GO:0034655",
+        "Description": "nucleobase-containing compound catabolic process",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 83,
+        "Term": "GO:0000278",
+        "Description": "mitotic cell cycle",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 84,
+        "Term": "GO:0009453",
+        "Description": "energy taxis",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 85,
+        "Term": "GO:0042331",
+        "Description": "phototaxis",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 86,
+        "Term": "GO:0006401",
+        "Description": "RNA catabolic process",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 87,
+        "Term": "GO:1903047",
+        "Description": "mitotic cell cycle process",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 88,
+        "Term": "GO:0006402",
+        "Description": "mRNA catabolic process",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 89,
+        "Term": "GO:0006913",
+        "Description": "nucleocytoplasmic transport",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 90,
+        "Term": "GO:1901136",
+        "Description": "carbohydrate derivative catabolic process",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 91,
+        "Term": "GO:0051726",
+        "Description": "regulation of cell cycle",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 92,
+        "Term": "GO:0007049",
+        "Description": "cell cycle",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 93,
+        "Term": "GO:0009141",
+        "Description": "nucleoside triphosphate metabolic process",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 94,
+        "Term": "GO:0051254",
+        "Description": "positive regulation of RNA metabolic process",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 95,
+        "Term": "GO:0010564",
+        "Description": "regulation of cell cycle process",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 96,
+        "Term": "GO:0051248",
+        "Description": "negative regulation of protein metabolic process",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 97,
+        "Term": "GO:0065008",
+        "Description": "regulation of biological quality",
+        "adj.pValue": 0.09345794392523364
+    },
+    {
+        "Rank": 98,
+        "Term": "GO:0006897",
+        "Description": "endocytosis",
+        "adj.pValue": 0.09345794392523364
+    },
+    {
+        "Rank": 99,
+        "Term": "GO:0006909",
+        "Description": "phagocytosis",
+        "adj.pValue": 0.09345794392523364
+    },
+    {
+        "Rank": 100,
+        "Term": "GO:0033043",
+        "Description": "regulation of organelle organization",
+        "adj.pValue": 0.09345794392523364
+    }
+]

@@ -1,0 +1,645 @@
+{
+    "B1": {
+        "BP": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "MF": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "DB": {
+            "0": {},
+            "4": {
+                "0": "summary"
+            },
+            "8": {
+                "0": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "16": {
+                "0": "summary"
+            },
+            "20": {
+                "0": "summary"
+            }
+        }
+    },
+    "C1": {
+        "BP": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "MF": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "DB": {
+            "0": {
+                "0": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "8": {
+                "0": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "16": {
+                "0": "summary"
+            },
+            "20": {
+                "0": "summary"
+            }
+        }
+    },
+    "rgB": {
+        "BP": {
+            "0": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "MF": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            }
+        },
+        "DB": {
+            "0": {
+                "0": "summary"
+            },
+            "4": {
+                "0": "summary"
+            },
+            "8": {},
+            "12": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "16": {
+                "0": "summary"
+            },
+            "20": {
+                "0": "summary"
+            }
+        }
+    },
+    "B1_rgB": {
+        "BP": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary"
+            }
+        },
+        "MF": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "DB": {
+            "0": {
+                "0": "summary"
+            },
+            "4": {},
+            "8": {
+                "0": "summary"
+            },
+            "12": {
+                "0": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "20": {
+                "0": "summary"
+            }
+        }
+    },
+    "C1_rgB": {
+        "BP": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary"
+            }
+        },
+        "MF": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "DB": {
+            "0": {
+                "0": "summary"
+            },
+            "4": {
+                "0": "summary"
+            },
+            "8": {
+                "0": "summary"
+            },
+            "12": {
+                "0": "summary"
+            },
+            "16": {
+                "0": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary"
+            }
+        }
+    },
+    "AX4L846F": {
+        "BP": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "MF": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "DB": {
+            "0": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "4": {
+                "0": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "12": {
+                "0": "summary"
+            },
+            "16": {
+                "0": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary"
+            }
+        }
+    },
+    "B1_L846F": {
+        "BP": {
+            "0": {
+                "0": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "MF": {
+            "0": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "4": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "8": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "16": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary",
+                "2": "summary",
+                "3": "summary"
+            }
+        },
+        "DB": {
+            "0": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "4": {
+                "0": "summary"
+            },
+            "8": {
+                "0": "summary"
+            },
+            "12": {
+                "0": "summary",
+                "1": "summary"
+            },
+            "16": {
+                "0": "summary"
+            },
+            "20": {
+                "0": "summary",
+                "1": "summary"
+            }
+        }
+    }
+}

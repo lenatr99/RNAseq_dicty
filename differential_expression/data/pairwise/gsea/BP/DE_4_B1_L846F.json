@@ -1,0 +1,602 @@
+[
+    {
+        "Rank": 1,
+        "Term": "GO:0009161",
+        "Description": "ribonucleoside monophosphate metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 2,
+        "Term": "GO:0009126",
+        "Description": "purine nucleoside monophosphate metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 3,
+        "Term": "GO:0016477",
+        "Description": "cell migration",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 4,
+        "Term": "GO:0051168",
+        "Description": "nuclear export",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 5,
+        "Term": "GO:0044282",
+        "Description": "small molecule catabolic process",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 6,
+        "Term": "GO:0010608",
+        "Description": "post-transcriptional regulation of gene expression",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 7,
+        "Term": "GO:0006913",
+        "Description": "nucleocytoplasmic transport",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 8,
+        "Term": "GO:0051169",
+        "Description": "nuclear transport",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 9,
+        "Term": "GO:0016054",
+        "Description": "organic acid catabolic process",
+        "adj.pValue": 0.09345794392523364
+    },
+    {
+        "Rank": 10,
+        "Term": "GO:0046395",
+        "Description": "carboxylic acid catabolic process",
+        "adj.pValue": 0.09345794392523364
+    },
+    {
+        "Rank": 11,
+        "Term": "GO:1901606",
+        "Description": "alpha-amino acid catabolic process",
+        "adj.pValue": 0.09345794392523364
+    },
+    {
+        "Rank": 12,
+        "Term": "GO:0015698",
+        "Description": "inorganic anion transport",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 13,
+        "Term": "GO:0140014",
+        "Description": "mitotic nuclear division",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 14,
+        "Term": "GO:0044085",
+        "Description": "cellular component biogenesis",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 15,
+        "Term": "GO:0009607",
+        "Description": "response to biotic stimulus",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 16,
+        "Term": "GO:0006417",
+        "Description": "regulation of translation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 17,
+        "Term": "GO:2000112",
+        "Description": "regulation of cellular macromolecule biosynthetic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 18,
+        "Term": "GO:0043207",
+        "Description": "response to external biotic stimulus",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 19,
+        "Term": "GO:0051707",
+        "Description": "response to other organism",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 20,
+        "Term": "GO:0034248",
+        "Description": "regulation of amide metabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 21,
+        "Term": "GO:0070925",
+        "Description": "organelle assembly",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 22,
+        "Term": "GO:0009617",
+        "Description": "response to bacterium",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 23,
+        "Term": "GO:0009124",
+        "Description": "nucleoside monophosphate biosynthetic process",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 24,
+        "Term": "GO:0006413",
+        "Description": "translational initiation",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 25,
+        "Term": "GO:0009063",
+        "Description": "amino acid catabolic process",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 26,
+        "Term": "GO:0000280",
+        "Description": "nuclear division",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 27,
+        "Term": "GO:0098660",
+        "Description": "inorganic ion transmembrane transport",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 28,
+        "Term": "GO:0034220",
+        "Description": "ion transmembrane transport",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 29,
+        "Term": "GO:0048285",
+        "Description": "organelle fission",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 30,
+        "Term": "GO:0098656",
+        "Description": "anion transmembrane transport",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 31,
+        "Term": "GO:0006972",
+        "Description": "hyperosmotic response",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 32,
+        "Term": "GO:0044419",
+        "Description": "biological process involved in interspecies interaction between organisms",
+        "adj.pValue": 0.09852216748768473
+    },
+    {
+        "Rank": 33,
+        "Term": "GO:0010035",
+        "Description": "response to inorganic substance",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 34,
+        "Term": "GO:0051640",
+        "Description": "organelle localization",
+        "adj.pValue": 0.16981132075471697
+    },
+    {
+        "Rank": 35,
+        "Term": "GO:0006325",
+        "Description": "chromatin organization",
+        "adj.pValue": 0.17560975609756097
+    },
+    {
+        "Rank": 36,
+        "Term": "GO:0000226",
+        "Description": "microtubule cytoskeleton organization",
+        "adj.pValue": 0.18090452261306533
+    },
+    {
+        "Rank": 37,
+        "Term": "GO:0007059",
+        "Description": "chromosome segregation",
+        "adj.pValue": 0.18181818181818182
+    },
+    {
+        "Rank": 38,
+        "Term": "GO:0032060",
+        "Description": "bleb assembly",
+        "adj.pValue": 0.18309859154929578
+    },
+    {
+        "Rank": 39,
+        "Term": "GO:0022607",
+        "Description": "cellular component assembly",
+        "adj.pValue": 0.18396226415094338
+    },
+    {
+        "Rank": 40,
+        "Term": "GO:0019222",
+        "Description": "regulation of metabolic process",
+        "adj.pValue": 0.18396226415094338
+    },
+    {
+        "Rank": 41,
+        "Term": "GO:0051276",
+        "Description": "chromosome organization",
+        "adj.pValue": 0.18396226415094338
+    },
+    {
+        "Rank": 42,
+        "Term": "GO:0010468",
+        "Description": "regulation of gene expression",
+        "adj.pValue": 0.1875
+    },
+    {
+        "Rank": 43,
+        "Term": "GO:0006820",
+        "Description": "anion transport",
+        "adj.pValue": 0.1971153846153846
+    },
+    {
+        "Rank": 44,
+        "Term": "GO:0031285",
+        "Description": "regulation of sorocarp stalk cell differentiation",
+        "adj.pValue": 0.2
+    },
+    {
+        "Rank": 45,
+        "Term": "GO:0009156",
+        "Description": "ribonucleoside monophosphate biosynthetic process",
+        "adj.pValue": 0.2018348623853211
+    },
+    {
+        "Rank": 46,
+        "Term": "GO:0043648",
+        "Description": "dicarboxylic acid metabolic process",
+        "adj.pValue": 0.20642201834862386
+    },
+    {
+        "Rank": 47,
+        "Term": "GO:0009112",
+        "Description": "nucleobase metabolic process",
+        "adj.pValue": 0.20657276995305165
+    },
+    {
+        "Rank": 48,
+        "Term": "GO:0055085",
+        "Description": "transmembrane transport",
+        "adj.pValue": 0.2073732718894009
+    },
+    {
+        "Rank": 49,
+        "Term": "GO:0022900",
+        "Description": "electron transport chain",
+        "adj.pValue": 0.20833333333333334
+    },
+    {
+        "Rank": 50,
+        "Term": "GO:0006897",
+        "Description": "endocytosis",
+        "adj.pValue": 0.20853080568720378
+    },
+    {
+        "Rank": 51,
+        "Term": "GO:0006367",
+        "Description": "transcription initiation at RNA polymerase II promoter",
+        "adj.pValue": 0.21153846153846154
+    },
+    {
+        "Rank": 52,
+        "Term": "GO:0016070",
+        "Description": "RNA metabolic process",
+        "adj.pValue": 0.21153846153846154
+    },
+    {
+        "Rank": 53,
+        "Term": "GO:0034660",
+        "Description": "ncRNA metabolic process",
+        "adj.pValue": 0.21153846153846154
+    },
+    {
+        "Rank": 54,
+        "Term": "GO:0046434",
+        "Description": "organophosphate catabolic process",
+        "adj.pValue": 0.21256038647342995
+    },
+    {
+        "Rank": 55,
+        "Term": "GO:0006352",
+        "Description": "DNA-templated transcription initiation",
+        "adj.pValue": 0.21568627450980393
+    },
+    {
+        "Rank": 56,
+        "Term": "GO:0000302",
+        "Description": "response to reactive oxygen species",
+        "adj.pValue": 0.21568627450980393
+    },
+    {
+        "Rank": 57,
+        "Term": "GO:0030001",
+        "Description": "metal ion transport",
+        "adj.pValue": 0.21634615384615385
+    },
+    {
+        "Rank": 58,
+        "Term": "GO:0032272",
+        "Description": "negative regulation of protein polymerization",
+        "adj.pValue": 0.21951219512195122
+    },
+    {
+        "Rank": 59,
+        "Term": "GO:0031333",
+        "Description": "negative regulation of protein-containing complex assembly",
+        "adj.pValue": 0.21951219512195122
+    },
+    {
+        "Rank": 60,
+        "Term": "GO:0030837",
+        "Description": "negative regulation of actin filament polymerization",
+        "adj.pValue": 0.21951219512195122
+    },
+    {
+        "Rank": 61,
+        "Term": "GO:1901361",
+        "Description": "organic cyclic compound catabolic process",
+        "adj.pValue": 0.22388059701492538
+    },
+    {
+        "Rank": 62,
+        "Term": "GO:0051235",
+        "Description": "maintenance of location",
+        "adj.pValue": 0.22797927461139897
+    },
+    {
+        "Rank": 63,
+        "Term": "GO:0060255",
+        "Description": "regulation of macromolecule metabolic process",
+        "adj.pValue": 0.25943396226415094
+    },
+    {
+        "Rank": 64,
+        "Term": "GO:0007018",
+        "Description": "microtubule-based movement",
+        "adj.pValue": 0.2644230769230769
+    },
+    {
+        "Rank": 65,
+        "Term": "GO:0006260",
+        "Description": "DNA replication",
+        "adj.pValue": 0.2644230769230769
+    },
+    {
+        "Rank": 66,
+        "Term": "GO:0042742",
+        "Description": "defense response to bacterium",
+        "adj.pValue": 0.2682926829268293
+    },
+    {
+        "Rank": 67,
+        "Term": "GO:0042180",
+        "Description": "cellular ketone metabolic process",
+        "adj.pValue": 0.27
+    },
+    {
+        "Rank": 68,
+        "Term": "GO:0046777",
+        "Description": "protein autophosphorylation",
+        "adj.pValue": 0.270935960591133
+    },
+    {
+        "Rank": 69,
+        "Term": "GO:0010628",
+        "Description": "positive regulation of gene expression",
+        "adj.pValue": 0.270935960591133
+    },
+    {
+        "Rank": 70,
+        "Term": "GO:0000278",
+        "Description": "mitotic cell cycle",
+        "adj.pValue": 0.2722772277227723
+    },
+    {
+        "Rank": 71,
+        "Term": "GO:0007049",
+        "Description": "cell cycle",
+        "adj.pValue": 0.2722772277227723
+    },
+    {
+        "Rank": 72,
+        "Term": "GO:0009416",
+        "Description": "response to light stimulus",
+        "adj.pValue": 0.27230046948356806
+    },
+    {
+        "Rank": 73,
+        "Term": "GO:0009314",
+        "Description": "response to radiation",
+        "adj.pValue": 0.27230046948356806
+    },
+    {
+        "Rank": 74,
+        "Term": "GO:0006400",
+        "Description": "tRNA modification",
+        "adj.pValue": 0.27488151658767773
+    },
+    {
+        "Rank": 75,
+        "Term": "GO:0007017",
+        "Description": "microtubule-based process",
+        "adj.pValue": 0.2777777777777778
+    },
+    {
+        "Rank": 76,
+        "Term": "GO:0071554",
+        "Description": "cell wall organization or biogenesis",
+        "adj.pValue": 0.2857142857142857
+    },
+    {
+        "Rank": 77,
+        "Term": "GO:0010038",
+        "Description": "response to metal ion",
+        "adj.pValue": 0.2863849765258216
+    },
+    {
+        "Rank": 78,
+        "Term": "GO:0010639",
+        "Description": "negative regulation of organelle organization",
+        "adj.pValue": 0.2871287128712871
+    },
+    {
+        "Rank": 79,
+        "Term": "GO:1905301",
+        "Description": "regulation of macropinocytosis",
+        "adj.pValue": 0.2895927601809955
+    },
+    {
+        "Rank": 80,
+        "Term": "GO:0006401",
+        "Description": "RNA catabolic process",
+        "adj.pValue": 0.2903225806451613
+    },
+    {
+        "Rank": 81,
+        "Term": "GO:0022613",
+        "Description": "ribonucleoprotein complex biogenesis",
+        "adj.pValue": 0.2903225806451613
+    },
+    {
+        "Rank": 82,
+        "Term": "GO:0042254",
+        "Description": "ribosome biogenesis",
+        "adj.pValue": 0.2903225806451613
+    },
+    {
+        "Rank": 83,
+        "Term": "GO:0016072",
+        "Description": "rRNA metabolic process",
+        "adj.pValue": 0.2903225806451613
+    },
+    {
+        "Rank": 84,
+        "Term": "GO:0006364",
+        "Description": "rRNA processing",
+        "adj.pValue": 0.2903225806451613
+    },
+    {
+        "Rank": 85,
+        "Term": "GO:0043094",
+        "Description": "cellular metabolic compound salvage",
+        "adj.pValue": 0.2916666666666667
+    },
+    {
+        "Rank": 86,
+        "Term": "GO:0019439",
+        "Description": "aromatic compound catabolic process",
+        "adj.pValue": 0.295
+    },
+    {
+        "Rank": 87,
+        "Term": "GO:0044271",
+        "Description": "cellular nitrogen compound biosynthetic process",
+        "adj.pValue": 0.29850746268656714
+    },
+    {
+        "Rank": 88,
+        "Term": "GO:0006396",
+        "Description": "RNA processing",
+        "adj.pValue": 0.2985781990521327
+    },
+    {
+        "Rank": 89,
+        "Term": "GO:0048284",
+        "Description": "organelle fusion",
+        "adj.pValue": 0.2995391705069124
+    },
+    {
+        "Rank": 90,
+        "Term": "GO:0048519",
+        "Description": "negative regulation of biological process",
+        "adj.pValue": 0.3004694835680751
+    },
+    {
+        "Rank": 91,
+        "Term": "GO:0044087",
+        "Description": "regulation of cellular component biogenesis",
+        "adj.pValue": 0.3014354066985646
+    },
+    {
+        "Rank": 92,
+        "Term": "GO:0031344",
+        "Description": "regulation of cell projection organization",
+        "adj.pValue": 0.3018867924528302
+    },
+    {
+        "Rank": 93,
+        "Term": "GO:0120035",
+        "Description": "regulation of plasma membrane bounded cell projection organization",
+        "adj.pValue": 0.3018867924528302
+    },
+    {
+        "Rank": 94,
+        "Term": "GO:0060491",
+        "Description": "regulation of cell projection assembly",
+        "adj.pValue": 0.3018867924528302
+    },
+    {
+        "Rank": 95,
+        "Term": "GO:0120032",
+        "Description": "regulation of plasma membrane bounded cell projection assembly",
+        "adj.pValue": 0.3018867924528302
+    },
+    {
+        "Rank": 96,
+        "Term": "GO:0015748",
+        "Description": "organophosphate ester transport",
+        "adj.pValue": 0.3047619047619048
+    },
+    {
+        "Rank": 97,
+        "Term": "GO:0048870",
+        "Description": "cell motility",
+        "adj.pValue": 0.3058252427184466
+    },
+    {
+        "Rank": 98,
+        "Term": "GO:0098542",
+        "Description": "defense response to other organism",
+        "adj.pValue": 0.3062200956937799
+    },
+    {
+        "Rank": 99,
+        "Term": "GO:0006952",
+        "Description": "defense response",
+        "adj.pValue": 0.3062200956937799
+    },
+    {
+        "Rank": 100,
+        "Term": "GO:0051258",
+        "Description": "protein polymerization",
+        "adj.pValue": 0.30927835051546393
+    }
+]

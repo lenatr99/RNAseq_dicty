@@ -1,0 +1,112 @@
+{
+    "B1": {
+        "BP": {
+            "0": "Reactions to various stimuli, including starvation, stress, and external stimuli, in the context of development and social cooperation.",
+            "1": "Processes related to cellular development, morphogenesis, and differentiation, including sporulation."
+        },
+        "DB": {
+            "0": "Variations in developmental stages, cell morphology, motility, and response to environmental signals.",
+            "1": "Changes in cellular signaling pathways, chemotaxis, and cell polarity.",
+            "2": "Alterations in cell differentiation, vacuole size, and response to environmental conditions.",
+            "3": "Differences in cell differentiation, particularly in prestalk and prespore cells."
+        },
+        "MF": {
+            "0": "Binding activities including cellulose, carbohydrates, and oxidoreductase activities.",
+            "1": "Heme binding and various peroxidase activities, highlighting antioxidant functions."
+        }
+    },
+    "C1": {
+        "BP": {
+            "0": "Development of reproductive structures and processes in multicellular organisms.",
+            "1": "Cellular development and morphogenesis within a social context, including sporulation."
+        },
+        "DB": {
+            "0": "Variations in spore size, cell motility, and morphological development.",
+            "1": "Changes in gene expression, aggregation, and developmental morphology.",
+            "2": "Alterations in gene expression timing, cell migration, and chemotaxis.",
+            "3": "Differences in cell differentiation and responses to developmental signals."
+        },
+        "MF": {
+            "0": "DNA binding, antioxidant, and carbohydrate binding activities, including structural roles.",
+            "1": "Enzymatic activities related to glycogen phosphorylase and vitamin B6 binding."
+        }
+    },
+    "rgB": {
+        "BP": {
+            "0": "Processes related to social interaction, signaling, and locomotion, including development and response to stimuli.",
+            "1": "Metabolic processes involving lipids and amino acids, including catabolic activities."
+        },
+        "DB": {
+            "0": "Variations in gene expression, cell differentiation, and developmental processes.",
+            "1": "Changes in cellular morphology, signaling pathways, and actin dynamics.",
+            "2": "Alterations in cellular response to external stress and signaling regulation."
+        },
+        "MF": {
+            "0": "Binding and catalytic activities, including transporter and hydrolase functions.",
+            "1": "Transmembrane transporter activities, especially related to protons and ions.",
+            "2": "Peroxidase activities and binding functions involving heme and tetrapyrroles.",
+            "3": "Enzymatic activities related to malate dehydrogenase and oxidoreductase."
+        }
+    },
+    "B1_rgB": {
+        "BP": {
+            "0": "Processes involving nitrogen compound metabolism and general cellular processes.",
+            "1": "Biosynthesis of peptides and amides, including translation."
+        },
+        "DB": {
+            "0": "General cellular changes, including morphology, motility, and developmental stages.",
+            "1": "Variations in autophagy, mitochondrial functions, and cellular responses.",
+            "2": "Metabolic changes, particularly in glycogen and amino acid levels."
+        },
+        "MF": {
+            "0": "Various binding and catalytic activities, including nucleotide and ion binding.",
+            "1": "Transmembrane transporter activities, mainly focusing on cation transport.",
+            "2": "Catalytic activities related to ATPase and ion transport."
+        }
+    },
+    "C1_rgB": {
+        "BP": {
+            "0": "Catabolic processes involving amino acids and organic acids.",
+            "1": "Biosynthetic and metabolic processes, particularly related to nitrogen compounds and phosphorus.",
+            "2": "Nucleotide metabolic processes, focusing on ATP metabolism.",
+            "3": "Lipid metabolic processes, including phospholipid and organophosphate metabolism."
+        },
+        "DB": {
+            "0": "Variations in cellular motility, morphology, and developmental processes.",
+            "1": "Changes in metabolism and response to environmental cues.",
+            "2": "Alterations in cellular aggregation and developmental stages."
+        },
+        "MF": {
+            "0": "Oxidoreductase activities, metal binding, and transporter functions."
+        }
+    },
+    "AX4L846F": {
+        "BP": {
+            "0": "Macromolecule and protein synthesis, nitrogen and peptide metabolism, and cellular biosynthesis processes.",
+            "1": "Nucleotide metabolism, particularly purine ribonucleotide and ATP processes."
+        },
+        "MF": {
+            "0": "Binding activities, especially related to nucleotides and ions, along with catalytic and hydrolase functions.",
+            "1": "Transmembrane transporter activities, including ion and ATPase-coupled transport."
+        },
+        "DB": {
+            "0": "Abnormalities in cell morphology, growth, chemotaxis, and cytokinesis; decreased cellular adhesion and motility.",
+            "1": "Altered chemotaxis, prestalk gene expression, and protein phosphorylation; aberrations in GTPase activity.",
+            "2": "Changes in cell migration, stalk cell differentiation, and cellular responses; aberrant binding and development.",
+            "3": "Variations in mitochondrial function, ATP levels, autophagy, and cell differentiation; altered defense responses and sporulation."
+        }
+    },    
+    "B1_L846F": {
+        "BP": {
+            "0": "Protein synthesis, gene expression, and nitrogen compound metabolism."
+        },
+        "MF": {
+            "0": "Binding and hydrolase activities related to nucleotides and acid anhydrides.",
+            "1": "Active transmembrane transport, especially ATPase-linked transporter functions."
+        },
+        "DB": {
+            "0": "Alterations in signaling, cell death, and phagocytosis affecting cellular responses and activities.",
+            "1": "Changes in cell morphology, motility, and developmental processes."
+        }
+    }
+}

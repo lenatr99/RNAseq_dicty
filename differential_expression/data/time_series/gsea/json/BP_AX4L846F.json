@@ -1,0 +1,902 @@
+[
+    {
+        "Description":"biological_process",
+        "genes_in_pathway":3557,
+        "matches":186,
+        "%_match":5.23,
+        "pValue":7.406036438e-51,
+        "adj.pValue":2.256619303e-47,
+        "Rank":1
+    },
+    {
+        "Description":"cellular process",
+        "genes_in_pathway":2538,
+        "matches":149,
+        "%_match":5.87,
+        "pValue":1.909804231e-31,
+        "adj.pValue":2.909586746e-28,
+        "Rank":2
+    },
+    {
+        "Description":"amide biosynthetic process",
+        "genes_in_pathway":192,
+        "matches":41,
+        "%_match":21.35,
+        "pValue":1.720069214e-25,
+        "adj.pValue":1.747016965e-22,
+        "Rank":3
+    },
+    {
+        "Description":"translation",
+        "genes_in_pathway":175,
+        "matches":39,
+        "%_match":22.29,
+        "pValue":5.592737673e-25,
+        "adj.pValue":4.260267922e-22,
+        "Rank":4
+    },
+    {
+        "Description":"peptide biosynthetic process",
+        "genes_in_pathway":177,
+        "matches":39,
+        "%_match":22.03,
+        "pValue":8.805790435e-25,
+        "adj.pValue":5.366248691e-22,
+        "Rank":5
+    },
+    {
+        "Description":"peptide metabolic process",
+        "genes_in_pathway":184,
+        "matches":39,
+        "%_match":21.2,
+        "pValue":4.106529833e-24,
+        "adj.pValue":2.085432734e-21,
+        "Rank":6
+    },
+    {
+        "Description":"amide metabolic process",
+        "genes_in_pathway":217,
+        "matches":41,
+        "%_match":18.89,
+        "pValue":2.614317119e-23,
+        "adj.pValue":1.137974894e-20,
+        "Rank":7
+    },
+    {
+        "Description":"cellular macromolecule biosynthetic process",
+        "genes_in_pathway":221,
+        "matches":39,
+        "%_match":17.65,
+        "pValue":4.863483283e-21,
+        "adj.pValue":1.852379195e-18,
+        "Rank":8
+    },
+    {
+        "Description":"organonitrogen compound biosynthetic process",
+        "genes_in_pathway":345,
+        "matches":47,
+        "%_match":13.62,
+        "pValue":1.947897223e-20,
+        "adj.pValue":6.594714263e-18,
+        "Rank":9
+    },
+    {
+        "Description":"cellular nitrogen compound biosynthetic process",
+        "genes_in_pathway":464,
+        "matches":52,
+        "%_match":11.21,
+        "pValue":9.150456184e-19,
+        "adj.pValue":2.788143999e-16,
+        "Rank":10
+    },
+    {
+        "Description":"metabolic process",
+        "genes_in_pathway":1839,
+        "matches":106,
+        "%_match":5.76,
+        "pValue":5.966905714e-17,
+        "adj.pValue":0.0,
+        "Rank":11
+    },
+    {
+        "Description":"macromolecule biosynthetic process",
+        "genes_in_pathway":408,
+        "matches":46,
+        "%_match":11.27,
+        "pValue":1.207115442e-16,
+        "adj.pValue":0.0,
+        "Rank":12
+    },
+    {
+        "Description":"organic substance metabolic process",
+        "genes_in_pathway":1717,
+        "matches":101,
+        "%_match":5.88,
+        "pValue":1.766227217e-16,
+        "adj.pValue":0.0,
+        "Rank":13
+    },
+    {
+        "Description":"organonitrogen compound metabolic process",
+        "genes_in_pathway":1011,
+        "matches":74,
+        "%_match":7.32,
+        "pValue":3.280204965e-16,
+        "adj.pValue":0.0,
+        "Rank":14
+    },
+    {
+        "Description":"cellular biosynthetic process",
+        "genes_in_pathway":657,
+        "matches":58,
+        "%_match":8.83,
+        "pValue":5.041408715e-16,
+        "adj.pValue":0.0,
+        "Rank":15
+    },
+    {
+        "Description":"organic substance biosynthetic process",
+        "genes_in_pathway":678,
+        "matches":58,
+        "%_match":8.55,
+        "pValue":0.0,
+        "adj.pValue":0.0,
+        "Rank":16
+    },
+    {
+        "Description":"biosynthetic process",
+        "genes_in_pathway":690,
+        "matches":58,
+        "%_match":8.41,
+        "pValue":0.0,
+        "adj.pValue":0.0,
+        "Rank":17
+    },
+    {
+        "Description":"gene expression",
+        "genes_in_pathway":610,
+        "matches":54,
+        "%_match":8.85,
+        "pValue":0.0,
+        "adj.pValue":0.0,
+        "Rank":18
+    },
+    {
+        "Description":"cellular macromolecule metabolic process",
+        "genes_in_pathway":451,
+        "matches":44,
+        "%_match":9.76,
+        "pValue":0.0,
+        "adj.pValue":0.0,
+        "Rank":19
+    },
+    {
+        "Description":"primary metabolic process",
+        "genes_in_pathway":1631,
+        "matches":92,
+        "%_match":5.64,
+        "pValue":0.0,
+        "adj.pValue":0.0,
+        "Rank":20
+    },
+    {
+        "Description":"cellular nitrogen compound metabolic process",
+        "genes_in_pathway":804,
+        "matches":60,
+        "%_match":7.46,
+        "pValue":0.0,
+        "adj.pValue":0.0,
+        "Rank":21
+    },
+    {
+        "Description":"nitrogen compound metabolic process",
+        "genes_in_pathway":1471,
+        "matches":86,
+        "%_match":5.85,
+        "pValue":0.0,
+        "adj.pValue":0.0,
+        "Rank":22
+    },
+    {
+        "Description":"cellular metabolic process",
+        "genes_in_pathway":1582,
+        "matches":87,
+        "%_match":5.5,
+        "pValue":0.0,
+        "adj.pValue":0.0000000011,
+        "Rank":23
+    },
+    {
+        "Description":"localization",
+        "genes_in_pathway":616,
+        "matches":49,
+        "%_match":7.95,
+        "pValue":0.0,
+        "adj.pValue":0.0000000013,
+        "Rank":24
+    },
+    {
+        "Description":"establishment of localization",
+        "genes_in_pathway":585,
+        "matches":47,
+        "%_match":8.03,
+        "pValue":0.0,
+        "adj.pValue":0.0000000026,
+        "Rank":25
+    },
+    {
+        "Description":"macromolecule metabolic process",
+        "genes_in_pathway":1272,
+        "matches":75,
+        "%_match":5.9,
+        "pValue":0.0,
+        "adj.pValue":0.0000000027,
+        "Rank":26
+    },
+    {
+        "Description":"transmembrane transport",
+        "genes_in_pathway":179,
+        "matches":25,
+        "%_match":13.97,
+        "pValue":0.0,
+        "adj.pValue":0.0000000027,
+        "Rank":27
+    },
+    {
+        "Description":"protein metabolic process",
+        "genes_in_pathway":775,
+        "matches":55,
+        "%_match":7.1,
+        "pValue":0.0,
+        "adj.pValue":0.0000000039,
+        "Rank":28
+    },
+    {
+        "Description":"transport",
+        "genes_in_pathway":577,
+        "matches":46,
+        "%_match":7.97,
+        "pValue":0.0,
+        "adj.pValue":0.000000005,
+        "Rank":29
+    },
+    {
+        "Description":"inorganic cation transmembrane transport",
+        "genes_in_pathway":37,
+        "matches":12,
+        "%_match":32.43,
+        "pValue":0.0000000002,
+        "adj.pValue":0.00000002,
+        "Rank":30
+    },
+    {
+        "Description":"proton transmembrane transport",
+        "genes_in_pathway":18,
+        "matches":9,
+        "%_match":50.0,
+        "pValue":0.0000000004,
+        "adj.pValue":0.0000000387,
+        "Rank":31
+    },
+    {
+        "Description":"ion transmembrane transport",
+        "genes_in_pathway":69,
+        "matches":15,
+        "%_match":21.74,
+        "pValue":0.0000000005,
+        "adj.pValue":0.0000000509,
+        "Rank":32
+    },
+    {
+        "Description":"cation transmembrane transport",
+        "genes_in_pathway":40,
+        "matches":12,
+        "%_match":30.0,
+        "pValue":0.0000000006,
+        "adj.pValue":0.0000000509,
+        "Rank":32
+    },
+    {
+        "Description":"inorganic ion transmembrane transport",
+        "genes_in_pathway":51,
+        "matches":13,
+        "%_match":25.49,
+        "pValue":0.000000001,
+        "adj.pValue":0.0000000875,
+        "Rank":34
+    },
+    {
+        "Description":"ion transport",
+        "genes_in_pathway":89,
+        "matches":15,
+        "%_match":16.85,
+        "pValue":0.0000000223,
+        "adj.pValue":0.0000019435,
+        "Rank":35
+    },
+    {
+        "Description":"cation transport",
+        "genes_in_pathway":55,
+        "matches":12,
+        "%_match":21.82,
+        "pValue":0.0000000298,
+        "adj.pValue":0.0000025225,
+        "Rank":36
+    },
+    {
+        "Description":"small molecule metabolic process",
+        "genes_in_pathway":384,
+        "matches":29,
+        "%_match":7.55,
+        "pValue":0.0000010256,
+        "adj.pValue":0.0000844595,
+        "Rank":37
+    },
+    {
+        "Description":"endocytosis",
+        "genes_in_pathway":95,
+        "matches":13,
+        "%_match":13.68,
+        "pValue":0.000002389,
+        "adj.pValue":0.0001915634,
+        "Rank":38
+    },
+    {
+        "Description":"oxoacid metabolic process",
+        "genes_in_pathway":230,
+        "matches":20,
+        "%_match":8.7,
+        "pValue":0.0000071927,
+        "adj.pValue":0.0005479047,
+        "Rank":39
+    },
+    {
+        "Description":"carboxylic acid metabolic process",
+        "genes_in_pathway":230,
+        "matches":20,
+        "%_match":8.7,
+        "pValue":0.0000071927,
+        "adj.pValue":0.0005479047,
+        "Rank":39
+    },
+    {
+        "Description":"organic acid metabolic process",
+        "genes_in_pathway":231,
+        "matches":20,
+        "%_match":8.66,
+        "pValue":0.0000076805,
+        "adj.pValue":0.0005707943,
+        "Rank":41
+    },
+    {
+        "Description":"purine nucleoside triphosphate metabolic process",
+        "genes_in_pathway":24,
+        "matches":6,
+        "%_match":25.0,
+        "pValue":0.0000430092,
+        "adj.pValue":0.0030476486,
+        "Rank":42
+    },
+    {
+        "Description":"purine ribonucleoside triphosphate metabolic process",
+        "genes_in_pathway":24,
+        "matches":6,
+        "%_match":25.0,
+        "pValue":0.0000430092,
+        "adj.pValue":0.0030476486,
+        "Rank":42
+    },
+    {
+        "Description":"developmental process",
+        "genes_in_pathway":466,
+        "matches":29,
+        "%_match":6.22,
+        "pValue":0.0000451561,
+        "adj.pValue":0.0031270604,
+        "Rank":44
+    },
+    {
+        "Description":"cellular component organization",
+        "genes_in_pathway":491,
+        "matches":30,
+        "%_match":6.11,
+        "pValue":0.0000463593,
+        "adj.pValue":0.0031390424,
+        "Rank":45
+    },
+    {
+        "Description":"anatomical structure development",
+        "genes_in_pathway":453,
+        "matches":28,
+        "%_match":6.18,
+        "pValue":0.0000700558,
+        "adj.pValue":0.0046404337,
+        "Rank":46
+    },
+    {
+        "Description":"isocitrate metabolic process",
+        "genes_in_pathway":4,
+        "matches":3,
+        "%_match":75.0,
+        "pValue":0.0000888392,
+        "adj.pValue":0.0056394371,
+        "Rank":47
+    },
+    {
+        "Description":"tricarboxylic acid metabolic process",
+        "genes_in_pathway":4,
+        "matches":3,
+        "%_match":75.0,
+        "pValue":0.0000888392,
+        "adj.pValue":0.0056394371,
+        "Rank":47
+    },
+    {
+        "Description":"response to stress",
+        "genes_in_pathway":392,
+        "matches":25,
+        "%_match":6.38,
+        "pValue":0.0001085296,
+        "adj.pValue":0.0067487691,
+        "Rank":49
+    },
+    {
+        "Description":"vesicle-mediated transport",
+        "genes_in_pathway":257,
+        "matches":19,
+        "%_match":7.39,
+        "pValue":0.0001167218,
+        "adj.pValue":0.0071130275,
+        "Rank":50
+    },
+    {
+        "Description":"ribonucleoside triphosphate metabolic process",
+        "genes_in_pathway":29,
+        "matches":6,
+        "%_match":20.69,
+        "pValue":0.000134814,
+        "adj.pValue":0.0080544779,
+        "Rank":51
+    },
+    {
+        "Description":"purine-containing compound metabolic process",
+        "genes_in_pathway":70,
+        "matches":9,
+        "%_match":12.86,
+        "pValue":0.0001465887,
+        "adj.pValue":0.0085895319,
+        "Rank":52
+    },
+    {
+        "Description":"asexual reproduction",
+        "genes_in_pathway":58,
+        "matches":8,
+        "%_match":13.79,
+        "pValue":0.0002096923,
+        "adj.pValue":0.0120460687,
+        "Rank":53
+    },
+    {
+        "Description":"purine nucleoside triphosphate biosynthetic process",
+        "genes_in_pathway":5,
+        "matches":3,
+        "%_match":60.0,
+        "pValue":0.0002174381,
+        "adj.pValue":0.0120460687,
+        "Rank":53
+    },
+    {
+        "Description":"purine ribonucleoside triphosphate biosynthetic process",
+        "genes_in_pathway":5,
+        "matches":3,
+        "%_match":60.0,
+        "pValue":0.0002174381,
+        "adj.pValue":0.0120460687,
+        "Rank":53
+    },
+    {
+        "Description":"aminoglycan catabolic process",
+        "genes_in_pathway":12,
+        "matches":4,
+        "%_match":33.33,
+        "pValue":0.0002627967,
+        "adj.pValue":0.0129151874,
+        "Rank":56
+    },
+    {
+        "Description":"glycosaminoglycan catabolic process",
+        "genes_in_pathway":12,
+        "matches":4,
+        "%_match":33.33,
+        "pValue":0.0002627967,
+        "adj.pValue":0.0129151874,
+        "Rank":56
+    },
+    {
+        "Description":"cytolysis",
+        "genes_in_pathway":12,
+        "matches":4,
+        "%_match":33.33,
+        "pValue":0.0002627967,
+        "adj.pValue":0.0129151874,
+        "Rank":56
+    },
+    {
+        "Description":"peptidoglycan metabolic process",
+        "genes_in_pathway":12,
+        "matches":4,
+        "%_match":33.33,
+        "pValue":0.0002627967,
+        "adj.pValue":0.0129151874,
+        "Rank":56
+    },
+    {
+        "Description":"aminoglycan metabolic process",
+        "genes_in_pathway":12,
+        "matches":4,
+        "%_match":33.33,
+        "pValue":0.0002627967,
+        "adj.pValue":0.0129151874,
+        "Rank":56
+    },
+    {
+        "Description":"glycosaminoglycan metabolic process",
+        "genes_in_pathway":12,
+        "matches":4,
+        "%_match":33.33,
+        "pValue":0.0002627967,
+        "adj.pValue":0.0129151874,
+        "Rank":56
+    },
+    {
+        "Description":"peptidoglycan catabolic process",
+        "genes_in_pathway":12,
+        "matches":4,
+        "%_match":33.33,
+        "pValue":0.0002627967,
+        "adj.pValue":0.0129151874,
+        "Rank":56
+    },
+    {
+        "Description":"response to stimulus",
+        "genes_in_pathway":754,
+        "matches":38,
+        "%_match":5.04,
+        "pValue":0.0002700946,
+        "adj.pValue":0.0130631462,
+        "Rank":63
+    },
+    {
+        "Description":"nucleoside triphosphate metabolic process",
+        "genes_in_pathway":33,
+        "matches":6,
+        "%_match":18.18,
+        "pValue":0.000285937,
+        "adj.pValue":0.013613284,
+        "Rank":64
+    },
+    {
+        "Description":"ATP metabolic process",
+        "genes_in_pathway":22,
+        "matches":5,
+        "%_match":22.73,
+        "pValue":0.0003139947,
+        "adj.pValue":0.0143830155,
+        "Rank":65
+    },
+    {
+        "Description":"biological process involved in intraspecies interaction between organisms",
+        "genes_in_pathway":396,
+        "matches":24,
+        "%_match":6.06,
+        "pValue":0.0003257066,
+        "adj.pValue":0.0143830155,
+        "Rank":65
+    },
+    {
+        "Description":"socially cooperative development",
+        "genes_in_pathway":396,
+        "matches":24,
+        "%_match":6.06,
+        "pValue":0.0003257066,
+        "adj.pValue":0.0143830155,
+        "Rank":65
+    },
+    {
+        "Description":"sorocarp development",
+        "genes_in_pathway":396,
+        "matches":24,
+        "%_match":6.06,
+        "pValue":0.0003257066,
+        "adj.pValue":0.0143830155,
+        "Rank":65
+    },
+    {
+        "Description":"reproduction",
+        "genes_in_pathway":94,
+        "matches":10,
+        "%_match":10.64,
+        "pValue":0.0003107314,
+        "adj.pValue":0.0143830155,
+        "Rank":65
+    },
+    {
+        "Description":"purine nucleotide metabolic process",
+        "genes_in_pathway":62,
+        "matches":8,
+        "%_match":12.9,
+        "pValue":0.0003356696,
+        "adj.pValue":0.0146112167,
+        "Rank":70
+    },
+    {
+        "Description":"cellular component organization or biogenesis",
+        "genes_in_pathway":549,
+        "matches":30,
+        "%_match":5.46,
+        "pValue":0.0003456496,
+        "adj.pValue":0.0148337231,
+        "Rank":71
+    },
+    {
+        "Description":"response to external stimulus",
+        "genes_in_pathway":303,
+        "matches":20,
+        "%_match":6.6,
+        "pValue":0.0003551043,
+        "adj.pValue":0.0150278179,
+        "Rank":72
+    },
+    {
+        "Description":"energy derivation by oxidation of organic compounds",
+        "genes_in_pathway":48,
+        "matches":7,
+        "%_match":14.58,
+        "pValue":0.0003701098,
+        "adj.pValue":0.0154482821,
+        "Rank":73
+    },
+    {
+        "Description":"translational elongation",
+        "genes_in_pathway":23,
+        "matches":5,
+        "%_match":21.74,
+        "pValue":0.0003920398,
+        "adj.pValue":0.0161425043,
+        "Rank":74
+    },
+    {
+        "Description":"aerobic respiration",
+        "genes_in_pathway":36,
+        "matches":6,
+        "%_match":16.67,
+        "pValue":0.0004684345,
+        "adj.pValue":0.0190309313,
+        "Rank":75
+    },
+    {
+        "Description":"tricarboxylic acid cycle",
+        "genes_in_pathway":24,
+        "matches":5,
+        "%_match":20.83,
+        "pValue":0.00048389,
+        "adj.pValue":0.0194001685,
+        "Rank":76
+    },
+    {
+        "Description":"phagocytosis",
+        "genes_in_pathway":118,
+        "matches":11,
+        "%_match":9.32,
+        "pValue":0.0004976428,
+        "adj.pValue":0.0196924372,
+        "Rank":77
+    },
+    {
+        "Description":"cellular developmental process",
+        "genes_in_pathway":159,
+        "matches":13,
+        "%_match":8.18,
+        "pValue":0.000560743,
+        "adj.pValue":0.0216276437,
+        "Rank":78
+    },
+    {
+        "Description":"cell differentiation",
+        "genes_in_pathway":159,
+        "matches":13,
+        "%_match":8.18,
+        "pValue":0.000560743,
+        "adj.pValue":0.0216276437,
+        "Rank":78
+    },
+    {
+        "Description":"purine nucleotide biosynthetic process",
+        "genes_in_pathway":38,
+        "matches":6,
+        "%_match":15.79,
+        "pValue":0.0006333109,
+        "adj.pValue":0.0241212285,
+        "Rank":80
+    },
+    {
+        "Description":"purine-containing compound biosynthetic process",
+        "genes_in_pathway":39,
+        "matches":6,
+        "%_match":15.38,
+        "pValue":0.0007310078,
+        "adj.pValue":0.0271631813,
+        "Rank":81
+    },
+    {
+        "Description":"defense response to Gram-positive bacterium",
+        "genes_in_pathway":7,
+        "matches":3,
+        "%_match":42.86,
+        "pValue":0.0007294954,
+        "adj.pValue":0.0271631813,
+        "Rank":81
+    },
+    {
+        "Description":"nucleobase-containing small molecule metabolic process",
+        "genes_in_pathway":125,
+        "matches":11,
+        "%_match":8.8,
+        "pValue":0.0008114371,
+        "adj.pValue":0.0297885395,
+        "Rank":83
+    },
+    {
+        "Description":"cellular respiration",
+        "genes_in_pathway":40,
+        "matches":6,
+        "%_match":15.0,
+        "pValue":0.0008399672,
+        "adj.pValue":0.0304688112,
+        "Rank":84
+    },
+    {
+        "Description":"purine ribonucleotide metabolic process",
+        "genes_in_pathway":55,
+        "matches":7,
+        "%_match":12.73,
+        "pValue":0.0008625524,
+        "adj.pValue":0.0309199673,
+        "Rank":85
+    },
+    {
+        "Description":"sulfur compound biosynthetic process",
+        "genes_in_pathway":17,
+        "matches":4,
+        "%_match":23.53,
+        "pValue":0.0011299541,
+        "adj.pValue":0.040024302,
+        "Rank":86
+    },
+    {
+        "Description":"endosome organization",
+        "genes_in_pathway":8,
+        "matches":3,
+        "%_match":37.5,
+        "pValue":0.0011428009,
+        "adj.pValue":0.040024302,
+        "Rank":86
+    },
+    {
+        "Description":"carbohydrate derivative metabolic process",
+        "genes_in_pathway":155,
+        "matches":12,
+        "%_match":7.74,
+        "pValue":0.0014709182,
+        "adj.pValue":0.0509305423,
+        "Rank":88
+    },
+    {
+        "Description":"purine ribonucleotide biosynthetic process",
+        "genes_in_pathway":31,
+        "matches":5,
+        "%_match":16.13,
+        "pValue":0.0016459942,
+        "adj.pValue":0.0563521847,
+        "Rank":89
+    },
+    {
+        "Description":"carbohydrate derivative catabolic process",
+        "genes_in_pathway":19,
+        "matches":4,
+        "%_match":21.05,
+        "pValue":0.0017600147,
+        "adj.pValue":0.059586276,
+        "Rank":90
+    },
+    {
+        "Description":"anatomical structure morphogenesis",
+        "genes_in_pathway":159,
+        "matches":12,
+        "%_match":7.55,
+        "pValue":0.0018294806,
+        "adj.pValue":0.061257445,
+        "Rank":91
+    },
+    {
+        "Description":"nucleotide biosynthetic process",
+        "genes_in_pathway":64,
+        "matches":7,
+        "%_match":10.94,
+        "pValue":0.002129671,
+        "adj.pValue":0.070533776,
+        "Rank":92
+    },
+    {
+        "Description":"generation of precursor metabolites and energy",
+        "genes_in_pathway":82,
+        "matches":8,
+        "%_match":9.76,
+        "pValue":0.0021814508,
+        "adj.pValue":0.0708546595,
+        "Rank":93
+    },
+    {
+        "Description":"nucleotide metabolic process",
+        "genes_in_pathway":101,
+        "matches":9,
+        "%_match":8.91,
+        "pValue":0.0022091213,
+        "adj.pValue":0.0708546595,
+        "Rank":93
+    },
+    {
+        "Description":"monocarboxylic acid metabolic process",
+        "genes_in_pathway":101,
+        "matches":9,
+        "%_match":8.91,
+        "pValue":0.0022091213,
+        "adj.pValue":0.0708546595,
+        "Rank":93
+    },
+    {
+        "Description":"ATP biosynthetic process",
+        "genes_in_pathway":3,
+        "matches":2,
+        "%_match":66.67,
+        "pValue":0.0023714694,
+        "adj.pValue":0.0715432392,
+        "Rank":96
+    },
+    {
+        "Description":"cysteine biosynthetic process",
+        "genes_in_pathway":3,
+        "matches":2,
+        "%_match":66.67,
+        "pValue":0.0023714694,
+        "adj.pValue":0.0715432392,
+        "Rank":96
+    },
+    {
+        "Description":"cysteine metabolic process",
+        "genes_in_pathway":3,
+        "matches":2,
+        "%_match":66.67,
+        "pValue":0.0023714694,
+        "adj.pValue":0.0715432392,
+        "Rank":96
+    },
+    {
+        "Description":"cytoskeleton-dependent cytokinesis",
+        "genes_in_pathway":83,
+        "matches":8,
+        "%_match":9.64,
+        "pValue":0.0023566296,
+        "adj.pValue":0.0715432392,
+        "Rank":96
+    },
+    {
+        "Description":"ribonucleoside triphosphate biosynthetic process",
+        "genes_in_pathway":10,
+        "matches":3,
+        "%_match":30.0,
+        "pValue":0.0023477799,
+        "adj.pValue":0.0715432392,
+        "Rank":96
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "Description":"molecular_function",
+        "genes_in_pathway":3607,
+        "matches":188,
+        "%_match":5.21,
+        "pValue":3.090543093e-50,
+        "adj.pValue":4.954140578e-47,
+        "Rank":1
+    },
+    {
+        "Description":"structural molecule activity",
+        "genes_in_pathway":135,
+        "matches":35,
+        "%_match":25.93,
+        "pValue":1.163207966e-24,
+        "adj.pValue":9.323111851e-22,
+        "Rank":2
+    },
+    {
+        "Description":"structural constituent of ribosome",
+        "genes_in_pathway":86,
+        "matches":29,
+        "%_match":33.72,
+        "pValue":3.806689858e-24,
+        "adj.pValue":2.034041281e-21,
+        "Rank":3
+    },
+    {
+        "Description":"binding",
+        "genes_in_pathway":2022,
+        "matches":112,
+        "%_match":5.54,
+        "pValue":1.842201117e-16,
+        "adj.pValue":0.0,
+        "Rank":4
+    },
+    {
+        "Description":"active transmembrane transporter activity",
+        "genes_in_pathway":96,
+        "matches":20,
+        "%_match":20.83,
+        "pValue":0.0,
+        "adj.pValue":0.0000000006,
+        "Rank":5
+    },
+    {
+        "Description":"proton-transporting ATPase activity, rotational mechanism",
+        "genes_in_pathway":9,
+        "matches":8,
+        "%_match":88.89,
+        "pValue":0.0,
+        "adj.pValue":0.0000000006,
+        "Rank":6
+    },
+    {
+        "Description":"primary active transmembrane transporter activity",
+        "genes_in_pathway":88,
+        "matches":19,
+        "%_match":21.59,
+        "pValue":0.0,
+        "adj.pValue":0.0000000006,
+        "Rank":6
+    },
+    {
+        "Description":"ATPase-coupled ion transmembrane transporter activity",
+        "genes_in_pathway":9,
+        "matches":8,
+        "%_match":88.89,
+        "pValue":0.0,
+        "adj.pValue":0.0000000006,
+        "Rank":6
+    },
+    {
+        "Description":"ATPase activity, coupled to transmembrane movement of ions, rotational mechanism",
+        "genes_in_pathway":9,
+        "matches":8,
+        "%_match":88.89,
+        "pValue":0.0,
+        "adj.pValue":0.0000000006,
+        "Rank":6
+    },
+    {
+        "Description":"active ion transmembrane transporter activity",
+        "genes_in_pathway":24,
+        "matches":11,
+        "%_match":45.83,
+        "pValue":0.0,
+        "adj.pValue":0.0000000022,
+        "Rank":10
+    },
+    {
+        "Description":"transmembrane transporter activity",
+        "genes_in_pathway":159,
+        "matches":24,
+        "%_match":15.09,
+        "pValue":0.0,
+        "adj.pValue":0.0000000022,
+        "Rank":10
+    },
+    {
+        "Description":"pyrophosphate hydrolysis-driven proton transmembrane transporter activity",
+        "genes_in_pathway":10,
+        "matches":8,
+        "%_match":80.0,
+        "pValue":0.0,
+        "adj.pValue":0.0000000023,
+        "Rank":12
+    },
+    {
+        "Description":"ATPase-coupled cation transmembrane transporter activity",
+        "genes_in_pathway":14,
+        "matches":9,
+        "%_match":64.29,
+        "pValue":0.0,
+        "adj.pValue":0.0000000024,
+        "Rank":13
+    },
+    {
+        "Description":"transporter activity",
+        "genes_in_pathway":164,
+        "matches":24,
+        "%_match":14.63,
+        "pValue":0.0,
+        "adj.pValue":0.0000000033,
+        "Rank":14
+    },
+    {
+        "Description":"ATPase-coupled transmembrane transporter activity",
+        "genes_in_pathway":78,
+        "matches":17,
+        "%_match":21.79,
+        "pValue":0.0,
+        "adj.pValue":0.0000000044,
+        "Rank":15
+    },
+    {
+        "Description":"proton transmembrane transporter activity",
+        "genes_in_pathway":17,
+        "matches":9,
+        "%_match":52.94,
+        "pValue":0.0000000002,
+        "adj.pValue":0.0000000223,
+        "Rank":16
+    },
+    {
+        "Description":"ion transmembrane transporter activity",
+        "genes_in_pathway":65,
+        "matches":14,
+        "%_match":21.54,
+        "pValue":0.0000000028,
+        "adj.pValue":0.0000002602,
+        "Rank":17
+    },
+    {
+        "Description":"inorganic cation transmembrane transporter activity",
+        "genes_in_pathway":47,
+        "matches":12,
+        "%_match":25.53,
+        "pValue":0.0000000049,
+        "adj.pValue":0.0000004359,
+        "Rank":18
+    },
+    {
+        "Description":"cation transmembrane transporter activity",
+        "genes_in_pathway":48,
+        "matches":12,
+        "%_match":25.0,
+        "pValue":0.0000000064,
+        "adj.pValue":0.0000005369,
+        "Rank":19
+    },
+    {
+        "Description":"heterocyclic compound binding",
+        "genes_in_pathway":1304,
+        "matches":71,
+        "%_match":5.44,
+        "pValue":0.0000000075,
+        "adj.pValue":0.00000057,
+        "Rank":20
+    },
+    {
+        "Description":"organic cyclic compound binding",
+        "genes_in_pathway":1304,
+        "matches":71,
+        "%_match":5.44,
+        "pValue":0.0000000075,
+        "adj.pValue":0.00000057,
+        "Rank":20
+    },
+    {
+        "Description":"inorganic molecular entity transmembrane transporter activity",
+        "genes_in_pathway":59,
+        "matches":12,
+        "%_match":20.34,
+        "pValue":0.0000000775,
+        "adj.pValue":0.0000056479,
+        "Rank":22
+    },
+    {
+        "Description":"catalytic activity",
+        "genes_in_pathway":1637,
+        "matches":78,
+        "%_match":4.76,
+        "pValue":0.0000003936,
+        "adj.pValue":0.0000274318,
+        "Rank":23
+    },
+    {
+        "Description":"ion binding",
+        "genes_in_pathway":1383,
+        "matches":69,
+        "%_match":4.99,
+        "pValue":0.0000005093,
+        "adj.pValue":0.0000340165,
+        "Rank":24
+    },
+    {
+        "Description":"ATP-dependent activity",
+        "genes_in_pathway":243,
+        "matches":22,
+        "%_match":9.05,
+        "pValue":0.0000014761,
+        "adj.pValue":0.0000946447,
+        "Rank":25
+    },
+    {
+        "Description":"oxidoreductase activity",
+        "genes_in_pathway":208,
+        "matches":20,
+        "%_match":9.62,
+        "pValue":0.0000017984,
+        "adj.pValue":0.0001108785,
+        "Rank":26
+    },
+    {
+        "Description":"protein binding",
+        "genes_in_pathway":531,
+        "matches":35,
+        "%_match":6.59,
+        "pValue":0.0000022348,
+        "adj.pValue":0.0001326818,
+        "Rank":27
+    },
+    {
+        "Description":"RNA binding",
+        "genes_in_pathway":165,
+        "matches":17,
+        "%_match":10.3,
+        "pValue":0.0000043888,
+        "adj.pValue":0.0002512581,
+        "Rank":28
+    },
+    {
+        "Description":"hydrolase activity, hydrolyzing O-glycosyl compounds",
+        "genes_in_pathway":36,
+        "matches":8,
+        "%_match":22.22,
+        "pValue":0.000006123,
+        "adj.pValue":0.0003384548,
+        "Rank":29
+    },
+    {
+        "Description":"cation binding",
+        "genes_in_pathway":607,
+        "matches":35,
+        "%_match":5.77,
+        "pValue":0.0000425894,
+        "adj.pValue":0.0022756958,
+        "Rank":30
+    },
+    {
+        "Description":"small molecule binding",
+        "genes_in_pathway":959,
+        "matches":48,
+        "%_match":5.01,
+        "pValue":0.0000527075,
+        "adj.pValue":0.0027254862,
+        "Rank":31
+    },
+    {
+        "Description":"hydrolase activity, acting on glycosyl bonds",
+        "genes_in_pathway":50,
+        "matches":8,
+        "%_match":16.0,
+        "pValue":0.0000769408,
+        "adj.pValue":0.0038542533,
+        "Rank":32
+    },
+    {
+        "Description":"isocitrate dehydrogenase [NAD(P)+] activity",
+        "genes_in_pathway":4,
+        "matches":3,
+        "%_match":75.0,
+        "pValue":0.0000917303,
+        "adj.pValue":0.0044558664,
+        "Rank":33
+    },
+    {
+        "Description":"NAD binding",
+        "genes_in_pathway":19,
+        "matches":5,
+        "%_match":26.32,
+        "pValue":0.0001563118,
+        "adj.pValue":0.0071178705,
+        "Rank":34
+    },
+    {
+        "Description":"nucleotide binding",
+        "genes_in_pathway":919,
+        "matches":45,
+        "%_match":4.9,
+        "pValue":0.0001642927,
+        "adj.pValue":0.0071178705,
+        "Rank":34
+    },
+    {
+        "Description":"anion binding",
+        "genes_in_pathway":944,
+        "matches":46,
+        "%_match":4.87,
+        "pValue":0.0001526127,
+        "adj.pValue":0.0071178705,
+        "Rank":34
+    },
+    {
+        "Description":"nucleoside phosphate binding",
+        "genes_in_pathway":919,
+        "matches":45,
+        "%_match":4.9,
+        "pValue":0.0001642927,
+        "adj.pValue":0.0071178705,
+        "Rank":34
+    },
+    {
+        "Description":"metal ion binding",
+        "genes_in_pathway":598,
+        "matches":33,
+        "%_match":5.52,
+        "pValue":0.0001712297,
+        "adj.pValue":0.0072231906,
+        "Rank":38
+    },
+    {
+        "Description":"ABC-type transporter activity",
+        "genes_in_pathway":60,
+        "matches":8,
+        "%_match":13.33,
+        "pValue":0.0002868094,
+        "adj.pValue":0.0117886034,
+        "Rank":39
+    },
+    {
+        "Description":"lysozyme activity",
+        "genes_in_pathway":13,
+        "matches":4,
+        "%_match":30.77,
+        "pValue":0.0003866837,
+        "adj.pValue":0.0151183887,
+        "Rank":40
+    },
+    {
+        "Description":"peptidoglycan muralytic activity",
+        "genes_in_pathway":13,
+        "matches":4,
+        "%_match":30.77,
+        "pValue":0.0003866837,
+        "adj.pValue":0.0151183887,
+        "Rank":40
+    },
+    {
+        "Description":"nucleic acid binding",
+        "genes_in_pathway":427,
+        "matches":25,
+        "%_match":5.85,
+        "pValue":0.0004836791,
+        "adj.pValue":0.0184604201,
+        "Rank":42
+    },
+    {
+        "Description":"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",
+        "genes_in_pathway":24,
+        "matches":5,
+        "%_match":20.83,
+        "pValue":0.0005082688,
+        "adj.pValue":0.0189477864,
+        "Rank":43
+    },
+    {
+        "Description":"oxidoreductase activity, acting on CH-OH group of donors",
+        "genes_in_pathway":26,
+        "matches":5,
+        "%_match":19.23,
+        "pValue":0.0007507116,
+        "adj.pValue":0.0273497875,
+        "Rank":44
+    },
+    {
+        "Description":"extracellular matrix structural constituent",
+        "genes_in_pathway":2,
+        "matches":2,
+        "%_match":100.0,
+        "pValue":0.0008230796,
+        "adj.pValue":0.0286825336,
+        "Rank":45
+    },
+    {
+        "Description":"isocitrate dehydrogenase (NAD+) activity",
+        "genes_in_pathway":2,
+        "matches":2,
+        "%_match":100.0,
+        "pValue":0.0008230796,
+        "adj.pValue":0.0286825336,
+        "Rank":45
+    },
+    {
+        "Description":"carbohydrate binding",
+        "genes_in_pathway":56,
+        "matches":7,
+        "%_match":12.5,
+        "pValue":0.0010249372,
+        "adj.pValue":0.0349569014,
+        "Rank":47
+    },
+    {
+        "Description":"ribonucleotide binding",
+        "genes_in_pathway":860,
+        "matches":40,
+        "%_match":4.65,
+        "pValue":0.0011701346,
+        "adj.pValue":0.0384707022,
+        "Rank":48
+    },
+    {
+        "Description":"rRNA binding",
+        "genes_in_pathway":17,
+        "matches":4,
+        "%_match":23.53,
+        "pValue":0.0011759603,
+        "adj.pValue":0.0384707022,
+        "Rank":48
+    },
+    {
+        "Description":"carbohydrate derivative binding",
+        "genes_in_pathway":866,
+        "matches":40,
+        "%_match":4.62,
+        "pValue":0.0013387078,
+        "adj.pValue":0.0429189715,
+        "Rank":50
+    },
+    {
+        "Description":"hydrolase activity",
+        "genes_in_pathway":623,
+        "matches":31,
+        "%_match":4.98,
+        "pValue":0.0015981425,
+        "adj.pValue":0.0502318138,
+        "Rank":51
+    },
+    {
+        "Description":"translation elongation factor activity",
+        "genes_in_pathway":9,
+        "matches":3,
+        "%_match":33.33,
+        "pValue":0.0017310332,
+        "adj.pValue":0.0533624274,
+        "Rank":52
+    },
+    {
+        "Description":"purine ribonucleotide binding",
+        "genes_in_pathway":854,
+        "matches":39,
+        "%_match":4.57,
+        "pValue":0.0019235841,
+        "adj.pValue":0.0581793464,
+        "Rank":53
+    },
+    {
+        "Description":"purine nucleotide binding",
+        "genes_in_pathway":856,
+        "matches":39,
+        "%_match":4.56,
+        "pValue":0.0020084355,
+        "adj.pValue":0.0596207807,
+        "Rank":54
+    },
+    {
+        "Description":"monocarboxylic acid binding",
+        "genes_in_pathway":3,
+        "matches":2,
+        "%_match":66.67,
+        "pValue":0.0024223783,
+        "adj.pValue":0.0658147878,
+        "Rank":55
+    },
+    {
+        "Description":"phosphotransferase activity, phosphate group as acceptor",
+        "genes_in_pathway":10,
+        "matches":3,
+        "%_match":30.0,
+        "pValue":0.0024208079,
+        "adj.pValue":0.0658147878,
+        "Rank":55
+    },
+    {
+        "Description":"purine ribonucleoside triphosphate binding",
+        "genes_in_pathway":835,
+        "matches":38,
+        "%_match":4.55,
+        "pValue":0.0023645498,
+        "adj.pValue":0.0658147878,
+        "Rank":55
+    },
+    {
+        "Description":"ligase activity",
+        "genes_in_pathway":82,
+        "matches":8,
+        "%_match":9.76,
+        "pValue":0.0023326508,
+        "adj.pValue":0.0658147878,
+        "Rank":55
+    },
+    {
+        "Description":"fatty acid binding",
+        "genes_in_pathway":3,
+        "matches":2,
+        "%_match":66.67,
+        "pValue":0.0024223783,
+        "adj.pValue":0.0658147878,
+        "Rank":55
+    },
+    {
+        "Description":"antioxidant activity",
+        "genes_in_pathway":21,
+        "matches":4,
+        "%_match":19.05,
+        "pValue":0.0027026495,
+        "adj.pValue":0.0722057848,
+        "Rank":60
+    },
+    {
+        "Description":"alpha-catenin binding",
+        "genes_in_pathway":4,
+        "matches":2,
+        "%_match":50.0,
+        "pValue":0.0047530264,
+        "adj.pValue":0.1249033011,
+        "Rank":61
+    },
+    {
+        "Description":"protein kinase regulator activity",
+        "genes_in_pathway":40,
+        "matches":5,
+        "%_match":12.5,
+        "pValue":0.0054246345,
+        "adj.pValue":0.1402530493,
+        "Rank":62
+    },
+    {
+        "Description":"oxidoreductase activity, acting on the aldehyde or oxo group of donors",
+        "genes_in_pathway":14,
+        "matches":3,
+        "%_match":21.43,
+        "pValue":0.0067456265,
+        "adj.pValue":0.1689568631,
+        "Rank":63
+    },
+    {
+        "Description":"kinase regulator activity",
+        "genes_in_pathway":42,
+        "matches":5,
+        "%_match":11.9,
+        "pValue":0.0066962801,
+        "adj.pValue":0.1689568631,
+        "Rank":63
+    },
+    {
+        "Description":"calcium-dependent protein binding",
+        "genes_in_pathway":5,
+        "matches":2,
+        "%_match":40.0,
+        "pValue":0.0077720697,
+        "adj.pValue":0.1916711948,
+        "Rank":65
+    },
+    {
+        "Description":"adenyl nucleotide binding",
+        "genes_in_pathway":675,
+        "matches":30,
+        "%_match":4.44,
+        "pValue":0.0099046401,
+        "adj.pValue":0.2311230621,
+        "Rank":66
+    },
+    {
+        "Description":"adenyl ribonucleotide binding",
+        "genes_in_pathway":674,
+        "matches":30,
+        "%_match":4.45,
+        "pValue":0.0097075068,
+        "adj.pValue":0.2311230621,
+        "Rank":66
+    },
+    {
+        "Description":"kinase binding",
+        "genes_in_pathway":16,
+        "matches":3,
+        "%_match":18.75,
+        "pValue":0.0099485286,
+        "adj.pValue":0.2311230621,
+        "Rank":66
+    },
+    {
+        "Description":"structural constituent of cytoskeleton",
+        "genes_in_pathway":16,
+        "matches":3,
+        "%_match":18.75,
+        "pValue":0.0099485286,
+        "adj.pValue":0.2311230621,
+        "Rank":66
+    },
+    {
+        "Description":"ATP binding",
+        "genes_in_pathway":658,
+        "matches":29,
+        "%_match":4.41,
+        "pValue":0.0125039677,
+        "adj.pValue":0.2863408612,
+        "Rank":70
+    },
+    {
+        "Description":"oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+        "genes_in_pathway":7,
+        "matches":2,
+        "%_match":28.57,
+        "pValue":0.0157126731,
+        "adj.pValue":0.3547523228,
+        "Rank":71
+    },
+    {
+        "Description":"proton-transporting ATP synthase activity, rotational mechanism",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"urate oxidase activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"troponin I binding",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"translation regulator activity",
+        "genes_in_pathway":23,
+        "matches":3,
+        "%_match":13.04,
+        "pValue":0.0271636961,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"translation regulator activity, nucleic acid binding",
+        "genes_in_pathway":20,
+        "matches":3,
+        "%_match":15.0,
+        "pValue":0.0186181467,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"translation initiation factor binding",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"translation factor activity, RNA binding",
+        "genes_in_pathway":20,
+        "matches":3,
+        "%_match":15.0,
+        "pValue":0.0186181467,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"trans-2-enoyl-CoA reductase (NADPH) activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"scavenger receptor activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"proton channel activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"malonate-semialdehyde dehydrogenase (acetylating) activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"oxidoreductase activity, acting on other nitrogenous compounds as donors, oxygen as acceptor",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"aminoacyl-tRNA ligase activity",
+        "genes_in_pathway":37,
+        "matches":4,
+        "%_match":10.81,
+        "pValue":0.0208792951,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"aldehyde dehydrogenase (NADP+) activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"acyl-CoA desaturase activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"acyl-CoA delta5-desaturase activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"U1 snRNA binding",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"S-acetyltransferase activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"RNA ligase activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"RNA ligase (ATP) activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"beta-ureidopropionase activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"P-type calcium transporter activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"NEDD8 conjugating enzyme activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"L-cystine L-cysteine-lyase (deaminating)",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"L-cysteine desulfhydrase activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"ATP:ADP antiporter activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"ATP transmembrane transporter activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"ADP transmembrane transporter activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    },
+    {
+        "Description":"3-hydroxyisobutyrate dehydrogenase activity",
+        "genes_in_pathway":1,
+        "matches":1,
+        "%_match":100.0,
+        "pValue":0.0287637699,
+        "adj.pValue":0.3974855443,
+        "Rank":72
+    }
+]

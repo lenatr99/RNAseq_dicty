@@ -1,0 +1,302 @@
+[
+    {
+        "Rank": 1,
+        "Term": "aberrant sorocarp development",
+        "Description": "aberrant sorocarp development",
+        "adj.pValue": 0.09090909090909091
+    },
+    {
+        "Rank": 2,
+        "Term": "increased growth rate",
+        "Description": "increased growth rate",
+        "adj.pValue": 0.09090909090909091
+    },
+    {
+        "Rank": 3,
+        "Term": "aberrant vegetative growth",
+        "Description": "aberrant vegetative growth",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 4,
+        "Term": "increased cell motility",
+        "Description": "increased cell motility",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 5,
+        "Term": "decreased fruiting body size",
+        "Description": "decreased fruiting body size",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 6,
+        "Term": "abolished aggregation",
+        "Description": "abolished aggregation",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 7,
+        "Term": "decreased pinocytosis",
+        "Description": "decreased pinocytosis",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 8,
+        "Term": "abolished vegetative growth",
+        "Description": "abolished vegetative growth",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 9,
+        "Term": "decreased phagocytosis",
+        "Description": "decreased phagocytosis",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 10,
+        "Term": "increased mound size",
+        "Description": "increased mound size",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 11,
+        "Term": "abolished catalytic activity",
+        "Description": "abolished catalytic activity",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 12,
+        "Term": "abolished gene expression",
+        "Description": "abolished gene expression",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 13,
+        "Term": "decreased protein level",
+        "Description": "decreased protein level",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 14,
+        "Term": "increased actin filament polymerization",
+        "Description": "increased actin filament polymerization",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 15,
+        "Term": "aberrant stream morphology",
+        "Description": "aberrant stream morphology",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 16,
+        "Term": "increased phagocytosis",
+        "Description": "increased phagocytosis",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 17,
+        "Term": "increased cell-substrate adhesion",
+        "Description": "increased cell-substrate adhesion",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 18,
+        "Term": "decreased cell motility",
+        "Description": "decreased cell motility",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 19,
+        "Term": "increased gene expression",
+        "Description": "increased gene expression",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 20,
+        "Term": "decreased chemotaxis rate",
+        "Description": "decreased chemotaxis rate",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 21,
+        "Term": "abolished slug migration",
+        "Description": "abolished slug migration",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 22,
+        "Term": "delayed aggregation",
+        "Description": "delayed aggregation",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 23,
+        "Term": "decreased growth rate",
+        "Description": "decreased growth rate",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 24,
+        "Term": "delayed development",
+        "Description": "delayed development",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 25,
+        "Term": "decreased vegetative cell size",
+        "Description": "decreased vegetative cell size",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 26,
+        "Term": "development arrests at loose mound stage",
+        "Description": "development arrests at loose mound stage",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 27,
+        "Term": "decreased protein kinase activation",
+        "Description": "decreased protein kinase activation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 28,
+        "Term": "decreased establishment of cell polarity",
+        "Description": "decreased establishment of cell polarity",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 29,
+        "Term": "decreased actin filament polymerization",
+        "Description": "decreased actin filament polymerization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 30,
+        "Term": "aberrant chemotaxis to cAMP",
+        "Description": "aberrant chemotaxis to cAMP",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 31,
+        "Term": "decreased mound size",
+        "Description": "decreased mound size",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 32,
+        "Term": "increased lateral pseudopodium formation",
+        "Description": "increased lateral pseudopodium formation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 33,
+        "Term": "decreased chemotaxis to cAMP",
+        "Description": "decreased chemotaxis to cAMP",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 34,
+        "Term": "development arrests at mound stage",
+        "Description": "development arrests at mound stage",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 35,
+        "Term": "increased number of mound tips",
+        "Description": "increased number of mound tips",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 36,
+        "Term": "aberrant cytokinesis",
+        "Description": "aberrant cytokinesis",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 37,
+        "Term": "decreased myosin II assembly",
+        "Description": "decreased myosin II assembly",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 38,
+        "Term": "decreased gene expression",
+        "Description": "decreased gene expression",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 39,
+        "Term": "aberrant aggregation",
+        "Description": "aberrant aggregation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 40,
+        "Term": "aberrant cell morphology",
+        "Description": "aberrant cell morphology",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 41,
+        "Term": "increased vegetative cell size",
+        "Description": "increased vegetative cell size",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 42,
+        "Term": "wild type",
+        "Description": "wild type",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 43,
+        "Term": "decreased macropinocytosis",
+        "Description": "decreased macropinocytosis",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 44,
+        "Term": "increased filopodium formation",
+        "Description": "increased filopodium formation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 45,
+        "Term": "precocious development",
+        "Description": "precocious development",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 46,
+        "Term": "aberrant actin filament organization",
+        "Description": "aberrant actin filament organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 47,
+        "Term": "increased number of tip-organizers",
+        "Description": "increased number of tip-organizers",
+        "adj.pValue": 0.0966183574879227
+    },
+    {
+        "Rank": 48,
+        "Term": "decreased prespore cell differentiation",
+        "Description": "decreased prespore cell differentiation",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 49,
+        "Term": "aberrant culmination",
+        "Description": "aberrant culmination",
+        "adj.pValue": 0.09852216748768473
+    },
+    {
+        "Rank": 50,
+        "Term": "aberrant oscillatory cAMP signaling",
+        "Description": "aberrant oscillatory cAMP signaling",
+        "adj.pValue": 0.09852216748768473
+    }
+]

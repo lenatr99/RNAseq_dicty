@@ -1,0 +1,602 @@
+[
+    {
+        "Rank": 1,
+        "Term": "GO:0044092",
+        "Description": "negative regulation of molecular function",
+        "adj.pValue": 0.09049773755656108
+    },
+    {
+        "Rank": 2,
+        "Term": "GO:0031288",
+        "Description": "sorocarp morphogenesis",
+        "adj.pValue": 0.09090909090909091
+    },
+    {
+        "Rank": 3,
+        "Term": "GO:0048869",
+        "Description": "cellular developmental process",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 4,
+        "Term": "GO:0030154",
+        "Description": "cell differentiation",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 5,
+        "Term": "GO:0000280",
+        "Description": "nuclear division",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 6,
+        "Term": "GO:0006260",
+        "Description": "DNA replication",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 7,
+        "Term": "GO:0009266",
+        "Description": "response to temperature stimulus",
+        "adj.pValue": 0.09345794392523364
+    },
+    {
+        "Rank": 8,
+        "Term": "GO:0030866",
+        "Description": "cortical actin cytoskeleton organization",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 9,
+        "Term": "GO:0034655",
+        "Description": "nucleobase-containing compound catabolic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 10,
+        "Term": "GO:0031150",
+        "Description": "sorocarp stalk development",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 11,
+        "Term": "GO:0031154",
+        "Description": "culmination involved in sorocarp development",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 12,
+        "Term": "GO:0030865",
+        "Description": "cortical cytoskeleton organization",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 13,
+        "Term": "GO:0006414",
+        "Description": "translational elongation",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 14,
+        "Term": "GO:0030042",
+        "Description": "actin filament depolymerization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 15,
+        "Term": "GO:0051258",
+        "Description": "protein polymerization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 16,
+        "Term": "GO:0051130",
+        "Description": "positive regulation of cellular component organization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 17,
+        "Term": "GO:0010324",
+        "Description": "membrane invagination",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 18,
+        "Term": "GO:1902904",
+        "Description": "negative regulation of supramolecular fiber organization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 19,
+        "Term": "GO:0051494",
+        "Description": "negative regulation of cytoskeleton organization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 20,
+        "Term": "GO:0030833",
+        "Description": "regulation of actin filament polymerization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 21,
+        "Term": "GO:0044085",
+        "Description": "cellular component biogenesis",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 22,
+        "Term": "GO:0030837",
+        "Description": "negative regulation of actin filament polymerization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 23,
+        "Term": "GO:0006909",
+        "Description": "phagocytosis",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 24,
+        "Term": "GO:0090066",
+        "Description": "regulation of anatomical structure size",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 25,
+        "Term": "GO:0032535",
+        "Description": "regulation of cellular component size",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 26,
+        "Term": "GO:0008064",
+        "Description": "regulation of actin polymerization or depolymerization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 27,
+        "Term": "GO:0030832",
+        "Description": "regulation of actin filament length",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 28,
+        "Term": "GO:0065008",
+        "Description": "regulation of biological quality",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 29,
+        "Term": "GO:0110053",
+        "Description": "regulation of actin filament organization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 30,
+        "Term": "GO:0032271",
+        "Description": "regulation of protein polymerization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 31,
+        "Term": "GO:0032879",
+        "Description": "regulation of localization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 32,
+        "Term": "GO:0048285",
+        "Description": "organelle fission",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 33,
+        "Term": "GO:0072507",
+        "Description": "divalent inorganic cation homeostasis",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 34,
+        "Term": "GO:0006487",
+        "Description": "protein N-linked glycosylation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 35,
+        "Term": "GO:0099024",
+        "Description": "plasma membrane invagination",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 36,
+        "Term": "GO:0007059",
+        "Description": "chromosome segregation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 37,
+        "Term": "GO:0030041",
+        "Description": "actin filament polymerization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 38,
+        "Term": "GO:0032272",
+        "Description": "negative regulation of protein polymerization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 39,
+        "Term": "GO:0043934",
+        "Description": "sporulation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 40,
+        "Term": "GO:0030435",
+        "Description": "sporulation resulting in formation of a cellular spore",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 41,
+        "Term": "GO:0048646",
+        "Description": "anatomical structure formation involved in morphogenesis",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 42,
+        "Term": "GO:0043254",
+        "Description": "regulation of protein-containing complex assembly",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 43,
+        "Term": "GO:0031333",
+        "Description": "negative regulation of protein-containing complex assembly",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 44,
+        "Term": "GO:0009653",
+        "Description": "anatomical structure morphogenesis",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 45,
+        "Term": "GO:0051276",
+        "Description": "chromosome organization",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 46,
+        "Term": "GO:0044262",
+        "Description": "cellular carbohydrate metabolic process",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 47,
+        "Term": "GO:0098754",
+        "Description": "detoxification",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 48,
+        "Term": "GO:0072524",
+        "Description": "pyridine-containing compound metabolic process",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 49,
+        "Term": "GO:0007010",
+        "Description": "cytoskeleton organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 50,
+        "Term": "GO:1902533",
+        "Description": "positive regulation of intracellular signal transduction",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 51,
+        "Term": "GO:0008154",
+        "Description": "actin polymerization or depolymerization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 52,
+        "Term": "GO:0007015",
+        "Description": "actin filament organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 53,
+        "Term": "GO:0019935",
+        "Description": "cyclic-nucleotide-mediated signaling",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 54,
+        "Term": "GO:0044087",
+        "Description": "regulation of cellular component biogenesis",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 55,
+        "Term": "GO:1902903",
+        "Description": "regulation of supramolecular fiber organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 56,
+        "Term": "GO:0030036",
+        "Description": "actin cytoskeleton organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 57,
+        "Term": "GO:0065003",
+        "Description": "protein-containing complex assembly",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 58,
+        "Term": "GO:0051128",
+        "Description": "regulation of cellular component organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 59,
+        "Term": "GO:0043327",
+        "Description": "chemotaxis to cAMP",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 60,
+        "Term": "GO:0051493",
+        "Description": "regulation of cytoskeleton organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 61,
+        "Term": "GO:0032956",
+        "Description": "regulation of actin cytoskeleton organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 62,
+        "Term": "GO:0032970",
+        "Description": "regulation of actin filament-based process",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 63,
+        "Term": "GO:0097435",
+        "Description": "supramolecular fiber organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 64,
+        "Term": "GO:0030029",
+        "Description": "actin filament-based process",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 65,
+        "Term": "GO:0031149",
+        "Description": "sorocarp stalk cell differentiation",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 66,
+        "Term": "GO:1902905",
+        "Description": "positive regulation of supramolecular fiber organization",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 67,
+        "Term": "GO:0055065",
+        "Description": "metal ion homeostasis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 68,
+        "Term": "GO:0009260",
+        "Description": "ribonucleotide biosynthetic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 69,
+        "Term": "GO:0030838",
+        "Description": "positive regulation of actin filament polymerization",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 70,
+        "Term": "GO:0010638",
+        "Description": "positive regulation of organelle organization",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 71,
+        "Term": "GO:0044089",
+        "Description": "positive regulation of cellular component biogenesis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 72,
+        "Term": "GO:0006412",
+        "Description": "translation",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 73,
+        "Term": "GO:0043043",
+        "Description": "peptide biosynthetic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 74,
+        "Term": "GO:0098771",
+        "Description": "inorganic ion homeostasis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 75,
+        "Term": "GO:0050801",
+        "Description": "ion homeostasis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 76,
+        "Term": "GO:0031334",
+        "Description": "positive regulation of protein-containing complex assembly",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 77,
+        "Term": "GO:0042592",
+        "Description": "homeostatic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 78,
+        "Term": "GO:0055080",
+        "Description": "cation homeostasis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 79,
+        "Term": "GO:0006875",
+        "Description": "cellular metal ion homeostasis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 80,
+        "Term": "GO:0032273",
+        "Description": "positive regulation of protein polymerization",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 81,
+        "Term": "GO:0048878",
+        "Description": "chemical homeostasis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 82,
+        "Term": "GO:0140014",
+        "Description": "mitotic nuclear division",
+        "adj.pValue": 0.0966183574879227
+    },
+    {
+        "Rank": 83,
+        "Term": "GO:0048856",
+        "Description": "anatomical structure development",
+        "adj.pValue": 0.0970873786407767
+    },
+    {
+        "Rank": 84,
+        "Term": "GO:0032502",
+        "Description": "developmental process",
+        "adj.pValue": 0.0970873786407767
+    },
+    {
+        "Rank": 85,
+        "Term": "GO:0044271",
+        "Description": "cellular nitrogen compound biosynthetic process",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 86,
+        "Term": "GO:0005975",
+        "Description": "carbohydrate metabolic process",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 87,
+        "Term": "GO:0019725",
+        "Description": "cellular homeostasis",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 88,
+        "Term": "GO:0006952",
+        "Description": "defense response",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 89,
+        "Term": "GO:0098542",
+        "Description": "defense response to other organism",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 90,
+        "Term": "GO:0055082",
+        "Description": "cellular chemical homeostasis",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 91,
+        "Term": "GO:0042742",
+        "Description": "defense response to bacterium",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 92,
+        "Term": "GO:0071554",
+        "Description": "cell wall organization or biogenesis",
+        "adj.pValue": 0.09852216748768473
+    },
+    {
+        "Rank": 93,
+        "Term": "GO:0032984",
+        "Description": "protein-containing complex disassembly",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 94,
+        "Term": "GO:0006971",
+        "Description": "hypotonic response",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 95,
+        "Term": "GO:0010639",
+        "Description": "negative regulation of organelle organization",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 96,
+        "Term": "GO:0051129",
+        "Description": "negative regulation of cellular component organization",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 97,
+        "Term": "GO:0022411",
+        "Description": "cellular component disassembly",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 98,
+        "Term": "GO:0042221",
+        "Description": "response to chemical",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 99,
+        "Term": "GO:0009064",
+        "Description": "glutamine family amino acid metabolic process",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 100,
+        "Term": "GO:0007264",
+        "Description": "small GTPase mediated signal transduction",
+        "adj.pValue": 0.1
+    }
+]

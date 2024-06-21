@@ -1,0 +1,602 @@
+[
+    {
+        "Rank": 1,
+        "Term": "GO:0072524",
+        "Description": "pyridine-containing compound metabolic process",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 2,
+        "Term": "GO:0022900",
+        "Description": "electron transport chain",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 3,
+        "Term": "GO:0006091",
+        "Description": "generation of precursor metabolites and energy",
+        "adj.pValue": 0.09174311926605505
+    },
+    {
+        "Rank": 4,
+        "Term": "GO:0042180",
+        "Description": "cellular ketone metabolic process",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 5,
+        "Term": "GO:0070925",
+        "Description": "organelle assembly",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 6,
+        "Term": "GO:0048015",
+        "Description": "phosphatidylinositol-mediated signaling",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 7,
+        "Term": "GO:0009453",
+        "Description": "energy taxis",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 8,
+        "Term": "GO:0042331",
+        "Description": "phototaxis",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 9,
+        "Term": "GO:0048017",
+        "Description": "inositol lipid-mediated signaling",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 10,
+        "Term": "GO:0006082",
+        "Description": "organic acid metabolic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 11,
+        "Term": "GO:0006099",
+        "Description": "tricarboxylic acid cycle",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 12,
+        "Term": "GO:1901605",
+        "Description": "alpha-amino acid metabolic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 13,
+        "Term": "GO:0046700",
+        "Description": "heterocycle catabolic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 14,
+        "Term": "GO:0045333",
+        "Description": "cellular respiration",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 15,
+        "Term": "GO:0019752",
+        "Description": "carboxylic acid metabolic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 16,
+        "Term": "GO:0019439",
+        "Description": "aromatic compound catabolic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 17,
+        "Term": "GO:0050919",
+        "Description": "negative chemotaxis",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 18,
+        "Term": "GO:0015980",
+        "Description": "energy derivation by oxidation of organic compounds",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 19,
+        "Term": "GO:0043436",
+        "Description": "oxoacid metabolic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 20,
+        "Term": "GO:0044282",
+        "Description": "small molecule catabolic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 21,
+        "Term": "GO:1901361",
+        "Description": "organic cyclic compound catabolic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 22,
+        "Term": "GO:0016051",
+        "Description": "carbohydrate biosynthetic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 23,
+        "Term": "GO:0009060",
+        "Description": "aerobic respiration",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 24,
+        "Term": "GO:0043648",
+        "Description": "dicarboxylic acid metabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 25,
+        "Term": "GO:0009063",
+        "Description": "amino acid catabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 26,
+        "Term": "GO:0044283",
+        "Description": "small molecule biosynthetic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 27,
+        "Term": "GO:0046395",
+        "Description": "carboxylic acid catabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 28,
+        "Term": "GO:1902533",
+        "Description": "positive regulation of intracellular signal transduction",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 29,
+        "Term": "GO:0016054",
+        "Description": "organic acid catabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 30,
+        "Term": "GO:1901606",
+        "Description": "alpha-amino acid catabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 31,
+        "Term": "GO:1902600",
+        "Description": "proton transmembrane transport",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 32,
+        "Term": "GO:0120032",
+        "Description": "regulation of plasma membrane bounded cell projection assembly",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 33,
+        "Term": "GO:0060491",
+        "Description": "regulation of cell projection assembly",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 34,
+        "Term": "GO:0031344",
+        "Description": "regulation of cell projection organization",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 35,
+        "Term": "GO:0120035",
+        "Description": "regulation of plasma membrane bounded cell projection organization",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 36,
+        "Term": "GO:0008277",
+        "Description": "regulation of G protein-coupled receptor signaling pathway",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 37,
+        "Term": "GO:0090630",
+        "Description": "activation of GTPase activity",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 38,
+        "Term": "GO:0098662",
+        "Description": "inorganic cation transmembrane transport",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 39,
+        "Term": "GO:0051094",
+        "Description": "positive regulation of developmental process",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 40,
+        "Term": "GO:0007186",
+        "Description": "G protein-coupled receptor signaling pathway",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 41,
+        "Term": "GO:0106070",
+        "Description": "regulation of adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 42,
+        "Term": "GO:0048519",
+        "Description": "negative regulation of biological process",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 43,
+        "Term": "GO:1900122",
+        "Description": "positive regulation of receptor binding",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 44,
+        "Term": "GO:1903669",
+        "Description": "positive regulation of chemorepellent activity",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 45,
+        "Term": "GO:0010256",
+        "Description": "endomembrane system organization",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 46,
+        "Term": "GO:2000273",
+        "Description": "positive regulation of signaling receptor activity",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 47,
+        "Term": "GO:0042221",
+        "Description": "response to chemical",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 48,
+        "Term": "GO:0043087",
+        "Description": "regulation of GTPase activity",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 49,
+        "Term": "GO:0051703",
+        "Description": "biological process involved in intraspecies interaction between organisms",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 50,
+        "Term": "GO:0009967",
+        "Description": "positive regulation of signal transduction",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 51,
+        "Term": "GO:0043326",
+        "Description": "chemotaxis to folate",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 52,
+        "Term": "GO:0043393",
+        "Description": "regulation of protein binding",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 53,
+        "Term": "GO:0035556",
+        "Description": "intracellular signal transduction",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 54,
+        "Term": "GO:0009966",
+        "Description": "regulation of signal transduction",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 55,
+        "Term": "GO:0023051",
+        "Description": "regulation of signaling",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 56,
+        "Term": "GO:0050920",
+        "Description": "regulation of chemotaxis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 57,
+        "Term": "GO:0010647",
+        "Description": "positive regulation of cell communication",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 58,
+        "Term": "GO:0032502",
+        "Description": "developmental process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 59,
+        "Term": "GO:0099120",
+        "Description": "socially cooperative development",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 60,
+        "Term": "GO:0030587",
+        "Description": "sorocarp development",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 61,
+        "Term": "GO:0010469",
+        "Description": "regulation of signaling receptor activity",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 62,
+        "Term": "GO:0007188",
+        "Description": "adenylate cyclase-modulating G protein-coupled receptor signaling pathway",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 63,
+        "Term": "GO:0032092",
+        "Description": "positive regulation of protein binding",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 64,
+        "Term": "GO:0023056",
+        "Description": "positive regulation of signaling",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 65,
+        "Term": "GO:0048856",
+        "Description": "anatomical structure development",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 66,
+        "Term": "GO:0042330",
+        "Description": "taxis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 67,
+        "Term": "GO:0006972",
+        "Description": "hyperosmotic response",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 68,
+        "Term": "GO:0043547",
+        "Description": "positive regulation of GTPase activity",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 69,
+        "Term": "GO:0044093",
+        "Description": "positive regulation of molecular function",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 70,
+        "Term": "GO:0051345",
+        "Description": "positive regulation of hydrolase activity",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 71,
+        "Term": "GO:0048585",
+        "Description": "negative regulation of response to stimulus",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 72,
+        "Term": "GO:0032787",
+        "Description": "monocarboxylic acid metabolic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 73,
+        "Term": "GO:0044351",
+        "Description": "macropinocytosis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 74,
+        "Term": "GO:0007189",
+        "Description": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 75,
+        "Term": "GO:0007265",
+        "Description": "Ras protein signal transduction",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 76,
+        "Term": "GO:0019953",
+        "Description": "sexual reproduction",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 77,
+        "Term": "GO:0051336",
+        "Description": "regulation of hydrolase activity",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 78,
+        "Term": "GO:0000226",
+        "Description": "microtubule cytoskeleton organization",
+        "adj.pValue": 0.0970873786407767
+    },
+    {
+        "Rank": 79,
+        "Term": "GO:0000165",
+        "Description": "MAPK cascade",
+        "adj.pValue": 0.0970873786407767
+    },
+    {
+        "Rank": 80,
+        "Term": "GO:0031285",
+        "Description": "regulation of sorocarp stalk cell differentiation",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 81,
+        "Term": "GO:0031149",
+        "Description": "sorocarp stalk cell differentiation",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 82,
+        "Term": "GO:0031150",
+        "Description": "sorocarp stalk development",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 83,
+        "Term": "GO:0140582",
+        "Description": "adenylate cyclase-activating G protein-coupled cAMP receptor signaling pathway",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 84,
+        "Term": "GO:0010628",
+        "Description": "positive regulation of gene expression",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 85,
+        "Term": "GO:0022414",
+        "Description": "reproductive process",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 86,
+        "Term": "GO:0046777",
+        "Description": "protein autophosphorylation",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 87,
+        "Term": "GO:0009069",
+        "Description": "serine family amino acid metabolic process",
+        "adj.pValue": 0.09852216748768473
+    },
+    {
+        "Rank": 88,
+        "Term": "GO:1901136",
+        "Description": "carbohydrate derivative catabolic process",
+        "adj.pValue": 0.09852216748768473
+    },
+    {
+        "Rank": 89,
+        "Term": "GO:0018202",
+        "Description": "peptidyl-histidine modification",
+        "adj.pValue": 0.09852216748768473
+    },
+    {
+        "Rank": 90,
+        "Term": "GO:0031154",
+        "Description": "culmination involved in sorocarp development",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 91,
+        "Term": "GO:0051172",
+        "Description": "negative regulation of nitrogen compound metabolic process",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 92,
+        "Term": "GO:0046394",
+        "Description": "carboxylic acid biosynthetic process",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 93,
+        "Term": "GO:0016053",
+        "Description": "organic acid biosynthetic process",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 94,
+        "Term": "GO:0009892",
+        "Description": "negative regulation of metabolic process",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 95,
+        "Term": "GO:0031288",
+        "Description": "sorocarp morphogenesis",
+        "adj.pValue": 0.10050251256281408
+    },
+    {
+        "Rank": 96,
+        "Term": "GO:0031323",
+        "Description": "regulation of cellular metabolic process",
+        "adj.pValue": 0.10050251256281408
+    },
+    {
+        "Rank": 97,
+        "Term": "GO:0009653",
+        "Description": "anatomical structure morphogenesis",
+        "adj.pValue": 0.10050251256281408
+    },
+    {
+        "Rank": 98,
+        "Term": "GO:1903506",
+        "Description": "regulation of nucleic acid-templated transcription",
+        "adj.pValue": 0.10050251256281408
+    },
+    {
+        "Rank": 99,
+        "Term": "GO:0098655",
+        "Description": "cation transmembrane transport",
+        "adj.pValue": 0.10050251256281408
+    },
+    {
+        "Rank": 100,
+        "Term": "GO:0006355",
+        "Description": "regulation of DNA-templated transcription",
+        "adj.pValue": 0.10050251256281408
+    }
+]

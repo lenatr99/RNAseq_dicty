@@ -1,0 +1,602 @@
+[
+    {
+        "Rank": 1,
+        "Term": "GO:0051539",
+        "Description": "4 iron, 4 sulfur cluster binding",
+        "adj.pValue": 0.09090909090909091
+    },
+    {
+        "Rank": 2,
+        "Term": "GO:0035091",
+        "Description": "phosphatidylinositol binding",
+        "adj.pValue": 0.09259259259259259
+    },
+    {
+        "Rank": 3,
+        "Term": "GO:0008194",
+        "Description": "UDP-glycosyltransferase activity",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 4,
+        "Term": "GO:0019899",
+        "Description": "enzyme binding",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 5,
+        "Term": "GO:0019887",
+        "Description": "protein kinase regulator activity",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 6,
+        "Term": "GO:0019207",
+        "Description": "kinase regulator activity",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 7,
+        "Term": "GO:0051020",
+        "Description": "GTPase binding",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 8,
+        "Term": "GO:0031267",
+        "Description": "small GTPase binding",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 9,
+        "Term": "GO:0003735",
+        "Description": "structural constituent of ribosome",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 10,
+        "Term": "GO:0003690",
+        "Description": "double-stranded DNA binding",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 11,
+        "Term": "GO:0019843",
+        "Description": "rRNA binding",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 12,
+        "Term": "GO:0008289",
+        "Description": "lipid binding",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 13,
+        "Term": "GO:0016758",
+        "Description": "hexosyltransferase activity",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 14,
+        "Term": "GO:0004721",
+        "Description": "phosphoprotein phosphatase activity",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 15,
+        "Term": "GO:0004315",
+        "Description": "3-oxoacyl-[acyl-carrier-protein] synthase activity",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 16,
+        "Term": "GO:0008047",
+        "Description": "enzyme activator activity",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 17,
+        "Term": "GO:0004312",
+        "Description": "fatty acid synthase activity",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 18,
+        "Term": "GO:0098772",
+        "Description": "molecular function regulator activity",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 19,
+        "Term": "GO:0030234",
+        "Description": "enzyme regulator activity",
+        "adj.pValue": 0.09523809523809523
+    },
+    {
+        "Rank": 20,
+        "Term": "GO:0140299",
+        "Description": "small molecule sensor activity",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 21,
+        "Term": "GO:0019205",
+        "Description": "nucleobase-containing compound kinase activity",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 22,
+        "Term": "GO:0004722",
+        "Description": "protein serine/threonine phosphatase activity",
+        "adj.pValue": 0.0970873786407767
+    },
+    {
+        "Rank": 23,
+        "Term": "GO:0016757",
+        "Description": "glycosyltransferase activity",
+        "adj.pValue": 0.0970873786407767
+    },
+    {
+        "Rank": 24,
+        "Term": "GO:0016747",
+        "Description": "acyltransferase activity, transferring groups other than amino-acyl groups",
+        "adj.pValue": 0.0970873786407767
+    },
+    {
+        "Rank": 25,
+        "Term": "GO:0008081",
+        "Description": "phosphoric diester hydrolase activity",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 26,
+        "Term": "GO:0043565",
+        "Description": "sequence-specific DNA binding",
+        "adj.pValue": 0.09852216748768473
+    },
+    {
+        "Rank": 27,
+        "Term": "GO:0016879",
+        "Description": "ligase activity, forming carbon-nitrogen bonds",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 28,
+        "Term": "GO:0005198",
+        "Description": "structural molecule activity",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 29,
+        "Term": "GO:0004175",
+        "Description": "endopeptidase activity",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 30,
+        "Term": "GO:0016746",
+        "Description": "acyltransferase activity",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 31,
+        "Term": "GO:0016772",
+        "Description": "transferase activity, transferring phosphorus-containing groups",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 32,
+        "Term": "GO:0004672",
+        "Description": "protein kinase activity",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 33,
+        "Term": "GO:0016301",
+        "Description": "kinase activity",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 34,
+        "Term": "GO:0016773",
+        "Description": "phosphotransferase activity, alcohol group as acceptor",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 35,
+        "Term": "GO:0004674",
+        "Description": "protein serine/threonine kinase activity",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 36,
+        "Term": "GO:0106310",
+        "Description": "protein serine kinase activity",
+        "adj.pValue": 0.1
+    },
+    {
+        "Rank": 37,
+        "Term": "GO:0003677",
+        "Description": "DNA binding",
+        "adj.pValue": 0.10050251256281408
+    },
+    {
+        "Rank": 38,
+        "Term": "GO:0017018",
+        "Description": "myosin phosphatase activity",
+        "adj.pValue": 0.10204081632653061
+    },
+    {
+        "Rank": 39,
+        "Term": "GO:0140359",
+        "Description": "ABC-type transporter activity",
+        "adj.pValue": 0.10256410256410256
+    },
+    {
+        "Rank": 40,
+        "Term": "GO:0046873",
+        "Description": "metal ion transmembrane transporter activity",
+        "adj.pValue": 0.10309278350515463
+    },
+    {
+        "Rank": 41,
+        "Term": "GO:0004713",
+        "Description": "protein tyrosine kinase activity",
+        "adj.pValue": 0.10416666666666667
+    },
+    {
+        "Rank": 42,
+        "Term": "GO:0015631",
+        "Description": "tubulin binding",
+        "adj.pValue": 0.16831683168316833
+    },
+    {
+        "Rank": 43,
+        "Term": "GO:0005509",
+        "Description": "calcium ion binding",
+        "adj.pValue": 0.19306930693069307
+    },
+    {
+        "Rank": 44,
+        "Term": "GO:0042578",
+        "Description": "phosphoric ester hydrolase activity",
+        "adj.pValue": 0.19306930693069307
+    },
+    {
+        "Rank": 45,
+        "Term": "GO:0003676",
+        "Description": "nucleic acid binding",
+        "adj.pValue": 0.19402985074626866
+    },
+    {
+        "Rank": 46,
+        "Term": "GO:0004540",
+        "Description": "ribonuclease activity",
+        "adj.pValue": 0.195
+    },
+    {
+        "Rank": 47,
+        "Term": "GO:0003700",
+        "Description": "DNA-binding transcription factor activity",
+        "adj.pValue": 0.195
+    },
+    {
+        "Rank": 48,
+        "Term": "GO:0017171",
+        "Description": "serine hydrolase activity",
+        "adj.pValue": 0.19523809523809524
+    },
+    {
+        "Rank": 49,
+        "Term": "GO:0008236",
+        "Description": "serine-type peptidase activity",
+        "adj.pValue": 0.19523809523809524
+    },
+    {
+        "Rank": 50,
+        "Term": "GO:0003723",
+        "Description": "RNA binding",
+        "adj.pValue": 0.19696969696969696
+    },
+    {
+        "Rank": 51,
+        "Term": "GO:0008238",
+        "Description": "exopeptidase activity",
+        "adj.pValue": 0.2
+    },
+    {
+        "Rank": 52,
+        "Term": "GO:0044877",
+        "Description": "protein-containing complex binding",
+        "adj.pValue": 0.2037037037037037
+    },
+    {
+        "Rank": 53,
+        "Term": "GO:0005543",
+        "Description": "phospholipid binding",
+        "adj.pValue": 0.2037037037037037
+    },
+    {
+        "Rank": 54,
+        "Term": "GO:0004620",
+        "Description": "phospholipase activity",
+        "adj.pValue": 0.205
+    },
+    {
+        "Rank": 55,
+        "Term": "GO:0140657",
+        "Description": "ATP-dependent activity",
+        "adj.pValue": 0.20707070707070707
+    },
+    {
+        "Rank": 56,
+        "Term": "GO:0008757",
+        "Description": "S-adenosylmethionine-dependent methyltransferase activity",
+        "adj.pValue": 0.20833333333333334
+    },
+    {
+        "Rank": 57,
+        "Term": "GO:0030551",
+        "Description": "cyclic nucleotide binding",
+        "adj.pValue": 0.20930232558139536
+    },
+    {
+        "Rank": 58,
+        "Term": "GO:0005215",
+        "Description": "transporter activity",
+        "adj.pValue": 0.211340206185567
+    },
+    {
+        "Rank": 59,
+        "Term": "GO:0022857",
+        "Description": "transmembrane transporter activity",
+        "adj.pValue": 0.211340206185567
+    },
+    {
+        "Rank": 60,
+        "Term": "GO:0140678",
+        "Description": "molecular function inhibitor activity",
+        "adj.pValue": 0.21226415094339623
+    },
+    {
+        "Rank": 61,
+        "Term": "GO:0005085",
+        "Description": "guanyl-nucleotide exchange factor activity",
+        "adj.pValue": 0.21226415094339623
+    },
+    {
+        "Rank": 62,
+        "Term": "GO:0030695",
+        "Description": "GTPase regulator activity",
+        "adj.pValue": 0.21428571428571427
+    },
+    {
+        "Rank": 63,
+        "Term": "GO:0005516",
+        "Description": "calmodulin binding",
+        "adj.pValue": 0.21428571428571427
+    },
+    {
+        "Rank": 64,
+        "Term": "GO:0005096",
+        "Description": "GTPase activator activity",
+        "adj.pValue": 0.21428571428571427
+    },
+    {
+        "Rank": 65,
+        "Term": "GO:0140677",
+        "Description": "molecular function activator activity",
+        "adj.pValue": 0.21428571428571427
+    },
+    {
+        "Rank": 66,
+        "Term": "GO:0060589",
+        "Description": "nucleoside-triphosphatase regulator activity",
+        "adj.pValue": 0.21428571428571427
+    },
+    {
+        "Rank": 67,
+        "Term": "GO:1901981",
+        "Description": "phosphatidylinositol phosphate binding",
+        "adj.pValue": 0.21674876847290642
+    },
+    {
+        "Rank": 68,
+        "Term": "GO:0008270",
+        "Description": "zinc ion binding",
+        "adj.pValue": 0.21875
+    },
+    {
+        "Rank": 69,
+        "Term": "GO:0038023",
+        "Description": "signaling receptor activity",
+        "adj.pValue": 0.21890547263681592
+    },
+    {
+        "Rank": 70,
+        "Term": "GO:0004888",
+        "Description": "transmembrane signaling receptor activity",
+        "adj.pValue": 0.21890547263681592
+    },
+    {
+        "Rank": 71,
+        "Term": "GO:0030246",
+        "Description": "carbohydrate binding",
+        "adj.pValue": 0.22
+    },
+    {
+        "Rank": 72,
+        "Term": "GO:0090079",
+        "Description": "translation regulator activity, nucleic acid binding",
+        "adj.pValue": 0.22388059701492538
+    },
+    {
+        "Rank": 73,
+        "Term": "GO:0008135",
+        "Description": "translation factor activity, RNA binding",
+        "adj.pValue": 0.22388059701492538
+    },
+    {
+        "Rank": 74,
+        "Term": "GO:0004518",
+        "Description": "nuclease activity",
+        "adj.pValue": 0.2669902912621359
+    },
+    {
+        "Rank": 75,
+        "Term": "GO:0042626",
+        "Description": "ATPase-coupled transmembrane transporter activity",
+        "adj.pValue": 0.2894736842105263
+    },
+    {
+        "Rank": 76,
+        "Term": "GO:0022804",
+        "Description": "active transmembrane transporter activity",
+        "adj.pValue": 0.2894736842105263
+    },
+    {
+        "Rank": 77,
+        "Term": "GO:0015078",
+        "Description": "proton transmembrane transporter activity",
+        "adj.pValue": 0.29357798165137616
+    },
+    {
+        "Rank": 78,
+        "Term": "GO:0000049",
+        "Description": "tRNA binding",
+        "adj.pValue": 0.29357798165137616
+    },
+    {
+        "Rank": 79,
+        "Term": "GO:0016209",
+        "Description": "antioxidant activity",
+        "adj.pValue": 0.29473684210526313
+    },
+    {
+        "Rank": 80,
+        "Term": "GO:0051540",
+        "Description": "metal cluster binding",
+        "adj.pValue": 0.29493087557603687
+    },
+    {
+        "Rank": 81,
+        "Term": "GO:0051536",
+        "Description": "iron-sulfur cluster binding",
+        "adj.pValue": 0.29493087557603687
+    },
+    {
+        "Rank": 82,
+        "Term": "GO:0003779",
+        "Description": "actin binding",
+        "adj.pValue": 0.2955665024630542
+    },
+    {
+        "Rank": 83,
+        "Term": "GO:0003724",
+        "Description": "RNA helicase activity",
+        "adj.pValue": 0.29591836734693877
+    },
+    {
+        "Rank": 84,
+        "Term": "GO:0008186",
+        "Description": "ATP-dependent activity, acting on RNA",
+        "adj.pValue": 0.29591836734693877
+    },
+    {
+        "Rank": 85,
+        "Term": "GO:0016875",
+        "Description": "ligase activity, forming carbon-oxygen bonds",
+        "adj.pValue": 0.29767441860465116
+    },
+    {
+        "Rank": 86,
+        "Term": "GO:0004812",
+        "Description": "aminoacyl-tRNA ligase activity",
+        "adj.pValue": 0.29767441860465116
+    },
+    {
+        "Rank": 87,
+        "Term": "GO:0140110",
+        "Description": "transcription regulator activity",
+        "adj.pValue": 0.30049261083743845
+    },
+    {
+        "Rank": 88,
+        "Term": "GO:0060089",
+        "Description": "molecular transducer activity",
+        "adj.pValue": 0.31343283582089554
+    },
+    {
+        "Rank": 89,
+        "Term": "GO:0003777",
+        "Description": "microtubule motor activity",
+        "adj.pValue": 0.3142857142857143
+    },
+    {
+        "Rank": 90,
+        "Term": "GO:0019901",
+        "Description": "protein kinase binding",
+        "adj.pValue": 0.3177083333333333
+    },
+    {
+        "Rank": 91,
+        "Term": "GO:0140104",
+        "Description": "molecular carrier activity",
+        "adj.pValue": 0.3194444444444444
+    },
+    {
+        "Rank": 92,
+        "Term": "GO:0003774",
+        "Description": "cytoskeletal motor activity",
+        "adj.pValue": 0.32195121951219513
+    },
+    {
+        "Rank": 93,
+        "Term": "GO:0030248",
+        "Description": "cellulose binding",
+        "adj.pValue": 0.3247422680412371
+    },
+    {
+        "Rank": 94,
+        "Term": "GO:0042802",
+        "Description": "identical protein binding",
+        "adj.pValue": 0.32547169811320753
+    },
+    {
+        "Rank": 95,
+        "Term": "GO:0016791",
+        "Description": "phosphatase activity",
+        "adj.pValue": 0.3333333333333333
+    },
+    {
+        "Rank": 96,
+        "Term": "GO:0016298",
+        "Description": "lipase activity",
+        "adj.pValue": 0.375
+    },
+    {
+        "Rank": 97,
+        "Term": "GO:0016651",
+        "Description": "oxidoreductase activity, acting on NAD(P)H",
+        "adj.pValue": 0.3755656108597285
+    },
+    {
+        "Rank": 98,
+        "Term": "GO:0140101",
+        "Description": "catalytic activity, acting on a tRNA",
+        "adj.pValue": 0.38073394495412843
+    },
+    {
+        "Rank": 99,
+        "Term": "GO:0051287",
+        "Description": "NAD binding",
+        "adj.pValue": 0.3824884792626728
+    },
+    {
+        "Rank": 100,
+        "Term": "GO:0008017",
+        "Description": "microtubule binding",
+        "adj.pValue": 0.3842364532019704
+    }
+]

@@ -1,0 +1,602 @@
+[
+    {
+        "Rank": 1,
+        "Term": "GO:0051261",
+        "Description": "protein depolymerization",
+        "adj.pValue": 0.09216589861751152
+    },
+    {
+        "Rank": 2,
+        "Term": "GO:0055086",
+        "Description": "nucleobase-containing small molecule metabolic process",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 3,
+        "Term": "GO:0009141",
+        "Description": "nucleoside triphosphate metabolic process",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 4,
+        "Term": "GO:0046034",
+        "Description": "ATP metabolic process",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 5,
+        "Term": "GO:1901135",
+        "Description": "carbohydrate derivative metabolic process",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 6,
+        "Term": "GO:0009199",
+        "Description": "ribonucleoside triphosphate metabolic process",
+        "adj.pValue": 0.09302325581395349
+    },
+    {
+        "Rank": 7,
+        "Term": "GO:0030837",
+        "Description": "negative regulation of actin filament polymerization",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 8,
+        "Term": "GO:0032272",
+        "Description": "negative regulation of protein polymerization",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 9,
+        "Term": "GO:0031333",
+        "Description": "negative regulation of protein-containing complex assembly",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 10,
+        "Term": "GO:1901617",
+        "Description": "organic hydroxy compound biosynthetic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 11,
+        "Term": "GO:1901566",
+        "Description": "organonitrogen compound biosynthetic process",
+        "adj.pValue": 0.09389671361502347
+    },
+    {
+        "Rank": 12,
+        "Term": "GO:0044281",
+        "Description": "small molecule metabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 13,
+        "Term": "GO:0008033",
+        "Description": "tRNA processing",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 14,
+        "Term": "GO:0009100",
+        "Description": "glycoprotein metabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 15,
+        "Term": "GO:0006720",
+        "Description": "isoprenoid metabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 16,
+        "Term": "GO:0051235",
+        "Description": "maintenance of location",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 17,
+        "Term": "GO:1901615",
+        "Description": "organic hydroxy compound metabolic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 18,
+        "Term": "GO:0070085",
+        "Description": "glycosylation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 19,
+        "Term": "GO:0015711",
+        "Description": "organic anion transport",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 20,
+        "Term": "GO:0009101",
+        "Description": "glycoprotein biosynthetic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 21,
+        "Term": "GO:0006486",
+        "Description": "protein glycosylation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 22,
+        "Term": "GO:0051651",
+        "Description": "maintenance of location in cell",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 23,
+        "Term": "GO:0032879",
+        "Description": "regulation of localization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 24,
+        "Term": "GO:0006970",
+        "Description": "response to osmotic stress",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 25,
+        "Term": "GO:0000226",
+        "Description": "microtubule cytoskeleton organization",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 26,
+        "Term": "GO:0046165",
+        "Description": "alcohol biosynthetic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 27,
+        "Term": "GO:0001510",
+        "Description": "RNA methylation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 28,
+        "Term": "GO:0006820",
+        "Description": "anion transport",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 29,
+        "Term": "GO:0030001",
+        "Description": "metal ion transport",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 30,
+        "Term": "GO:0044283",
+        "Description": "small molecule biosynthetic process",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 31,
+        "Term": "GO:0043413",
+        "Description": "macromolecule glycosylation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 32,
+        "Term": "GO:0090150",
+        "Description": "establishment of protein localization to membrane",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 33,
+        "Term": "GO:0006487",
+        "Description": "protein N-linked glycosylation",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 34,
+        "Term": "GO:0098655",
+        "Description": "cation transmembrane transport",
+        "adj.pValue": 0.09433962264150944
+    },
+    {
+        "Rank": 35,
+        "Term": "GO:0006090",
+        "Description": "pyruvate metabolic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 36,
+        "Term": "GO:0009135",
+        "Description": "purine nucleoside diphosphate metabolic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 37,
+        "Term": "GO:0005975",
+        "Description": "carbohydrate metabolic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 38,
+        "Term": "GO:0006971",
+        "Description": "hypotonic response",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 39,
+        "Term": "GO:0046474",
+        "Description": "glycerophospholipid biosynthetic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 40,
+        "Term": "GO:0009144",
+        "Description": "purine nucleoside triphosphate metabolic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 41,
+        "Term": "GO:0044262",
+        "Description": "cellular carbohydrate metabolic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 42,
+        "Term": "GO:0009185",
+        "Description": "ribonucleoside diphosphate metabolic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 43,
+        "Term": "GO:0046939",
+        "Description": "nucleotide phosphorylation",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 44,
+        "Term": "GO:0045017",
+        "Description": "glycerolipid biosynthetic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 45,
+        "Term": "GO:0009205",
+        "Description": "purine ribonucleoside triphosphate metabolic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 46,
+        "Term": "GO:0009179",
+        "Description": "purine ribonucleoside diphosphate metabolic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 47,
+        "Term": "GO:0046031",
+        "Description": "ADP metabolic process",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 48,
+        "Term": "GO:0006165",
+        "Description": "nucleoside diphosphate phosphorylation",
+        "adj.pValue": 0.0947867298578199
+    },
+    {
+        "Rank": 49,
+        "Term": "GO:0006396",
+        "Description": "RNA processing",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 50,
+        "Term": "GO:0006811",
+        "Description": "ion transport",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 51,
+        "Term": "GO:0016192",
+        "Description": "vesicle-mediated transport",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 52,
+        "Term": "GO:0019752",
+        "Description": "carboxylic acid metabolic process",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 53,
+        "Term": "GO:0006082",
+        "Description": "organic acid metabolic process",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 54,
+        "Term": "GO:0034220",
+        "Description": "ion transmembrane transport",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 55,
+        "Term": "GO:0006812",
+        "Description": "cation transport",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 56,
+        "Term": "GO:0098660",
+        "Description": "inorganic ion transmembrane transport",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 57,
+        "Term": "GO:0061024",
+        "Description": "membrane organization",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 58,
+        "Term": "GO:0006897",
+        "Description": "endocytosis",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 59,
+        "Term": "GO:0043436",
+        "Description": "oxoacid metabolic process",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 60,
+        "Term": "GO:0006399",
+        "Description": "tRNA metabolic process",
+        "adj.pValue": 0.09569377990430622
+    },
+    {
+        "Rank": 61,
+        "Term": "GO:0048878",
+        "Description": "chemical homeostasis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 62,
+        "Term": "GO:0097237",
+        "Description": "cellular response to toxic substance",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 63,
+        "Term": "GO:1990748",
+        "Description": "cellular detoxification",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 64,
+        "Term": "GO:0098869",
+        "Description": "cellular oxidant detoxification",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 65,
+        "Term": "GO:0006096",
+        "Description": "glycolytic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 66,
+        "Term": "GO:0006757",
+        "Description": "ATP generation from ADP",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 67,
+        "Term": "GO:0006091",
+        "Description": "generation of precursor metabolites and energy",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 68,
+        "Term": "GO:0006629",
+        "Description": "lipid metabolic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 69,
+        "Term": "GO:0008610",
+        "Description": "lipid biosynthetic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 70,
+        "Term": "GO:0008654",
+        "Description": "phospholipid biosynthetic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 71,
+        "Term": "GO:0044255",
+        "Description": "cellular lipid metabolic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 72,
+        "Term": "GO:0062197",
+        "Description": "cellular response to chemical stress",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 73,
+        "Term": "GO:0019637",
+        "Description": "organophosphate metabolic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 74,
+        "Term": "GO:0090407",
+        "Description": "organophosphate biosynthetic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 75,
+        "Term": "GO:0140014",
+        "Description": "mitotic nuclear division",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 76,
+        "Term": "GO:0032984",
+        "Description": "protein-containing complex disassembly",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 77,
+        "Term": "GO:0072524",
+        "Description": "pyridine-containing compound metabolic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 78,
+        "Term": "GO:0042592",
+        "Description": "homeostatic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 79,
+        "Term": "GO:0016052",
+        "Description": "carbohydrate catabolic process",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 80,
+        "Term": "GO:0098754",
+        "Description": "detoxification",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 81,
+        "Term": "GO:0043254",
+        "Description": "regulation of protein-containing complex assembly",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 82,
+        "Term": "GO:0070887",
+        "Description": "cellular response to chemical stimulus",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 83,
+        "Term": "GO:0019725",
+        "Description": "cellular homeostasis",
+        "adj.pValue": 0.09615384615384616
+    },
+    {
+        "Rank": 84,
+        "Term": "GO:0046434",
+        "Description": "organophosphate catabolic process",
+        "adj.pValue": 0.0966183574879227
+    },
+    {
+        "Rank": 85,
+        "Term": "GO:0000280",
+        "Description": "nuclear division",
+        "adj.pValue": 0.0966183574879227
+    },
+    {
+        "Rank": 86,
+        "Term": "GO:0032535",
+        "Description": "regulation of cellular component size",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 87,
+        "Term": "GO:0090066",
+        "Description": "regulation of anatomical structure size",
+        "adj.pValue": 0.0975609756097561
+    },
+    {
+        "Rank": 88,
+        "Term": "GO:0016042",
+        "Description": "lipid catabolic process",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 89,
+        "Term": "GO:0044242",
+        "Description": "cellular lipid catabolic process",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 90,
+        "Term": "GO:0098542",
+        "Description": "defense response to other organism",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 91,
+        "Term": "GO:0006952",
+        "Description": "defense response",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 92,
+        "Term": "GO:0033865",
+        "Description": "nucleoside bisphosphate metabolic process",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 93,
+        "Term": "GO:0033875",
+        "Description": "ribonucleoside bisphosphate metabolic process",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 94,
+        "Term": "GO:0034032",
+        "Description": "purine nucleoside bisphosphate metabolic process",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 95,
+        "Term": "GO:0006644",
+        "Description": "phospholipid metabolic process",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 96,
+        "Term": "GO:0031157",
+        "Description": "regulation of aggregate size involved in sorocarp development",
+        "adj.pValue": 0.09803921568627451
+    },
+    {
+        "Rank": 97,
+        "Term": "GO:0007059",
+        "Description": "chromosome segregation",
+        "adj.pValue": 0.09852216748768473
+    },
+    {
+        "Rank": 98,
+        "Term": "GO:0043086",
+        "Description": "negative regulation of catalytic activity",
+        "adj.pValue": 0.09852216748768473
+    },
+    {
+        "Rank": 99,
+        "Term": "GO:0007017",
+        "Description": "microtubule-based process",
+        "adj.pValue": 0.09900990099009901
+    },
+    {
+        "Rank": 100,
+        "Term": "GO:0044282",
+        "Description": "small molecule catabolic process",
+        "adj.pValue": 0.09900990099009901
+    }
+]

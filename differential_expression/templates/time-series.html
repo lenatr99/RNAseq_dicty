@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Differential Gene Expression</title>
+    <style>
+      header {
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+
+      body {
+        padding-top: 50px;
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        font-size: 14px;
+      }
+
+      .hour-block {
+        min-width: 800px;
+        position: relative;
+      }
+
+      .parameters {
+        background-color: #888;
+        padding: 5px 10px;
+        font-size: 10px;
+        color: #fff;
+      }
+
+      .strain-header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 80px;
+        background: #fff;
+        z-index: 999;
+      }
+
+      table {
+        width: 100%;
+        table-layout: fixed;
+        margin-bottom: 20px;
+        border-collapse: collapse;
+        font-size: 10px;
+      }
+
+      .blue {
+        background-color: rgba(50, 79, 217, 0.4);
+      }
+
+      .red {
+        background-color: rgba(217, 50, 50, 0.4);
+      }
+
+      .green {
+        background-color: rgba(31, 124, 26, 0.4);
+      }
+
+      .gold {
+        background-color: rgba(252, 148, 6, 0.4);
+      }
+
+      .top-right-buttons {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1001;
+      }
+
+      .analysis-button {
+        margin: 5px;
+        padding: 5px 10px;
+        background-color: #000;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        border-radius: 5px;
+      }
+
+      .analysis-button:hover {
+        background-color: #888;
+      }
+
+      .upreg-indicator {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 6px solid green;
+      }
+
+      .downreg-indicator {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 6px solid red;
+      }
+
+      th,
+      td {
+        padding: 5px 5px;
+        border: 1px solid #ddd;
+      }
+
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 4%;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 11%;
+      }
+
+      th:nth-child(3),
+      td:nth-child(3) {
+        width: 5%;
+      }
+
+      th:nth-child(4),
+      td:nth-child(4) {
+        width: 17%;
+      }
+
+      th:nth-child(5),
+      td:nth-child(5) {
+        width: 7%;
+      }
+
+      th:nth-child(6),
+      td:nth-child(6) {
+        width: 18%;
+      }
+
+      th:nth-child(7),
+      td:nth-child(7) {
+        width: 18%;
+      }
+      th:nth-child(8),
+      td:nth-child(8) {
+        width: 19%;
+      }
+
+      thead {
+        background-color: #f2f2f2;
+      }
+
+      h2 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 15px;
+      }
+
+      .table-wrapper {
+        overflow-y: scroll;
+        height: 320px;
+        margin-bottom: 10px;
+      }
+
+      .scrollable-cell {
+        max-height: 100px;
+        overflow-y: auto;
+        display: block;
+        word-wrap: break-word;
+      }
+
+      .hour-container {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 20px;
+        padding-bottom: 20px;
+      }
+
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+
+      .info-tooltip {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        cursor: help;
+        margin-left: 5px;
+        font-size: 8px;
+        color: #fff;
+        border: 1px solid #888;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        line-height: 11px;
+        background-color: #888;
+      }
+
+      .tooltip-text {
+        visibility: hidden;
+        width: 120px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-align: justify;
+        border-radius: 6px;
+        padding: 5px 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      .tooltip-text_bottom {
+        visibility: hidden;
+        width: 120px;
+        background-color: #f5f5f5;
+        color: #333;
+        text-align: justify;
+        font-weight: normal;
+        border-radius: 6px;
+        padding: 5px 5px;
+        position: absolute;
+        z-index: 1;
+        top: 125%;
+        left: 50%;
+        margin-left: -60px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      .info-tooltip:hover .tooltip-text {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      .info-tooltip:hover .tooltip-text_bottom {
+        visibility: visible;
+        opacity: 1;
+      }
+    </style>
+    <script>
+      function showGeneSet(strain, setType, clusteringMethod) {
+        console.log(`Changing to ${strain}, ${setType}, ${clusteringMethod}`);
+
+        // Hide all tables and images first
+        var allTables = document.querySelectorAll(
+          `.${strain}-bp-infomap, .${strain}-bp-louvain, .${strain}-mf-infomap, .${strain}-mf-louvain, .${strain}-db-infomap, .${strain}-db-louvain`
+        );
+        var allImages = document.querySelectorAll(
+          `.image-container.${strain}-bp-infomap, .image-container.${strain}-bp-louvain, .image-container.${strain}-mf-infomap, .image-container.${strain}-mf-louvain, .image-container.${strain}-db-infomap, .image-container.${strain}-db-louvain`
+        );
+
+        allTables.forEach(function (table) {
+          table.style.display = "none";
+        });
+        allImages.forEach(function (img) {
+          img.style.display = "none";
+        });
+
+        // Show the selected gene set table
+        var tableToShow = document.querySelector(
+          `.${strain}-${setType}-${clusteringMethod}`
+        );
+        if (tableToShow) {
+          tableToShow.style.display = "block";
+        } else {
+          console.error(
+            `Table not found: .${strain}-${setType}-${clusteringMethod}`
+          );
+        }
+
+        // Show the image corresponding to the selected gene set and clustering method
+        var imageToShow = document.querySelector(
+          `.image-container.${strain}-${setType}-${clusteringMethod}`
+        );
+        if (imageToShow) {
+          imageToShow.style.display = "block";
+        } else {
+          console.error(
+            `Image container not found: .image-container.${strain}-${setType}-${clusteringMethod}`
+          );
+        }
+      }
+    </script>
+  </head>
+
+  <header>
+    <h1 style="margin: 5px 10px; background-color: #fff">
+      Differential Gene Expression
+    </h1>
+    <div class="parameters">
+      <form action="/time-series" method="post">
+        <label for="p_value">Set P-Value Threshold:</label>
+        <input
+          type="number"
+          step="0.00001"
+          min="0"
+          max="1"
+          name="p_value"
+          value="{{ p_threshold2 }}"
+          style="font-size: 10px"
+        />
+        <input type="submit" value="Update" style="font-size: 10px" />
+      </form>
+    </div>
+    <div class="top-right-buttons">
+      <a href="/" class="analysis-button">Pairwise Analysis</a>
+      <a
+        href="/time-series"
+        class="analysis-button"
+        style="background-color: #888"
+        >Time Series Analysis</a
+      >
+    </div>
+  </header>
+  <body>
+    <div style="margin-top: 15px; margin-bottom: 15 px; font-size: 10px">
+      <span style="font-size: 12px; font-weight: bold"
+        >Time-course differential gene expression data analysis using spline
+        regression models</span
+      ><br />
+      A natural cubic spline regression model (R package
+      <a
+        href="https://bioconductor.org/packages/release/bioc/html/splineTimeR.html"
+        target="_blank"
+        >splineTimeR</a
+      >) with one treatment factor and time as continuous variable is fitted to
+      the experimental time-course data. Two treatment groups (AX4 and mutant)
+      are provided. Parameters of fitted spline regression models are used to
+      define differentially expressed over time genes. Top 500 of those genes
+      are further used for pathway enrichment analysis. <br />
+      Motivation:
+      <a href="https://doi.org/10.3929/ethz-b-000235916" target="_blank"
+        >"On longer time series, pairwise approach is less efficient on the
+        overall performance compared with splineTC."</a
+      >
+    </div>
+    <div class="hour-container" style="margin-top: 15px">
+      {% for strain in strains %}
+      <div class="hour-block">
+        <span style="font-size: 10px; font-weight: normal">strain:</span> {{
+        strain_names.get(strain, strain)|safe }}
+        <abbr class="info-tooltip" style="position: absolute; right: 0px"
+          >?
+          <span class="tooltip-text_bottom"
+            >The table of differentially expressed genes compared to
+            <b>wild-type</b> (AX4) sorted by p-value. <br />
+            The threshold for p-value is defined by the number set above. The
+            columns Phenotype describes the
+            <a
+              href="https://dictybase.org/Downloads/all-mutants.html"
+              style="font-weight: bold"
+              target="_blank"
+              >DictyBase Phenotype</a
+            >
+            gene sets the gene is a part of, and Molecular Function and
+            Biological Process describe the
+            <a
+              href="https://geneontology.org/"
+              style="font-weight: bold"
+              target="_blank"
+              >GO</a
+            >
+            gene sets the gene is a part of. <br /><br />
+            <span class="upreg-indicator"></span> means the gene is upregulated,
+            <span class="downreg-indicator"></span> means the gene is
+            downregulated. This is based on whether the fold change is above or
+            below 1.
+          </span>
+        </abbr>
+        <div style="font-size: smaller">
+          <a
+            href="{{ url_for('download_excel', strain=strain, p_threshold2=p_threshold2) }}"
+            >Download Excel for {{ strain }}</a
+          >
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Gene</th>
+                <th>Symbol</th>
+                <th>Description</th>
+                <th>P-Value</th>
+                <th>Phenotype</th>
+                <th>Molecular Function</th>
+                <th>Biological Process</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in data[strain] %}
+              <tr>
+                <td>
+                  {{ row["Rank"] }} {% if row["Regulation"] == "Upregulated" %}
+                  <span class="upreg-indicator"></span>
+                  {% elif row["Regulation"] == "Downregulated" %}
+                  <span class="downreg-indicator"></span>
+                  {% endif %}
+                </td>
+                <td>{{ row["Gene"] }}</td>
+                <td>{{ row["Symbol"] }}</td>
+                <td>{{ row["Description"] }}</td>
+                <td>{{ row["adj.P.Val"] }}</td>
+                <td>
+                  <div class="scrollable-cell">{{ row["Phenotypes"] }}</div>
+                </td>
+                <td>
+                  <div class="scrollable-cell">
+                    {{ row["Molecular Function"] }}
+                  </div>
+                </td>
+                <td>
+                  <div class="scrollable-cell">
+                    {{ row["Biological Process"] }}
+                  </div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        <div style="margin-bottom: 5px">
+          <select
+            id="geneSet-{{ strain }}"
+            onchange="showGeneSet('{{ strain }}', this.value, document.getElementById('clusteringMethod-{{ strain }}').value)"
+          >
+            <option value="bp">GO Biological Process</option>
+            <option value="mf">GO Molecular Function</option>
+            <option value="db">DictyBase Phenotype</option>
+          </select>
+          <abbr class="info-tooltip"
+            >?
+            <span class="tooltip-text"
+              ><div style="margin-bottom: 3px">
+                <i
+                  >Select a Gene Set category to show the top 100 differentially
+                  expressed gene sets (compared to wild-type) based on
+                  p-value:</i
+                >
+              </div>
+
+              -
+              <a
+                href="https://geneontology.org/"
+                style="font-weight: bold"
+                target="_blank"
+                >GO Biological Process</a
+              >
+              for sets related to biological objectives and outcomes.<br />
+              -
+              <a
+                href="https://geneontology.org/"
+                style="font-weight: bold"
+                target="_blank"
+                >GO Molecular Function</a
+              >
+              for sets linked to molecular activities of genes.<br />
+              -
+              <a
+                href="https://dictybase.org/Downloads/all-mutants.html"
+                style="font-weight: bold"
+                target="_blank"
+                >DictyBase Phenotype</a
+              >
+              to explore phenotype classifications from DictyBase (only top 50
+              gene sets are displayed due to the smaller number of DictyBase
+              gene sets)</span
+            >
+          </abbr>
+        </div>
+        <div class="{{ strain }}-bp-infomap">
+          <div style="font-size: smaller">
+            <a
+              href="{{ url_for('download_gene_sets', strain=strain, set_type='bp', clustering_method='infomap') }}"
+            >
+              Download Infomap BP Gene Sets for {{ strain }}
+            </a>
+          </div>
+          <div class="table-wrapper gene-set-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gene Set Rank</th>
+                  <th>Gene Set Description</th>
+                  <th>P-Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for gene_set in gene_set_data_bp[strain] %} {% set row_class
+                = '' %} {% if gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['BP']['0'] %} {% set
+                row_class = 'blue' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['BP']['1'] %} {% set
+                row_class = 'red' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['BP']['2'] %} {% set
+                row_class = 'green' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['BP']['3'] %} {% set
+                row_class = 'gold' %} {% endif %}
+                <tr class="{{ row_class }}">
+                  <td>{{ gene_set["Rank"] }}</td>
+                  <td>{{ gene_set["Description"] }}</td>
+                  <td>{{ gene_set["adj.pValue"] }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="{{ strain }}-bp-louvain" style="display: none">
+          <div style="font-size: smaller">
+            <a
+              href="{{ url_for('download_gene_sets', strain=strain, set_type='bp', clustering_method='louvain') }}"
+            >
+              Download Louvain BP Gene Sets for {{ strain }}
+            </a>
+          </div>
+          <div class="table-wrapper gene-set-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gene Set Rank</th>
+                  <th>Gene Set Description</th>
+                  <th>P-Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for gene_set in gene_set_data_bp[strain] %} {% set row_class
+                = '' %} {% if gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['BP']['0'] %} {% set
+                row_class = 'blue' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['BP']['1'] %} {% set
+                row_class = 'red' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['BP']['2'] %} {% set
+                row_class = 'green' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['BP']['3'] %} {% set
+                row_class = 'gold' %} {% endif %}
+                <tr class="{{ row_class }}">
+                  <td>{{ gene_set["Rank"] }}</td>
+                  <td>{{ gene_set["Description"] }}</td>
+                  <td>{{ gene_set["adj.pValue"] }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="{{ strain }}-mf-infomap" style="display: none">
+          <div style="font-size: smaller">
+            <a
+              href="{{ url_for('download_gene_sets', strain=strain, set_type='mf', clustering_method='infomap') }}"
+            >
+              Download Infomap MF Gene Sets for {{ strain }}
+            </a>
+          </div>
+          <div class="table-wrapper gene-set-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gene Set Rank</th>
+                  <th>Gene Set Description</th>
+                  <th>P-Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for gene_set in gene_set_data_mf[strain] %} {% set row_class
+                = '' %} {% if gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['MF']['0'] %} {% set
+                row_class = 'blue' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['MF']['1'] %} {% set
+                row_class = 'red' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['MF']['2'] %} {% set
+                row_class = 'green' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['MF']['3'] %} {% set
+                row_class = 'gold' %} {% endif %}
+                <tr class="{{ row_class }}">
+                  <td>{{ gene_set["Rank"] }}</td>
+                  <td>{{ gene_set["Description"] }}</td>
+                  <td>{{ gene_set["adj.pValue"] }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="{{ strain }}-mf-louvain" style="display: none">
+          <div style="font-size: smaller">
+            <a
+              href="{{ url_for('download_gene_sets', strain=strain, set_type='mf', clustering_method='louvain') }}"
+            >
+              Download Louvain MF Gene Sets for {{ strain }}
+            </a>
+          </div>
+          <div class="table-wrapper gene-set-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gene Set Rank</th>
+                  <th>Gene Set Description</th>
+                  <th>P-Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for gene_set in gene_set_data_mf[strain] %} {% set row_class
+                = '' %} {% if gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['MF']['0'] %} {% set
+                row_class = 'blue' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['MF']['1'] %} {% set
+                row_class = 'red' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['MF']['2'] %} {% set
+                row_class = 'green' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['MF']['3'] %} {% set
+                row_class = 'gold' %} {% endif %}
+                <tr class="{{ row_class }}">
+                  <td>{{ gene_set["Rank"] }}</td>
+                  <td>{{ gene_set["Description"] }}</td>
+                  <td>{{ gene_set["adj.pValue"] }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="{{ strain }}-db-infomap" style="display: none">
+          <div style="font-size: smaller">
+            <a
+              href="{{ url_for('download_gene_sets', strain=strain, set_type='db', clustering_method='infomap') }}"
+            >
+              Download Infomap DB Gene Sets for {{ strain }}
+            </a>
+          </div>
+          <div class="table-wrapper gene-set-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gene Set Rank</th>
+                  <th>Gene Set Description</th>
+                  <th>P-Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for gene_set in gene_set_data_db[strain] %} {% set row_class
+                = '' %} {% if gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['DB']['0'] %} {% set
+                row_class = 'blue' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['DB']['1'] %} {% set
+                row_class = 'red' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['DB']['2'] %} {% set
+                row_class = 'green' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_infomap[strain]['DB']['3'] %} {% set
+                row_class = 'gold' %} {% endif %}
+                <tr class="{{ row_class }}">
+                  <td>{{ gene_set["Rank"] }}</td>
+                  <td>{{ gene_set["Description"] }}</td>
+                  <td>{{ gene_set["adj.pValue"] }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="{{ strain }}-db-louvain" style="display: none">
+          <div style="font-size: smaller">
+            <a
+              href="{{ url_for('download_gene_sets', strain=strain, set_type='db', clustering_method='louvain') }}"
+            >
+              Download Louvain DB Gene Sets for {{ strain }}
+            </a>
+          </div>
+          <div class="table-wrapper gene-set-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gene Set Rank</th>
+                  <th>Gene Set Description</th>
+                  <th>P-Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for gene_set in gene_set_data_db[strain] %} {% set row_class
+                = '' %} {% if gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['DB']['0'] %} {% set
+                row_class = 'blue' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['DB']['1'] %} {% set
+                row_class = 'red' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['DB']['2'] %} {% set
+                row_class = 'green' %} {% elif gene_set["Description"] in
+                gene_sets_to_color_louvain[strain]['DB']['3'] %} {% set
+                row_class = 'gold' %} {% endif %}
+                <tr class="{{ row_class }}">
+                  <td>{{ gene_set["Rank"] }}</td>
+                  <td>{{ gene_set["Description"] }}</td>
+                  <td>{{ gene_set["adj.pValue"] }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <select
+          id="clusteringMethod-{{ strain }}"
+          onchange="showGeneSet('{{ strain }}', document.getElementById('geneSet-{{ strain }}').value, this.value)"
+        >
+          <option value="infomap">Infomap</option>
+          <option value="louvain">Louvain</option>
+        </select>
+        <abbr class="info-tooltip"
+          >?
+          <span class="tooltip-text"
+            ><div style="margin-bottom: 3px">
+              <i>Select community detection method:</i>
+            </div>
+            -
+            <a
+              href="https://towardsdatascience.com/infomap-algorithm-9b68b7e8b86"
+              style="font-weight: bold"
+              target="_blank"
+              >Infomap</a
+            >
+            leverages the flow of random walks on a network to detect community
+            structures based on information theory principles.<br />
+            -
+            <a
+              href="https://en.wikipedia.org/wiki/Louvain_method"
+              style="font-weight: bold"
+              target="_blank"
+              >Louvain</a
+            >
+            iteratively aggregates nodes into communities, optimizing modularity
+            at each level of the network's hierarchy.<br /><br />
+            The rows are colored based on the community they belong to. The
+            colors are consistent across the tables and images.
+          </span>
+        </abbr>
+        <abbr class="info-tooltip" style="position: absolute; right: 0px"
+          >?
+          <span class="tooltip-text"
+            >A similarity matrix was created by calculating the
+            <a
+              href="https://en.wikipedia.org/wiki/Jaccard_index"
+              style="font-weight: bold"
+              target="_blank"
+              >Jaccard</a
+            >
+            similarity between the highest ranking gene sets based on their
+            genes. This matrix was then converted into an undirected graph,
+            connecting gene sets with similarity above a threshold ensuring an
+            average node degree of at least 8. <br /><b>Infomap/louvain</b>
+            community detection was applied to identify clusters, and 5-core
+            subgraphs of these communities were utilized as representative gene
+            sets. <br />These sets were analyzed by <b>ChatGPT</b> to determine
+            their common function.</span
+          >
+        </abbr>
+        <div class="image-container {{ strain }}-bp-infomap">
+          <img
+            src="{{ url_for('static', filename='infomap/infomap_BP_' ~ strain ~'.svg') }}"
+            alt="Gene Set Visualization"
+            style="max-width: 100%; height: auto"
+          />
+        </div>
+        <div
+          class="image-container {{ strain }}-bp-louvain"
+          style="display: none"
+        >
+          <img
+            src="{{ url_for('static', filename='louvain/louvain_BP_' ~ strain ~'.svg') }}"
+            alt="Gene Set Visualization"
+            style="max-width: 100%; height: auto"
+          />
+        </div>
+        <div
+          class="image-container {{ strain }}-mf-infomap"
+          style="display: none"
+        >
+          <img
+            src="{{ url_for('static', filename='infomap/infomap_MF_' ~ strain ~'.svg') }}"
+            alt="Gene Set Visualization"
+            style="max-width: 100%; height: auto"
+          />
+        </div>
+        <div
+          class="image-container {{ strain }}-mf-louvain"
+          style="display: none"
+        >
+          <img
+            src="{{ url_for('static', filename='louvain/louvain_MF_' ~ strain ~'.svg') }}"
+            alt="Gene Set Visualization"
+            style="max-width: 100%; height: auto"
+          />
+        </div>
+        <div
+          class="image-container {{ strain }}-db-infomap"
+          style="display: none"
+        >
+          <img
+            src="{{ url_for('static', filename='infomap/infomap_DB_' ~ strain ~'.svg') }}"
+            alt="Gene Set Visualization"
+            style="max-width: 100%; height: auto"
+          />
+        </div>
+        <div
+          class="image-container {{ strain }}-db-louvain"
+          style="display: none"
+        >
+          <img
+            src="{{ url_for('static', filename='louvain/louvain_DB_' ~ strain ~'.svg') }}"
+            alt="Gene Set Visualization"
+            style="max-width: 100%; height: auto"
+          />
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
