@@ -1,3 +1,7 @@
+"""
+This Python script analyzes and visualizes gene expression data of different groups by loading the data, extracting unique strains, and scaling each strain's data relative to a reference strain ("AX4") using Z-score normalization. It calculates custom mappings for each strain and scaling method based on a cost function to measure similarity over time. The script then generates and saves plots to visualize these patterns, facilitating comparative analysis of gene expression across different groups.
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -11,6 +15,8 @@ plt.rcParams["font.family"] = "Helvetica"
 plt.rcParams["font.size"] = 12
 
 PATH_RESULTS = "../results/groups"
+if not os.path.exists(PATH_RESULTS):
+    os.makedirs(PATH_RESULTS)
 
 
 def plot_multiple_graphs(scaling, group):
@@ -178,3 +184,6 @@ for scaling in SCALING:
 for group in geneannot_dict.keys():
     plot_multiple_graphs("m0s1", group)
     plot_multiple_graphs("None", group)
+
+
+print("Your plots are saved in mds_like_analysis/results/groups/")

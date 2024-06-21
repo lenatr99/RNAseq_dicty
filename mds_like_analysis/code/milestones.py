@@ -1,7 +1,12 @@
+"""
+This Python script analyzes and visualizes milestone data by loading the data, extracting unique strains, and scaling each strain's data relative to a reference strain ("AX4") using Z-score normalization. It calculates custom mappings for each strain and scaling method based on a cost function to measure similarity over time. The script then generates and saves plots to visualize these patterns, facilitating comparative analysis of milestone expression across different strains
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtrans
+import os
 from _constants import *
 from _functions import *
 
@@ -9,7 +14,8 @@ plt.rcParams["font.family"] = "Helvetica"
 plt.rcParams["font.size"] = 12
 
 PATH_RESULTS = "../results/milestones"
-
+if not os.path.exists(PATH_RESULTS):
+    os.makedirs(PATH_RESULTS)
 
 def plot_multiple_graphs(scaling):
     """
@@ -180,6 +186,8 @@ def plot_multiple_graphs(scaling):
         )
 
         plt.subplots_adjust(left=0.1, bottom=0.15, right=0.88, wspace=0.34)
+        if not os.path.exists(f"{PATH_RESULTS}/{scaling}"):
+            os.makedirs(f"{PATH_RESULTS}/{scaling}")
         plt.savefig(
             f"{PATH_RESULTS}/{scaling}/{scaling}_milestones_{milestone}.pdf",
             dpi=300,

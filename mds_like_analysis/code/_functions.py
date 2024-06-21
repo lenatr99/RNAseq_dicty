@@ -72,83 +72,6 @@ def plot_graph(
     plt.savefig(f"{PATH_RESULTS}{strain}_{time}.pdf")
     plt.close()
 
-
-def line_plot(strains, dict):
-    """
-    Plot the line plots for multiple strains.
-
-    Parameters
-    ----------
-    strains : list
-        List of strains to compare and plot.
-    dict : dict
-        Dictionary containing the gene expressions.
-    method : str
-        Method to use for calculating similarity score. Options are 'knn' (k-nearest neighbors), 'pearson' (Pearson correlation coefficient) and
-        'mds' (multidimensional scaling).
-
-    """
-    plt.rcParams["font.family"] = "Arial"
-    plt.rcParams["font.size"] = 14
-
-    MILESTONE_TO_CHECK = ["tag_tip_up", "tag_tip_down"]
-    for scaling in SCALING:
-        for strain in strains:
-            fig, ax = plt.subplots(figsize=(9, 4))
-            ax.set_xticks(range(0, 20 + 1, 4))
-            ax.set_xticklabels(range(0, 20 + 1, 4))
-
-            added_labels = set()
-            custom_handles = []
-            for j, milestone in enumerate(MILESTONE_TO_CHECK):
-                for k in range(len(dict[scaling][milestone][strain].values[0])):
-                    X_times = dict[scaling][milestone][strain].index
-                    Y_times = dict[scaling][milestone][strain].values[:, k]
-                    if milestone not in added_labels:
-                        ax.plot(
-                            X_times,
-                            Y_times,
-                            label=f"{milestone}",
-                            color=MILESTONE_COLORS[milestone],
-                            alpha=0.2,
-                            linewidth=0.5,
-                        )
-                        custom_handles.append(
-                            Line2D(
-                                [0],
-                                [0],
-                                color=MILESTONE_COLORS[milestone],
-                                lw=2,
-                                label=milestone,
-                            )
-                        )
-                        added_labels.add(milestone)
-                    else:
-                        ax.plot(
-                            X_times,
-                            Y_times,
-                            color=MILESTONE_COLORS[milestone],
-                            alpha=0.2,
-                            linewidth=0.5,
-                        )
-
-            ax.set_title(f"{scaling}", fontsize=10)
-            ax.legend(
-                handles=custom_handles,
-                title="milestone",
-                fontsize=9,
-                title_fontsize=10,
-                loc="upper right",
-            )
-
-            # Set a single x-label and y-label for the entire figure
-            plt.xlabel("hours of mutant development", fontsize=12)
-            plt.tight_layout()
-
-            plt.savefig(f"{PATH_RESULTS}/line_plots/line_plot_{scaling}_{strain}.pdf")
-            plt.close()
-
-
 def calculate_MDS_mapping(
     strain_data_dict,
     scaling,
@@ -250,11 +173,6 @@ def interpolate_curve(points, times_fine):
     interpolated_x = interp1d(t, points[0])(times_fine)
     interpolated_y = interp1d(t, points[1])(times_fine)
     return list(zip(interpolated_x, interpolated_y))
-
-
-def adjust_curve_points(points, adjust_x=0, adjust_y=0):
-    """Adjust curve points."""
-    return ([x + adjust_x for x in points[0]], [y + adjust_y for y in points[1]])
 
 
 def uniqueness_penalty(x, y, all_interpolated_curves, above=True):
