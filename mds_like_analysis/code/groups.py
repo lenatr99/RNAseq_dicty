@@ -2,17 +2,15 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtrans
-from mds_like_analysis.code._constants import *
-from mds_like_analysis.code._functions import *
+import os
+from _constants import *
+from _functions import *
 from PIL import Image
 
 plt.rcParams["font.family"] = "Helvetica"
 plt.rcParams["font.size"] = 12
 
-PATH_DATA = "Data/"
-data_file = "B1C1rgB_AX4L846F_B1L846F_ave.csv"
-
-PATH_RESULTS = "all_results/Results_mds/"
+PATH_RESULTS = "../results/groups"
 
 
 def plot_multiple_graphs(scaling, group):
@@ -60,12 +58,14 @@ def plot_multiple_graphs(scaling, group):
         )
 
         plt.subplots_adjust(left=0.1, bottom=0.15, right=0.88, wspace=0.34)
+        if not os.path.exists(f"{PATH_RESULTS}/{scaling}/subplots"):
+            os.makedirs(f"{PATH_RESULTS}/{scaling}/subplots")
         plt.savefig(
-            f"{PATH_RESULTS}/groups/{scaling}/subplots/{subgroup}_{scaling}.png",
+            f"{PATH_RESULTS}/{scaling}/subplots/{subgroup}_{scaling}.png",
             dpi=300,
         )
         plots.append(
-            f"{PATH_RESULTS}/groups/{scaling}/subplots/{subgroup}_{scaling}.png"
+            f"{PATH_RESULTS}/{scaling}/subplots/{subgroup}_{scaling}.png"
         )
         plt.close()
 
@@ -78,17 +78,17 @@ def plot_multiple_graphs(scaling, group):
         concatenated_image.paste(image, (0, current_height))
         current_height += image.size[1]
     concatenated_image.save(
-        f"{PATH_RESULTS}/groups/{scaling}/MDS_{group}_{scaling}.pdf",
+        f"{PATH_RESULTS}/{scaling}/{scaling}_groups_{group}.pdf",
         "PDF",
         resolution=300.0,
     )
 
 
 # Load data
-data = pd.read_csv(PATH_DATA + data_file)
+data = pd.read_csv(DATA_PATH)
 
 # Load gene annotation data
-geneannot_data = pd.read_csv(PATH_DATA + "DictyGeneAnnotations_3504.csv", index_col=0)
+geneannot_data = pd.read_csv(ANNOT_PATH, index_col=0)
 geneannot_data.drop(index=["string", "meta"], inplace=True)
 geneannot_dict = {}
 gene_annotations = {}
@@ -171,9 +171,7 @@ for scaling in SCALING:
                 t_values,
                 strains,
                 PATH_RESULTS
-                + f"groups/individual/{scaling}/{scaling}_{group}_{subgroup}_",
-                modified=False,
-                plot=True,
+                + f"/individual/{scaling}/{scaling}_{group}_{subgroup}_",
             )
 
 

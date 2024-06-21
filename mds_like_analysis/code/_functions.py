@@ -157,7 +157,7 @@ def calculate_MDS_mapping(
     results_path,
     plot=False,
     reference_strain="AX4",
-    modified=False,
+    modified=True,
     radius=2,
 ):
     mappings = {}
@@ -185,7 +185,7 @@ def calculate_MDS_mapping(
             )
             euclidean_distances[strain][i] = normalized_distances
 
-            # Calculate px values and corresponding distance sums
+            # Calculate px values and corresponding distance sums. if modified, we only consider a small window around the previous px value
             if modified:
                 if i > 0:
                     px_values = np.linspace(

@@ -163,3 +163,4 @@ cython_debug/
 
 differential_expression/temporary
 **/individual/
+**/subplots/

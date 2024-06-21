@@ -2,16 +2,13 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtrans
-from mds_like_analysis.code._constants import *
-from mds_like_analysis.code._functions import *
+from _constants import *
+from _functions import *
 
 plt.rcParams["font.family"] = "Helvetica"
 plt.rcParams["font.size"] = 12
 
-PATH_DATA = "Data/"
-data_file = "B1C1rgB_AX4L846F_B1L846F_ave.csv"
-
-PATH_RESULTS = "all_results/Results_mds/"
+PATH_RESULTS = "../results/milestones"
 
 
 def plot_multiple_graphs(scaling):
@@ -184,17 +181,17 @@ def plot_multiple_graphs(scaling):
 
         plt.subplots_adjust(left=0.1, bottom=0.15, right=0.88, wspace=0.34)
         plt.savefig(
-            f"{PATH_RESULTS}/milestones/MDS_milestones_{scaling}_{milestone}.pdf",
+            f"{PATH_RESULTS}/{scaling}/{scaling}_milestones_{milestone}.pdf",
             dpi=300,
         )
         plt.close()
 
 
 # Load data
-data = pd.read_csv(PATH_DATA + data_file)
+data = pd.read_csv(DATA_PATH)
 
 # Load milestone data
-milestone_data = pd.read_csv(PATH_DATA + "DictyGeneAnnotations_3504.csv", index_col=0)
+milestone_data = pd.read_csv(ANNOT_PATH, index_col=0)
 milestone_data.drop(index=["string", "meta"], inplace=True)
 milestone_dict = {}
 for gene in MILESTONES:
@@ -237,10 +234,10 @@ for scaling in SCALING:
             scaling,
             t_values,
             strains,
-            PATH_RESULTS + f"milestones/individual/{scaling}/{scaling}_{milestone}_",
-            plot=True,
-            modified=True,
+            PATH_RESULTS + f"/individual/{scaling}/{scaling}_{milestone}_",
         )
 
 plot_multiple_graphs("None")
 plot_multiple_graphs("m0s1")
+
+print("Your plots are saved in mds_like_analysis/results/milestones/")
