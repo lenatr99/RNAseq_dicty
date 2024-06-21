@@ -30,7 +30,7 @@ Reproduce the results by running the scripts in the `differential_expression/cod
 
 ### Pairwise Analysis
 
-Pairwise comparisons involve comparing the expression of each gene between wild type and each mutant at each time point. The results are stored in the `differential_expression/data/pairwise` directory. The code for the pairwise comparisons is in the `differential_expression/code` directory and has the `pw` prefix.
+Pairwise comparisons involve comparing the expression of each gene between wild type and each mutant at each time point. The results are stored in the `differential_expression/results/pairwise` directory. The code for the pairwise comparisons is in the `differential_expression/code` directory and has the `pw` prefix.
 
 Run the following commands to reproduce the results:
 
@@ -45,7 +45,7 @@ Before running the last script, use ChatGPT or another tool to generate the comm
 
 ### Time Series Analysis
 
-Time series comparisons involve comparing the time series expression of each gene between wild type and each mutant using a spline regression model. The results are stored in the `differential_expression/data/time_series` directory. The code for the time series comparisons is in the `differential_expression/code` directory and has the `ts` prefix.
+Time series comparisons involve comparing the time series expression of each gene between wild type and each mutant using a spline regression model. The results are stored in the `differential_expression/results/time_series` directory. The code for the time series comparisons is in the `differential_expression/code` directory and has the `ts` prefix.
 
 To reproduce the results, first run the R script `ts_01_DE_spline_r_script.R` in R Studio (or another R environment) to identify the differentially expressed genes. Then run the following Python scripts to get the differentially expressed gene sets and visualize the network:
 
