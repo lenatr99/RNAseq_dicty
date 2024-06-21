@@ -17,7 +17,7 @@ import matplotlib.patheffects as patheffects
 import networkx as nx
 import numpy as np
 import os
-from CONSTANTS import *
+from differential_expression.code._constants import *
 
 COMMUNITY_MODES = ["infomap", "louvain"]
 community_mode = COMMUNITY_MODES[

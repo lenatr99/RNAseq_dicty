@@ -3,7 +3,7 @@ import gseapy as gp
 import numpy as np
 import os
 import json
-from CONSTANTS import *
+from differential_expression.code._constants import *
 
 METRIC = "NOM p-val"
 

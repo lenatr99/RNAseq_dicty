@@ -7,7 +7,7 @@ import re
 import msgpack
 import gzip
 import os
-from CONSTANTS import *
+from differential_expression.code._constants import *
 
 GENESETS = input("Do you want to preprocess genes [0] or gene sets [1]? ")
 if GENESETS not in ["0", "1"]:

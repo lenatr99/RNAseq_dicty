@@ -8,7 +8,7 @@ import gzip
 from scipy.stats import ttest_ind
 import msgpack
 import numpy as np
-from CONSTANTS import *
+from differential_expression.code._constants import *
 
 
 annotations_df = pd.read_csv(annotations_path)

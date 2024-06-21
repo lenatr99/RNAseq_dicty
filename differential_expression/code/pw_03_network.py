@@ -9,7 +9,7 @@ from cdlib.algorithms import infomap, louvain
 import json
 import pickle
 import os
-from CONSTANTS import *
+from differential_expression.code._constants import *
 
 
 COMMUNITY_MODES = ["infomap", "louvain"]
