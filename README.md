@@ -41,7 +41,7 @@ python pw_02_DE_genesets.py # Identify differentially expressed gene sets
 python pw_03_DE_network.py # Generate infomap/louvain communities
 python pw_04_DE_network_analysis.py # Visualize the network
 ```
-Before running the last script, use ChatGPT or another tool to generate the common functions of the gene sets in the communities. The template for this is saved in the `communities_desc_template.json` file. Save the output in the `communities_desc.json` file.
+Before running the last script, use ChatGPT or another tool to generate the common functions of the gene sets in the communities. The template for this is saved in the `communities_desc_template.json` file. Save the output in the `communities_desc.json` file. The tool used in our case was [ChatGPT, version 4](https://openai.com/index/gpt-4/). 
 
 ### Time Series Analysis
 
@@ -56,7 +56,7 @@ python ts_03_DE_network.py # Generate infomap/louvain communities
 python ts_04_DE_network_analysis.py # Visualize the network
 ```
 
-Like in the pairwise analysis, use ChatGPT or another tool to generate the common functions of the gene sets in the communities. The template for this is saved in the `communities_desc_template.json` file. Save the output in the `communities_desc.json` file.
+Like in the pairwise analysis, use ChatGPT or another tool to generate the common functions of the gene sets in the communities. The template for this is saved in the `communities_desc_template.json` file. Save the output in the `communities_desc.json` file. The tool used in our case was [ChatGPT, version 4](https://openai.com/index/gpt-4/). 
 
 ----------------
 
