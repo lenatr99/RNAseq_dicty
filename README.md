@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## MDS-like Analysis
 
-To run the MDS-like analysis code and generate the plots, navigate to the `mds_like_analysis/code` directory and run the following commands:
+To run the MDS-like analysis code and generate the plots, run the following commands:
 
 ```bash
 cd mds_like_analysis/code
