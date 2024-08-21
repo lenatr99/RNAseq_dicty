@@ -9,7 +9,8 @@ import matplotlib.transforms as mtrans
 import os
 from _constants import *
 from _functions import *
-from PIL import Image
+from svgutils.compose import Figure, SVG
+import cairosvg
 
 plt.rcParams["font.family"] = "Helvetica"
 plt.rcParams["font.size"] = 12
@@ -25,12 +26,10 @@ def plot_multiple_graphs(scaling, group):
         fig, axs = plt.subplots(1, 2, figsize=(9, 4))
         split_strains = [list(strains[:4]), list(strains[4:])]
         split_strains[1].insert(0, "AX4")
-        text_buffer = 0.8
         fig.suptitle(f"{subgroup} ({len(gene_annotations[group][subgroup])})")
         for k, strains_sub in enumerate(split_strains):
             ax = axs[k]
             y = (len(strains_sub) * 1.5) / 2
-            text_positions = []
             ax.set_xticks(range(0, 21, 4))
             ax.set_yticks(range(0, 21, 4))
 
@@ -51,7 +50,7 @@ def plot_multiple_graphs(scaling, group):
                 )
                 y -= 1.5
 
-            ax.legend(title="strain", fontsize=6, title_fontsize=7, labelspacing=0.2)
+            ax.legend(fontsize=6, title_fontsize=7, labelspacing=0.2, frameon=False)
 
         fig.text(0.5, 0.04, f"hours of mutant development", ha="center", fontsize=12)
         fig.text(
@@ -67,27 +66,19 @@ def plot_multiple_graphs(scaling, group):
         if not os.path.exists(f"{PATH_RESULTS}/{scaling}/subplots"):
             os.makedirs(f"{PATH_RESULTS}/{scaling}/subplots")
         plt.savefig(
-            f"{PATH_RESULTS}/{scaling}/subplots/{subgroup}_{scaling}.png",
-            dpi=300,
+            f"{PATH_RESULTS}/{scaling}/subplots/{subgroup}_{scaling}.svg", format="svg"
         )
-        plots.append(
-            f"{PATH_RESULTS}/{scaling}/subplots/{subgroup}_{scaling}.png"
-        )
+        plots.append(f"{PATH_RESULTS}/{scaling}/subplots/{subgroup}_{scaling}.svg")
         plt.close()
 
-    images = [Image.open(image_path) for image_path in plots]
-    total_height = sum(image.size[1] for image in images)
-    max_width = max(image.size[0] for image in images)
-    concatenated_image = Image.new("RGB", (max_width, total_height))
-    current_height = 0
-    for image in images:
-        concatenated_image.paste(image, (0, current_height))
-        current_height += image.size[1]
-    concatenated_image.save(
-        f"{PATH_RESULTS}/{scaling}/{scaling}_groups_{group}.pdf",
-        "PDF",
-        resolution=300.0,
-    )
+    figures = [SVG(plot) for plot in plots]
+    for i, figure in enumerate(figures):
+        figure.move(0, i * 288)
+    concatenated_figure = Figure(f"648pt", f"{288*len(figures)}pt", *figures)
+    concatenated_svg_path = f"{PATH_RESULTS}/{scaling}/{scaling}_groups_{group}.svg"
+    concatenated_figure.save(concatenated_svg_path)
+    pdf_path = f"{PATH_RESULTS}/{scaling}/{scaling}_groups_{group}.pdf"
+    cairosvg.svg2pdf(url=concatenated_svg_path, write_to=pdf_path)
 
 
 # Load data
@@ -131,7 +122,7 @@ for column in COLUMNS:
 
 
 # Separate data for different strains
-strains = data["Strain"].unique()
+strains = data["Strain"].unique()[:-1]
 strain_data_dict = {}
 for scaling in SCALING:
     strain_data_dict[scaling] = {}

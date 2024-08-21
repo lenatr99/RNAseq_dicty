@@ -110,7 +110,7 @@ def index():
                 f"results/pairwise/gsea/DB/DE_{hour}_{strain}.json", "r"
             ) as f:
                 gene_set_data_db[strain][hour] = json.load(f)
-    strains = list(filtered_data.keys())
+    strains = list(filtered_data.keys())[:-1]
     hours = sorted(filtered_data[strains[0]], key=int)
     return render_template(
         "index.html",
@@ -161,7 +161,7 @@ def time_series():
                 gene_set["adj.pValue"] = round_to_n_significant_digits(
                     gene_set["adj.pValue"], 3
                 )
-    strains = list(filtered_data.keys())
+    strains = list(filtered_data.keys())[:-1]
     return render_template(
         "time-series.html",
         data=filtered_data,
