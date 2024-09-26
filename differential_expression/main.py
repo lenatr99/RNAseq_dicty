@@ -6,6 +6,7 @@ import gzip
 import msgpack
 from flask import send_file
 import os
+import math
 
 def round_to_n_significant_digits(x, n):
     if x == 0:
@@ -29,6 +30,15 @@ def apply_color(row, gene_sets_to_color):
             return [colors[key]] * len(row)
     return default_style
 
+def clean_nan_values(data):
+    """Recursively clean NaN values and replace them with None."""
+    if isinstance(data, dict):
+        return {k: clean_nan_values(v) for k, v in data.items()}
+    elif isinstance(data, list):
+        return [clean_nan_values(i) for i in data]
+    elif isinstance(data, float) and math.isnan(data):
+        return ""
+    return data
 
 app = Flask(
     __name__,
@@ -112,6 +122,7 @@ def index():
                 gene_set_data_db[strain][hour] = json.load(f)
     strains = list(filtered_data.keys())
     hours = sorted(filtered_data[strains[0]], key=int)
+    filtered_data = clean_nan_values(filtered_data)
     return render_template(
         "index.html",
         data=filtered_data,
@@ -162,6 +173,7 @@ def time_series():
                     gene_set["adj.pValue"], 3
                 )
     strains = list(filtered_data.keys())
+    filtered_data = clean_nan_values(filtered_data)
     return render_template(
         "time-series.html",
         data=filtered_data,
