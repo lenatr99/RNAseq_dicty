@@ -187,7 +187,7 @@ for scaling in SCALING:
             y_offset -= 1.5
 
         ax.legend(
-            title="strain", fontsize=6, title_fontsize=7, labelspacing=0.2, loc="best"
+            fontsize=6, title_fontsize=7, labelspacing=0.2, loc="best", frameon=False
         )
 
     # Set a single x-label and y-label for the entire figure

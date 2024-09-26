@@ -122,7 +122,7 @@ for column in COLUMNS:
 
 
 # Separate data for different strains
-strains = data["Strain"].unique()[:-1]
+strains = data["Strain"].unique()
 strain_data_dict = {}
 for scaling in SCALING:
     strain_data_dict[scaling] = {}
@@ -167,8 +167,7 @@ for scaling in SCALING:
                 scaling,
                 t_values,
                 strains,
-                PATH_RESULTS
-                + f"/individual/{scaling}/{scaling}_{group}_{subgroup}_",
+                PATH_RESULTS + f"/individual/{scaling}/{scaling}_{group}_{subgroup}_",
             )
 
 

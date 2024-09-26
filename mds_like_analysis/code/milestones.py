@@ -17,6 +17,7 @@ PATH_RESULTS = "../results/milestones"
 if not os.path.exists(PATH_RESULTS):
     os.makedirs(PATH_RESULTS)
 
+
 def plot_multiple_graphs(scaling):
     """
     Plot the similarity mappings for multiple strains.
@@ -168,11 +169,11 @@ def plot_multiple_graphs(scaling):
                 y_offset -= 1.5
 
             ax.legend(
-                title="strain",
                 fontsize=6,
                 title_fontsize=7,
                 labelspacing=0.2,
                 loc="best",
+                frameon=False,
             )
 
         fig.text(0.5, 0.04, f"hours of mutant development", ha="center", fontsize=12)

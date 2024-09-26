@@ -176,11 +176,11 @@ def plot_multiple_graphs(scaling):
                     y_offset -= 1.5
 
                 ax.legend(
-                    title="strain",
                     fontsize=6,
                     title_fontsize=7,
                     labelspacing=0.2,
                     loc="best",
+                    frameon=False,
                 )
 
         # Set a single x-label and y-label for the entire figure
@@ -255,8 +255,7 @@ for scaling in SCALING:
                 scaling,
                 t_values,
                 strains,
-                PATH_RESULTS
-                + f"/individual/{scaling}/{scaling}_{milestone}_",
+                PATH_RESULTS + f"/individual/{scaling}/{scaling}_{milestone}_",
             )
         else:
             for strain in strains:

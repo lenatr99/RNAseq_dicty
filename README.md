@@ -5,7 +5,7 @@ This repository contains the code and data for the analysis of RNA-seq data from
 First, create a conda environment with the required packages:
 
 ```bash
-conda create --name dicty_analysis python=3.11
+conda create --name dicty_analysis python=3.11 cairosvg -c conda-forge -y
 conda activate dicty_analysis
 pip install -r requirements.txt
 ```
