@@ -1,4 +1,4 @@
-strains = ['B1', 'C1', 'rgB', 'B1_rgB', 'C1_rgB','AX4L846F', 'B1_L846F']
+strains = ['B1', 'C1', 'rgB', 'B1_rgB','AX4L846F']
 hours = [0, 4, 8, 12, 16, 20]
 TERMS = ['BP', 'MF', 'DB']
 SETS = ['GO-biological_process', 'GO-molecular_function', 'Dictybase-Phenotypes']

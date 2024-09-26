@@ -70,25 +70,6 @@
             "2": "Catalytic activities related to ATPase and ion transport."
         }
     },
-    "C1_rgB": {
-        "BP": {
-            "0": "Processes involving organic acid metabolism and amino acid catabolism.",
-            "1": "Biosynthetic and metabolic processes, particularly in the context of nitrogen compounds.",
-            "2": "Lipid metabolic and biosynthetic processes, including phospholipid activities.",
-            "3": "Inorganic ion transmembrane transport processes."
-        },
-        "DB": {
-            "0": "Variations in cellular morphology, signaling, and developmental processes.",
-            "1": "Changes in cellular differentiation, motility, and developmental morphology.",
-            "2": "Alterations in cellular metabolism and responses to environmental cues."
-        },
-        "MF": {
-            "0": "Oxidoreductase activities, focusing on molecular oxygen incorporation.",
-            "1": "Activities related to electron transfer and metal binding.",
-            "2": "Hydrolase and ion binding functions, including catalytic activities.",
-            "3": "Cation transmembrane transporter activities, including iron and proton transport."
-        }
-    },
     "AX4L846F": {
         "BP": {
             "0": "Purine metabolism, particularly focusing on nucleotides like ATP and related biosynthetic processes.",
@@ -104,22 +85,6 @@
             "1": "Disruptions in actin filament organization, cytokinesis, cell motility, and phagocytosis.",
             "2": "Changes in mitochondrial functions, ATP levels, sporulation, and prestalk cell differentiation.",
             "3": "Issues in stalk cell differentiation, chemotaxis, and response to environmental stress."
-        }
-    },    
-    "B1_L846F": {
-        "BP": {
-            "0": "Macromolecule and protein metabolism, nitrogen compound processes, and general cellular metabolic activities.",
-            "1": "Peptide metabolism and biosynthesis, including amide processes and translation.",
-            "2": "Biosynthesis processes at the cellular level, focusing on nitrogen compounds and gene expression."
-        },
-        "MF": {
-            "0": "Binding activities, particularly with small molecules, nucleotides, and ions, along with general catalytic functions.",
-            "1": "GTP binding and related activities, hydrolase functions, particularly acting on acid anhydrides.",
-            "2": "Transmembrane transporter activities, specifically ATPase-coupled and primary active transport."
-        },
-        "DB": {
-            "0": "Abnormalities in actin polymerization, signal transduction, chemotaxis, and phagocytosis; aberrant adaptation and localization of proteins.",
-            "1": "Disruptions in cell motility, morphology, and growth; changes in chemotaxis and aggregation."
         }
     }
 }

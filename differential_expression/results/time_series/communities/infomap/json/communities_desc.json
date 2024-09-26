@@ -64,22 +64,6 @@
             "2": "Catalytic activities related to ATPase and ion transport."
         }
     },
-    "C1_rgB": {
-        "BP": {
-            "0": "Catabolic processes involving amino acids and organic acids.",
-            "1": "Biosynthetic and metabolic processes, particularly related to nitrogen compounds and phosphorus.",
-            "2": "Nucleotide metabolic processes, focusing on ATP metabolism.",
-            "3": "Lipid metabolic processes, including phospholipid and organophosphate metabolism."
-        },
-        "DB": {
-            "0": "Variations in cellular motility, morphology, and developmental processes.",
-            "1": "Changes in metabolism and response to environmental cues.",
-            "2": "Alterations in cellular aggregation and developmental stages."
-        },
-        "MF": {
-            "0": "Oxidoreductase activities, metal binding, and transporter functions."
-        }
-    },
     "AX4L846F": {
         "BP": {
             "0": "Macromolecule and protein synthesis, nitrogen and peptide metabolism, and cellular biosynthesis processes.",
@@ -94,19 +78,6 @@
             "1": "Altered chemotaxis, prestalk gene expression, and protein phosphorylation; aberrations in GTPase activity.",
             "2": "Changes in cell migration, stalk cell differentiation, and cellular responses; aberrant binding and development.",
             "3": "Variations in mitochondrial function, ATP levels, autophagy, and cell differentiation; altered defense responses and sporulation."
-        }
-    },    
-    "B1_L846F": {
-        "BP": {
-            "0": "Protein synthesis, gene expression, and nitrogen compound metabolism."
-        },
-        "MF": {
-            "0": "Binding and hydrolase activities related to nucleotides and acid anhydrides.",
-            "1": "Active transmembrane transport, especially ATPase-linked transporter functions."
-        },
-        "DB": {
-            "0": "Alterations in signaling, cell death, and phagocytosis affecting cellular responses and activities.",
-            "1": "Changes in cell morphology, motility, and developmental processes."
         }
     }
 }

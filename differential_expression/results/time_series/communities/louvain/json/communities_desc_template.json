@@ -67,25 +67,6 @@
             "2": "summary"
         }
     },
-    "C1_rgB": {
-        "BP": {
-            "0": "summary",
-            "1": "summary",
-            "2": "summary",
-            "3": "summary"
-        },
-        "MF": {
-            "0": "summary",
-            "1": "summary",
-            "2": "summary",
-            "3": "summary"
-        },
-        "DB": {
-            "0": "summary",
-            "1": "summary",
-            "2": "summary"
-        }
-    },
     "AX4L846F": {
         "BP": {
             "0": "summary",
@@ -101,23 +82,6 @@
             "1": "summary",
             "2": "summary",
             "3": "summary"
-        }
-    },
-    "B1_L846F": {
-        "BP": {
-            "0": "summary",
-            "1": "summary",
-            "2": "summary"
-        },
-        "MF": {
-            "0": "summary",
-            "1": "summary",
-            "2": "summary"
-        },
-        "DB": {
-            "0": "summary",
-            "1": "summary",
-            "2": "summary"
         }
     }
 }
