@@ -162,3 +162,8 @@ cython_debug/
 #.idea/
 
 differential_expression/temporary
+differential_expression/results/pairwise
+mds_like_analysis/results/all_genes/None
+mds_like_analysis/results/milestones/None
+mds_like_analysis/results/milestones_updown/None
+mds_like_analysis/results/groups/None
