@@ -2,10 +2,10 @@
 Before running this script, make sure to use ChatGPT or another tool to generate the common function of the gene sets in the communities. The template
 for that is saved in the communities_desc_template.json file. Save the output of the ChatGPT model in the communities_desc.json file.
 
-This script visualizes network data in the context of different community modes and gene sets. It allows the user to choose a community mode 
-(infomap or louvain), then loads corresponding network data, communities, and layout information. The script generates plots for each hour 
-and gene set, displaying the network with color-coded nodes representing different communities. It includes interactive elements, such as 
-draggable community descriptions and a button to save the plot. The visualization is tailored for exploring biological process (BP), molecular 
+This script visualizes network data in the context of different community modes and gene sets. It allows the user to choose a community mode
+(infomap or louvain), then loads corresponding network data, communities, and layout information. The script generates plots for each hour
+and gene set, displaying the network with color-coded nodes representing different communities. It includes interactive elements, such as
+draggable community descriptions and a button to save the plot. The visualization is tailored for exploring biological process (BP), molecular
 function (MF), and Dictybase Phenotypes (DB) within a specified dataset.
 """
 
@@ -34,7 +34,7 @@ if not os.path.exists(DATA_PATH + "json/communities_desc.json"):
 strain = strains[
     int(
         input(
-            f"Enter strain B1 - 0, C1 - 1, rgB - 2, B1_rgB - 3, C1_rgB - 4, AX4L846F - 5, B1_L846F - 6: "
+            f"Enter strain B1 - 0, C1 - 1, rgB - 2, B1_rgB - 3, AX4L846F - 4:"
         )
     )
 ]
@@ -233,7 +233,7 @@ for i in range(len(SETS)):
             text_pos[1],
             com_names_lgg[str(i)],
             color=color_list[i],
-            fontsize=6,
+            fontsize=10,
             horizontalalignment=h_align,
         )
         text.set_path_effects(

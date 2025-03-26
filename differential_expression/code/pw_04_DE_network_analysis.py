@@ -34,7 +34,7 @@ if not os.path.exists(DATA_PATH + "json/communities_desc.json"):
 strain = strains[
     int(
         input(
-            f"Enter strain B1 - 0, C1 - 1, rgB - 2, B1_rgB - 3, C1_rgB - 4, AX4L846F - 5, B1_L846F - 6: "
+            f"Enter strain B1 - 0, C1 - 1, rgB - 2, B1_rgB - 3, AX4L846F - 4:"
         )
     )
 ]
