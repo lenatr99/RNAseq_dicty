@@ -238,9 +238,8 @@ for scaling in SCALING:
     mappings[scaling] = {}
     for milestone in milestone_dict.keys():
         ax4_t_dict = {}
-        mappings[scaling][milestone] = calculate_MDS_mapping(
+        mappings[scaling][milestone] = calculate_mds_like_mapping(
             strain_data_dict[scaling][milestone],
-            scaling,
             t_values,
             strains,
             PATH_RESULTS + f"/individual/{scaling}/{scaling}_{milestone}_",
