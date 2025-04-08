@@ -1,0 +1,24 @@
+﻿Group,Symbol,Name,Gene_ID
+adenyly cyclases,acaA,adenylate cyclase A,DDB_G0281545
+adenyly cyclases,acrA,adenylate cyclase B,DDB_G0267376
+adenyly cyclases,acgA,adenylate cyclase G,DDB_G0274569
+cAMP receptors,carA,cAMP receptor 1,DDB_G0273397
+cAMP receptors,carB,cAMP receptor 2,DDB_G0288179
+cAMP receptors,carC,cAMP receptor 3,DDB_G0277829
+cAMP receptors,carD,cAMP receptor 4,DDB_G0277831
+cAMP/cGMP phosphodiesterase A,pdsA,cAMP/cGMP phosphodiesterase A,DDB_G0285995
+cAMP signal Regulator,dagA,cytosolic regulator of adenylyl cyclase CRAC,DDB_G0285161
+cAMP signal Regulator,regA,cAMP phosphodiesterase RegA,DDB_G0284331
+regulatory subunit of  PKA,pkaR,"cAMP-dependent protein kinase A, regulatory subunit",DDB_G0279413
+cAMP dependent protein kinase PKA,pkaC,"cAMP-dependent protein kinase A, catalytic subunit",DDB_G0283907
+cAMP signal G-protein,gpaB,G-protein subunit alpha 2,DDB_G0276267
+cAMP signal G-protein,gpbA,G-protein subunit beta,DDB_G0277143
+cAMP signal G-protein,gpgA,G-protein subunit gamma,DDB_G0274125
+DIF biosynthetic enzymes,stlB,polyketide synthase StlB,DDB_G0290853
+DIF biosynthetic enzymes,chlA,flavin-dependent halogenase,DDB_G0290825
+DIF biosynthetic enzymes,dmtA,des-methyl-DIF-1 methyltransferase,DDB_G0289329
+DIF breakdown enzymes ,drcA,DIF dechlorinase,DDB_G0293840
+DIF induced the expression,dimA,bzpA,DDB_G0278971
+DIF induced the expression,dimB,bzpB,DDB_G0291372
+DIF inhibited enzymatic activity,ptpC,protein tyrosine phosphatase 3,DDB_G0282145
+synthesizes c-di-GMP,dgcA,diguanylate cyclase,DDB_G0283453
